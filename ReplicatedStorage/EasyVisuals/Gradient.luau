@@ -1,0 +1,415 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- CQNuBFRpbWUFVmFsdWUFdGFibGUGaW5zZXJ0BkNvbG9yMwNuZXcBUgFHAUIRZXZhbENvbG9yU2VxdWVuY2USZXZhbE51bWJlclNlcXVlbmNlCElzUGF1c2VkClVJSW5zdGFuY2UGUGFyZW50B0Rlc3Ryb3kWQ29sb3JTZXF1ZW5jZUJsZW5kUmF0ZRNDb2xvclNlcXVlbmNlVGFyZ2V0DUNvbG9yU2VxdWVuY2UeRXF1YWxpemVDb2xvclNlcXVlbmNlS2V5cG9pbnRzC19jb2xvckRpcnR5HVRyYW5zcGFyZW5jeVNlcXVlbmNlQmxlbmRSYXRlGlRyYW5zcGFyZW5jeVNlcXVlbmNlVGFyZ2V0FFRyYW5zcGFyZW5jeVNlcXVlbmNlDE9mZnNldFRhcmdldAZPZmZzZXQST2Zmc2V0QWNjZWxlcmF0aW9uC09mZnNldFNwZWVkEU9mZnNldFNwZWVkVGFyZ2V0GFRyYW5zcGFyZW5jeU9mZnNldFRhcmdldBJUcmFuc3BhcmVuY3lPZmZzZXQeVHJhbnNwYXJlbmN5T2Zmc2V0QWNjZWxlcmF0aW9uF1RyYW5zcGFyZW5jeU9mZnNldFNwZWVkHVRyYW5zcGFyZW5jeU9mZnNldFNwZWVkVGFyZ2V0DlJvdGF0aW9uVGFyZ2V0CFJvdGF0aW9uFFJvdGF0aW9uQWNjZWxlcmF0aW9uDVJvdGF0aW9uU3BlZWQTUm90YXRpb25TcGVlZFRhcmdldA1fbGFzdFJvdGF0aW9uBG1hdGgDYWJzCEluc3RhbmNlC19sYXN0T2Zmc2V0GkNhbGN1bGF0ZVRydWVDb2xvclNlcXVlbmNlBUNvbG9yEF9sYXN0VHJhbnNPZmZzZXQLX3RyYW5zRGlydHkhQ2FsY3VsYXRlVHJ1ZVRyYW5zcGFyZW5jeVNlcXVlbmNlDFRyYW5zcGFyZW5jeRdVSUluc3RhbmNlIG5vdCBwcm92aWRlZAZhc3NlcnQJR3VpT2JqZWN0A0lzQQhVSVN0cm9rZSlVSUluc3RhbmNlIGlzIG5vdCBhIEd1aU9iamVjdCBvciBVSVN0cm9rZRpDb2xvclNlcXVlbmNlIG5vdCBwcm92aWRlZCFUcmFuc3BhcmVuY3lTZXF1ZW5jZSBub3QgcHJvdmlkZWQGdHlwZW9mJENvbG9yU2VxdWVuY2UgaXMgbm90IGEgQ29sb3JTZXF1ZW5jZQZudW1iZXIOTnVtYmVyU2VxdWVuY2U2VHJhbnNwYXJlbmN5U2VxdWVuY2UgaXMgbm90IGEgbnVtYmVyIG9yIE51bWJlclNlcXVlbmNlCUtleXBvaW50cyRDb2xvclNlcXVlbmNlIGhhcyB0b28gbWFueSBrZXlwb2ludHMrVHJhbnNwYXJlbmN5U2VxdWVuY2UgaGFzIHRvbyBtYW55IGtleXBvaW50cwpVSUdyYWRpZW50FkZpbmRGaXJzdENoaWxkV2hpY2hJc0ERVHJ1ZUNvbG9yU2VxdWVuY2UYVHJ1ZVRyYW5zcGFyZW5jeVNlcXVlbmNlCkNvbm5lY3Rpb24GSXNUZXh0Fk51bWJlclNlcXVlbmNlS2V5cG9pbnQEd2FybhNXZWlyZCB0eXBlIG9mIGRhdGE/CVRleHRMYWJlbAdUZXh0Qm94ClRleHRCdXR0b24IUmVnaXN0ZXIMc2V0bWV0YXRhYmxlL1NlcXVlbmNlIGFyZ3VtZW50IGlzIG5pbCBvciBub3QgYSBDb2xvclNlcXVlbmNlEFNldENvbG9yU2VxdWVuY2UVT2Zmc2V0IGlzbid0IGEgbnVtYmVyG0FjY2VsZXJhdGlvbiBpc24ndCBhIG51bWJlcgVjbGFtcAlTZXRPZmZzZXQOU2V0T2Zmc2V0U3BlZWQLU2V0Um90YXRpb24QU2V0Um90YXRpb25TcGVlZBVTZXRUcmFuc3BhcmVuY3lPZmZzZXQaU2V0VHJhbnNwYXJlbmN5T2Zmc2V0U3BlZWQTVHJhbnNwYXJlbmN5IGlzIG5pbBJUcmFuc3BhcmVuY3lUYXJnZXQYVHJhbnNwYXJlbmN5QWNjZWxlcmF0aW9uF1NldFRyYW5zcGFyZW5jeVNlcXVlbmNlFUNvbG9yU2VxdWVuY2VLZXlwb2ludARMZXJwBXByaW50JUVxdWFsaXplVHJhbnNwYXJlbmN5U2VxdWVuY2VLZXlwb2ludHMEc29ydAVQYXVzZQZSZXN1bWUKRGlzY29ubmVjdARnYW1lClJ1blNlcnZpY2UKR2V0U2VydmljZQdyZXF1aXJlBnNjcmlwdAtCYXRjaFJ1bm5lcgdfX2luZGV4BmZyZWV6ZQAWEQIAAAAHBAAABQIPAmz/AgAAAAAAAJUBAQCMBQAA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
+
+-- https://lua.expert/
+game:GetService("RunService")
+
+local BatchRunner = require(script.Parent.BatchRunner)
+
+local function evalColorSequence(p1, p2) --[[ evalColorSequence | Line: 59 ]]
+	local t = {}
+	local v1 = p2 + 1
+
+	for i = 0, 2 do
+		for j = 1, #p1 do
+			table.insert(t, {
+				Time = p1[j].Time + i,
+				Value = p1[j].Value
+			})
+		end
+	end
+
+	for k = 1, #t - 1 do
+		local v2 = t[k]
+		local v3 = t[k + 1]
+
+		if v2.Time <= v1 and v1 < v3.Time then
+			local v4 = (v1 - v2.Time) / (v3.Time - v2.Time)
+
+			return Color3.new((v3.Value.R - v2.Value.R) * v4 + v2.Value.R, (v3.Value.G - v2.Value.G) * v4 + v2.Value.G, (v3.Value.B - v2.Value.B) * v4 + v2.Value.B)
+		end
+	end
+end
+
+local function evalNumberSequence(p1, p2) --[[ evalNumberSequence | Line: 87 ]]
+	local t = {}
+	local v1 = p2 + 1
+
+	for i = 0, 2 do
+		for j = 1, #p1 do
+			table.insert(t, {
+				Time = p1[j].Time + i,
+				Value = p1[j].Value
+			})
+		end
+	end
+
+	for k = 1, #t - 1 do
+		local v2 = t[k]
+		local v3 = t[k + 1]
+
+		if v2.Time <= v1 and v1 < v3.Time then
+			return v2.Value + (v3.Value - v2.Value) * ((v1 - v2.Time) / (v3.Time - v2.Time))
+		end
+	end
+end
+
+local t = {}
+
+t.__index = t
+function t.new(p1, p2, p3) --[[ new | Line: 116 | Upvalues: BatchRunner (copy), t (copy) ]]
+	assert(p1, "UIInstance not provided")
+	assert(p1:IsA("GuiObject") or p1:IsA("UIStroke"), "UIInstance is not a GuiObject or UIStroke")
+	assert(p2, "ColorSequence not provided")
+	assert(p3, "TransparencySequence not provided")
+	assert(if typeof(p2) == "ColorSequence" then true else false, "ColorSequence is not a ColorSequence")
+	assert(if typeof(p3) == "number" then true elseif typeof(p3) == "NumberSequence" then true else false, "TransparencySequence is not a number or NumberSequence")
+	assert(if #p2.Keypoints <= 19 then true else false, "ColorSequence has too many keypoints")
+
+	if typeof(p3) == "NumberSequence" then
+		assert(#p3.Keypoints <= 19, "TransparencySequence has too many keypoints")
+	end
+
+	local t2 = {
+		UIInstance = p1
+	}
+
+	t2.Instance = p1:FindFirstChildWhichIsA("UIGradient") or Instance.new("UIGradient")
+	t2.IsPaused = false
+	t2.ColorSequenceTarget = p2
+	t2.ColorSequence = p2
+	t2.TrueColorSequence = nil
+	t2.ColorSequenceBlendRate = 1
+	t2.TransparencySequenceTarget = nil
+	t2.TransparencySequence = nil
+	t2.TrueTransparencySequence = nil
+	t2.TransparencySequenceBlendRate = 1
+	t2.Offset = 0
+	t2.OffsetTarget = nil
+	t2.OffsetSpeed = 0
+	t2.OffsetSpeedTarget = 0
+	t2.OffsetAcceleration = 1
+	t2.TransparencyOffset = 0
+	t2.TransparencyOffsetTarget = nil
+	t2.TransparencyOffsetSpeed = 0
+	t2.TransparencyOffsetSpeedTarget = 0
+	t2.TransparencyOffsetAcceleration = 1
+	t2.Rotation = 0
+	t2.RotationSpeed = 0
+	t2.RotationSpeedTarget = 0
+	t2.RotationAcceleration = 0
+	t2.RotationTarget = nil
+	t2.Connection = nil
+	t2.IsText = false
+	t2._colorDirty = true
+	t2._transDirty = true
+	t2._lastOffset = nil
+	t2._lastRotation = nil
+	t2._lastTransOffset = nil
+
+	if typeof(p3) == "number" then
+		t2.TransparencySequenceTarget = NumberSequence.new({ NumberSequenceKeypoint.new(0, p3), NumberSequenceKeypoint.new(1, p3) })
+	elseif typeof(p3) == "NumberSequence" then
+		t2.TransparencySequenceTarget = p3
+	else
+		warn("Weird type of data?")
+	end
+
+	t2.TransparencySequence = t2.TransparencySequenceTarget
+
+	if p1:IsA("TextLabel") or (p1:IsA("TextBox") or p1:IsA("TextButton")) then
+		t2.IsText = true
+	end
+
+	t2.Connection = BatchRunner.Register(function(p1) --[[ Line: 189 | Upvalues: t2 (copy) ]]
+		if t2.IsPaused then
+			return
+		end
+
+		if not t2.UIInstance or t2.UIInstance.Parent == nil then
+			t2:Destroy()
+
+			return
+		end
+
+		if t2.ColorSequenceBlendRate == 1 then
+			t2.ColorSequence = t2.ColorSequenceTarget
+		else
+			t2:EqualizeColorSequenceKeypoints()
+			t2._colorDirty = true
+		end
+
+		if t2.TransparencySequenceBlendRate == 1 then
+			t2.TransparencySequence = t2.TransparencySequenceTarget
+		end
+
+		if t2.OffsetTarget then
+			t2.Offset = t2.Offset + (t2.OffsetTarget - t2.Offset) * t2.OffsetAcceleration
+		else
+			t2.OffsetSpeed = t2.OffsetSpeed + (t2.OffsetSpeedTarget - t2.OffsetSpeed) * t2.OffsetAcceleration * p1
+
+			local v1 = t2
+
+			v1.Offset = v1.Offset + t2.OffsetSpeed * p1
+		end
+
+		if t2.TransparencyOffsetTarget then
+			t2.TransparencyOffset = t2.TransparencyOffset + (t2.TransparencyOffsetTarget - t2.TransparencyOffset) * t2.TransparencyOffsetAcceleration
+		else
+			t2.TransparencyOffsetSpeed = t2.TransparencyOffsetSpeed + (t2.TransparencyOffsetSpeedTarget - t2.TransparencyOffsetSpeed) * t2.TransparencyOffsetAcceleration * p1
+
+			local v2 = t2
+
+			v2.TransparencyOffset = v2.TransparencyOffset + t2.TransparencyOffsetSpeed * p1
+		end
+
+		if t2.RotationTarget then
+			t2.Rotation = t2.Rotation + (t2.RotationTarget - t2.Rotation) * t2.RotationAcceleration
+		else
+			t2.RotationSpeed = t2.RotationSpeed + (t2.RotationSpeedTarget - t2.RotationSpeed) * t2.RotationAcceleration * p1
+
+			local v3 = t2
+
+			v3.Rotation = v3.Rotation + t2.RotationSpeed * p1
+		end
+
+		if if t2._lastRotation == nil then true else math.abs(t2.Rotation - t2._lastRotation) > 0.0001 then
+			t2._lastRotation = t2.Rotation
+			t2.Instance.Rotation = t2.Rotation
+		end
+
+		if (if t2._lastOffset == nil then true else math.abs(t2.Offset - t2._lastOffset) > 0.0001) or t2._colorDirty then
+			t2._lastOffset = t2.Offset
+			t2._colorDirty = false
+			t2.Instance.Color = t2:CalculateTrueColorSequence()
+		end
+
+		if not ((if t2._lastTransOffset == nil then true else math.abs(t2.TransparencyOffset - t2._lastTransOffset) > 0.0001) or t2._transDirty) then
+			return
+		end
+
+		t2._lastTransOffset = t2.TransparencyOffset
+		t2._transDirty = false
+		t2.Instance.Transparency = t2:CalculateTrueTransparencySequence()
+	end)
+	t2.Instance.Parent = t2.UIInstance
+
+	return setmetatable(t2, t)
+end
+function t.SetColorSequence(p1, p2, p3) --[[ SetColorSequence | Line: 259 ]]
+	assert(if typeof(p2) == "ColorSequence" then true else false, "Sequence argument is nil or not a ColorSequence")
+	p1.ColorSequenceBlendRate = p3 or 1
+	p1.ColorSequenceTarget = p2
+	p1._colorDirty = true
+
+	return p1.ColorSequenceTarget
+end
+function t.SetOffset(p1, p2, p3) --[[ SetOffset | Line: 269 ]]
+	assert(if typeof(p2) == "number" then true else false, "Offset isn\'t a number")
+	assert(if typeof(p3) == "number" then true else false, "Acceleration isn\'t a number")
+	p1.OffsetTarget = p2
+	p1.OffsetSpeed = 0
+	p1.OffsetSpeedTarget = 0
+	p1.OffsetAcceleration = math.clamp(p3, 0, 1)
+end
+function t.SetOffsetSpeed(p1, p2, p3) --[[ SetOffsetSpeed | Line: 281 ]]
+	assert(if typeof(p2) == "number" then true else false, "Offset isn\'t a number")
+	assert(if typeof(p3) == "number" then true else false, "Acceleration isn\'t a number")
+	p1.OffsetSpeedTarget = p2
+	p1.OffsetTarget = nil
+	p1.OffsetAcceleration = math.clamp(p3, 0, 1)
+end
+function t.SetRotation(p1, p2, p3) --[[ SetRotation | Line: 292 ]]
+	assert(if typeof(p2) == "number" then true else false, "Offset isn\'t a number")
+	assert(if typeof(p3) == "number" then true else false, "Acceleration isn\'t a number")
+	p1.RotationTarget = p2
+	p1.RotationSpeed = 0
+	p1.RotationSpeedTarget = 0
+	p1.RotationAcceleration = math.clamp(p3, 0, 1)
+end
+function t.SetRotationSpeed(p1, p2, p3) --[[ SetRotationSpeed | Line: 304 ]]
+	assert(if typeof(p2) == "number" then true else false, "Offset isn\'t a number")
+	assert(if typeof(p3) == "number" then true else false, "Acceleration isn\'t a number")
+	p1.RotationSpeedTarget = p2
+	p1.RotationTarget = nil
+	p1.RotationAcceleration = math.clamp(p3, 0, 1)
+end
+function t.SetTransparencyOffset(p1, p2, p3) --[[ SetTransparencyOffset | Line: 315 ]]
+	assert(if typeof(p2) == "number" then true else false, "Offset isn\'t a number")
+	assert(if typeof(p3) == "number" then true else false, "Acceleration isn\'t a number")
+	p1.TransparencyOffsetTarget = p2
+	p1.TransparencyOffsetSpeed = 0
+	p1.TransparencyOffsetSpeedTarget = 0
+	p1.TransparencyOffsetAcceleration = math.clamp(p3, 0, 1)
+end
+function t.SetTransparencyOffsetSpeed(p1, p2, p3) --[[ SetTransparencyOffsetSpeed | Line: 327 ]]
+	assert(if typeof(p2) == "number" then true else false, "Offset isn\'t a number")
+	assert(if typeof(p3) == "number" then true else false, "Acceleration isn\'t a number")
+	p1.TransparencyOffsetSpeedTarget = p2
+	p1.TransparencyOffsetTarget = nil
+	p1.TransparencyOffsetAcceleration = math.clamp(p3, 0, 1)
+end
+function t.SetTransparencySequence(p1, p2, p3) --[[ SetTransparencySequence | Line: 338 ]]
+	assert(p2, "Transparency is nil")
+	assert(if typeof(p3) == "number" then true else false, "Acceleration isn\'t a number")
+
+	if typeof(p2) == "number" then
+		p1.TransparencyTarget = NumberSequence.new({ NumberSequenceKeypoint.new(0, p2), NumberSequenceKeypoint.new(1, p2) })
+	elseif typeof(p2) == "NumberSequence" then
+		p1.TransparencyTarget = p2
+	else
+		warn("Weird type of data?")
+	end
+
+	p1.TransparencyAcceleration = math.clamp(p3, 0, 1)
+	p1._transDirty = true
+end
+function t.EqualizeColorSequenceKeypoints(p1) --[[ EqualizeColorSequenceKeypoints | Line: 356 | Upvalues: evalColorSequence (copy) ]]
+	local Keypoints = p1.ColorSequenceTarget.Keypoints
+	local Keypoints2 = p1.ColorSequence.Keypoints
+	local t = {}
+
+	if #Keypoints == #Keypoints2 then
+		for v1, v2 in Keypoints do
+			table.insert(t, (ColorSequenceKeypoint.new(v2.Time, (evalColorSequence(Keypoints2, v2.Time):Lerp(v2.Value, p1.ColorSequenceBlendRate)))))
+		end
+	else
+		for v5, v6 in Keypoints do
+			table.insert(t, (ColorSequenceKeypoint.new(v6.Time, evalColorSequence(Keypoints2, v6.Time))))
+		end
+	end
+
+	p1.ColorSequence = ColorSequence.new(t)
+end
+function t.EqualizeTransparencySequenceKeypoints(p1) --[[ EqualizeTransparencySequenceKeypoints | Line: 378 | Upvalues: evalNumberSequence (copy) ]]
+	local Keypoints = p1.TransparencySequenceTarget.Keypoints
+	local Keypoints2 = p1.TransparencySequence.Keypoints
+	local t = {}
+
+	if #Keypoints == #Keypoints2 then
+		for v1, v2 in Keypoints do
+			table.insert(t, (NumberSequenceKeypoint.new(v2.Time, (evalNumberSequence(Keypoints2, v2.Time):Lerp(v2.Value, p1.TransparencySequenceBlendRate)))))
+		end
+	else
+		for v5, v6 in Keypoints do
+			table.insert(t, (NumberSequenceKeypoint.new(v6.Time, evalNumberSequence(Keypoints2, v6.Time))))
+		end
+	end
+
+	print(t[1].Value, t[2].Value, t[3].Value, t[4].Value, t[5].Value)
+	p1.TransparencySequence = NumberSequence.new(t)
+end
+function t.CalculateTrueColorSequence(p1) --[[ CalculateTrueColorSequence | Line: 401 | Upvalues: evalColorSequence (copy) ]]
+	local v1 = 100
+	local count = 5
+	local t = {}
+
+	for v2, v3 in p1.ColorSequence.Keypoints do
+		local v4 = ColorSequenceKeypoint.new((v3.Time + p1.Offset) % 1, v3.Value)
+
+		if v4.Time <= v1 then
+			t[count - 1] = v4
+			v1 = v4.Time
+			count = count - 1
+
+			continue
+		end
+
+		t[#t + 1] = v4
+	end
+
+	local t2 = {}
+
+	for v5, v6 in t do
+		table.insert(t2, v6)
+	end
+
+	table.sort(t2, function(p1, p2) --[[ Line: 422 ]]
+		return p1.Time < p2.Time
+	end)
+
+	if t2[1].Time ~= 0 then
+		table.insert(t2, 1, (ColorSequenceKeypoint.new(0, evalColorSequence(t2, 0))))
+	end
+
+	if t2[#t2].Time ~= 1 then
+		table.insert(t2, (ColorSequenceKeypoint.new(1, evalColorSequence(t2, 1))))
+	end
+
+	p1.TrueColorSequence = ColorSequence.new(t2)
+
+	return p1.TrueColorSequence
+end
+function t.CalculateTrueTransparencySequence(p1) --[[ CalculateTrueTransparencySequence | Line: 440 | Upvalues: evalNumberSequence (copy) ]]
+	if #p1.TransparencySequenceTarget.Keypoints == 2 and p1.TransparencySequenceTarget.Keypoints[1].Value == p1.TransparencySequenceTarget.Keypoints[2].Value then
+		p1.TrueTransparencySequence = p1.TransparencySequenceTarget
+
+		return p1.TrueTransparencySequence
+	end
+
+	local count = #p1.TransparencySequence.Keypoints + 1
+	local v1 = (1 / 0)
+	local t = {}
+
+	for v2, v3 in p1.TransparencySequence.Keypoints do
+		local v4 = v3.Time + p1.TransparencyOffset
+
+		if v4 > 1 or v4 < 0 then
+			v4 = v4 % 1
+		end
+
+		local v5 = NumberSequenceKeypoint.new(v4, v3.Value)
+
+		if v5.Time <= v1 then
+			t[count - 1] = v5
+			v1 = v5.Time
+			count = count - 1
+
+			continue
+		end
+
+		t[#t + 1] = v5
+	end
+
+	local t2 = {}
+
+	for v6, v7 in t do
+		table.insert(t2, v7)
+	end
+
+	table.sort(t2, function(p1, p2) --[[ Line: 472 ]]
+		return p1.Time < p2.Time
+	end)
+
+	if t2[1].Time ~= 0 then
+		table.insert(t2, 1, (NumberSequenceKeypoint.new(0, evalNumberSequence(t2, 0))))
+	end
+
+	if t2[#t2].Time ~= 1 then
+		table.insert(t2, (NumberSequenceKeypoint.new(1, (evalNumberSequence(t2, 1)))))
+	end
+
+	p1.TrueTransparencySequence = NumberSequence.new(t2)
+
+	return p1.TrueTransparencySequence
+end
+function t.Pause(p1) --[[ Pause | Line: 491 ]]
+	p1.IsPaused = true
+end
+function t.Resume(p1) --[[ Resume | Line: 495 ]]
+	p1.IsPaused = false
+end
+function t.Destroy(p1) --[[ Destroy | Line: 499 ]]
+	p1.Connection:Disconnect()
+
+	if not p1.Instance then
+		return
+	end
+
+	p1.Instance:Destroy()
+	p1.Instance = nil
+end
+
+return table.freeze(t)

@@ -1,0 +1,19 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- CQMICEluc3RhbmNlA25ldwpVSUdyYWRpZW50DUNvbG9yU2VxdWVuY2UVQ29sb3JTZXF1ZW5jZUtleXBvaW50BkNvbG9yMwdmcm9tUkdCBUNvbG9yAAINAAAAAABApAACAAAEAIBvAQMAnwACAqQBBQAABECA/wIAAAUAAACkAwcAAARggIwEAACkBQoAACSAgIwGagCMBwAAjAj/AJ8FBACfAwACpAQHAAAEYIBvBQsApAYKAAAkgICMB1oAjAgAAIwJagCfBgQAnwQAAqQFBwAABGCAbwYMAKQHCgAAJICAjAgAAIwJAACMCgAAnwcEAJ8FAAKkBgcAAARggG8HDQCkCAoAACSAgIwJWgCMCgAAjAtqAJ8IBACfBgACpAcHAAAEYICMCAEApAkKAAAkgICMCmoAjAsAAIwM/wCfCQQAnwcAAMUCAwABAAAAnwECAjABAKQOAAAAggACAA8DAQMCBAAEAIADAwMEBAAEQIADBQQABGCAAwYDBwQAJICAAgAAAAAAANA/AgAAAAAAAOA/AgAAAAAAAOg/AwgAAQABGAAAAAABAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAABAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAPsAAAcCAAAAAAEAAAECAAOjAAAAwAAAAIIAAgABBgABAAEAARgAAAABAAAAAAHqvbcWAkzi8jIC5plLZOCzmqWgYth53Rc=
+
+-- https://lua.expert/
+return function() --[[ Line: 1 ]]
+	local UIGradient = Instance.new("UIGradient")
+
+	UIGradient.Color = ColorSequence.new({
+		ColorSequenceKeypoint.new(0, Color3.fromRGB(106, 0, 255)),
+		ColorSequenceKeypoint.new(0.25, Color3.fromRGB(90, 0, 106)),
+		ColorSequenceKeypoint.new(0.5, Color3.fromRGB(0, 0, 0)),
+		ColorSequenceKeypoint.new(0.75, Color3.fromRGB(90, 0, 106)),
+		ColorSequenceKeypoint.new(1, Color3.fromRGB(106, 0, 255))
+	})
+
+	return UIGradient
+end

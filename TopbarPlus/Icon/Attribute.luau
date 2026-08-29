@@ -1,0 +1,25 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- CQMQBGdhbWUKUnVuU2VydmljZQpHZXRTZXJ2aWNlB3JlcXVpcmUGc2NyaXB0BlBhcmVudAdWRVJTSU9ODWdldEFwcFZlcnNpb24QZ2V0TGF0ZXN0VmVyc2lvbgppc1VwVG9EYXRlCElzU3R1ZGlvBHdhcm5fQSBuZXcgdmVyc2lvbiBvZiBUb3BiYXJQbHVzICglKikgaXMgYXZhaWxhYmxlOiBodHRwczovL2RldmZvcnVtLnJvYmxveC5jb20vdC90b3BiYXJwbHVzLzEwMTc0ODUGZm9ybWF0BHRhc2sFZGVmZXIAAgkAAAAAACekAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQKQCBwAAAGBATQICJAgAAABNAgJLCQAAAJ8BAgJNAgGXCgAAAJ8CAQJNAwEzCwAAAJ8DAQJNBQFKDAAAAJ8FAQJWBAUAvAUACg0AAACfBQICKwUAAA4ECACkBQ8AAADgQG8GEABSCAMAvAYGjREAAACfBgMCnwUCAYIAAQASAwEEAAAAQAMCAwMDBAQAAEBAAwUEAABgQAMGAwcDCAMJAwoDCwMMBAAA4EADDQMOABUAARgAAAAAAAABAAAAAAAAAAABAAABAAABAAAAAQAAAAMBAAAAAAAAAAIWAAAAAAIAAAECAAijAAAApAACAAAEAIDAAQMAnwACAf8AAAAAAAAAggACAAQDDwMQBAAEAIAGAAEAAQABGAAUAAAADgAAAQAAAAAB/9NBqvV9GMI2ShKhmR4HUI/LVt7NFyur
+
+-- https://lua.expert/
+task.defer(function() --[[ Line: 21 ]]
+	local RunService = game:GetService("RunService")
+	local VERSION = require(script.Parent.VERSION)
+
+	VERSION.getAppVersion()
+
+	local v1 = VERSION.getLatestVersion()
+	local v2 = not VERSION.isUpToDate()
+
+	RunService:IsStudio()
+
+	if not v2 then
+		return
+	end
+
+	warn((("A new version of TopbarPlus (%*) is available: https://devforum.roblox.com/t/topbarplus/1017485"):format(v1)))
+end)
+
+return {}

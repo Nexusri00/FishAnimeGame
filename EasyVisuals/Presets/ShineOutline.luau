@@ -1,0 +1,54 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- https://lua.expert/
+local v1 = require(script.Parent.Parent)
+local BatchRunner = require(script.Parent.Parent.BatchRunner)
+
+local function makeLighter(p1, p2) --[[ makeLighter | Line: 5 ]]
+	return p1:Lerp(Color3.fromRGB(255, 255, 255), p2)
+end
+
+local function findColorFromObject(p1) --[[ findColorFromObject | Line: 9 ]]
+	local v1 = p1[({
+		TextButton = "BackgroundColor3",
+		TextLabel = "TextColor3",
+		ImageLabel = "ImageColor3",
+		ImageButton = "ImageColor3",
+		Frame = "BackgroundColor3",
+		ScrollingFrame = "BackgroundColor3",
+		ViewportFrame = "BackgroundColor3"
+	})[p1.ClassName]]
+
+	if v1 then
+		return v1
+	end
+
+	return Color3.fromRGB(255, 255, 255)
+end
+
+return function(p1, p2, p3, p4) --[[ Line: 29 | Upvalues: findColorFromObject (copy), v1 (copy), BatchRunner (copy) ]]
+	local v12 = if p4 then p4 else findColorFromObject(p1)
+	local v2 = v12:Lerp(Color3.fromRGB(255, 255, 255), 0.6)
+	local v3 = ColorSequence.new({ ColorSequenceKeypoint.new(0, v12), ColorSequenceKeypoint.new(0.5, v2), ColorSequenceKeypoint.new(1, v12) })
+	local v4 = v1.Stroke.new(p1, p3)
+	local v5 = v1.Gradient.new(v4.Instance, v3, 0)
+	local v6 = 0.75
+	local v7 = nil
+
+	v7 = BatchRunner.Register(function(p1) --[[ Line: 48 | Upvalues: v4 (copy), v7 (ref), v6 (ref), p2 (copy), v5 (copy) ]]
+		if not v4.Instance or v4.Instance.Parent == nil then
+			v7:Disconnect()
+		end
+
+		v6 = v6 + p2 * p1
+		v5:SetRotation(v6, 1)
+	end)
+
+	return {
+		Effects = { v5, v4 },
+		Connections = { v7 }
+	}
+end
