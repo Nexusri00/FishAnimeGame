@@ -1,0 +1,4683 @@
+		Dracula = 1.1,
+			Demonic = 0.9
+		},
+		MultiPullChances = {
+			95,
+			2.8,
+			2,
+			0.2
+		}
+	},
+	["Gold Rod"] = {
+		Rarity = "Legendary",
+		Strength = 550,
+		Speed = 7.5,
+		Luck = 410,
+		BaseClicks = 5,
+		ClickDecayPerSecond = 2,
+		PondCatchTime = {
+			Min = 1,
+			Max = 10
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 19.89888899999,
+			Legendary = 39.75,
+			Mythical = 30.29,
+			Cosmic = 8,
+			Secret = 1.8,
+			Rainbow = 0.25,
+			Ascended = 0.005,
+			Divine = 0.00125,
+			Supreme = 0.000075,
+			Celestial = 5.5555667e-6,
+			Ancient = 5e-6,
+			God = 1e-11,
+			Omniscient = 6.52174e-16
+		},
+		TypeChances = {
+			Gold = 10.1,
+			Honey = 10.1,
+			Diamond = 8.4,
+			Frozen = 8.4,
+			Party = 8.4,
+			Blood = 6.3,
+			Electric = 6.3,
+			Slime = 6.3,
+			Zombie = 6.3,
+			Ghost = 5,
+			Lava = 4.2,
+			Toxic = 4.2,
+			Lunar = 3.1,
+			Sinister = 2.5,
+			Solar = 2.1,
+			Nightmare = 1.8,
+			Void = 1.5,
+			Mars = 1.5,
+			Angelic = 1.5,
+			Dracula = 1.1,
+			Demonic = 0.9
+		},
+		MultiPullChances = {
+			95,
+			2.8,
+			2,
+			0.2
+		}
+	},
+	["Ruby Rod"] = {
+		Rarity = "Mythical",
+		Strength = 920,
+		Speed = 10.5,
+		Luck = 720,
+		BaseClicks = 9,
+		ClickDecayPerSecond = 3,
+		PondCatchTime = {
+			Min = 1,
+			Max = 9.5
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 3.4888899999,
+			Legendary = 20,
+			Mythical = 48,
+			Cosmic = 20.5,
+			Secret = 6.9,
+			Rainbow = 1,
+			Ascended = 0.05,
+			Divine = 0.00237875,
+			Supreme = 0.00040925,
+			Celestial = 0.0000647616667,
+			Ancient = 0.0000255,
+			God = 4.927247e-9,
+			Omniscient = 4.284562609e-9
+		},
+		TypeChances = {
+			Gold = 10.1,
+			Honey = 10.1,
+			Diamond = 8.4,
+			Frozen = 8.4,
+			Party = 8.4,
+			Blood = 6.3,
+			Electric = 6.3,
+			Slime = 6.3,
+			Zombie = 6.3,
+			Ghost = 5,
+			Lava = 4.2,
+			Toxic = 4.2,
+			Lunar = 3.1,
+			Sinister = 2.5,
+			Solar = 2.1,
+			Nightmare = 1.8,
+			Void = 1.5,
+			Mars = 1.5,
+			Angelic = 1.5,
+			Dracula = 1.1,
+			Demonic = 0.9
+		},
+		MultiPullChances = {
+			95,
+			2.8,
+			2,
+			0.2
+		}
+	},
+	["Astral Rod"] = {
+		Rarity = "Cosmic",
+		Strength = 1700,
+		Speed = 15,
+		Luck = 1150,
+		BaseClicks = 9,
+		ClickDecayPerSecond = 4,
+		PondCatchTime = {
+			Min = 1,
+			Max = 7
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 2.748989898998999,
+			Legendary = 10,
+			Mythical = 30,
+			Cosmic = 37.25,
+			Secret = 39.0689,
+			Rainbow = 4.68826,
+			Ascended = 0.781375,
+			Divine = 0.0091975,
+			Supreme = 0.0022,
+			Celestial = 0.000172222333,
+			Ancient = 0.0000345,
+			God = 4.332498e-8,
+			Omniscient = 3.767389565e-8
+		},
+		TypeChances = {
+			Gold = 9.4,
+			Honey = 9.3,
+			Diamond = 7.9,
+			Frozen = 7.9,
+			Party = 7.9,
+			Blood = 6.2,
+			Electric = 6.2,
+			Slime = 6.2,
+			Zombie = 6.2,
+			Ghost = 5.1,
+			Lava = 4.4,
+			Toxic = 4.4,
+			Lunar = 3.4,
+			Sinister = 2.8,
+			Solar = 2.4,
+			Nightmare = 2.1,
+			Void = 1.8,
+			Mars = 1.8,
+			Angelic = 1.8,
+			Dracula = 1.5,
+			Demonic = 1.3
+		},
+		MultiPullChances = {
+			95,
+			2.8,
+			2,
+			0.2
+		}
+	},
+	["Void Rod"] = {
+		Rarity = "Secret",
+		Strength = 7850,
+		Speed = 22.5,
+		Luck = 4700,
+		BaseClicks = 8,
+		ClickDecayPerSecond = 3.5,
+		PondCatchTime = {
+			Min = 1,
+			Max = 7
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0.6489998999999,
+			Mythical = 5,
+			Cosmic = 46.991,
+			Secret = 36,
+			Rainbow = 5.81233,
+			Ascended = 1.0962,
+			Divine = 0.0292175,
+			Supreme = 0.0033,
+			Celestial = 0.00054,
+			Ancient = 0.00006,
+			God = 7.750009999e-8,
+			Omniscient = 6.73913913e-8
+		},
+		TypeChances = {
+			Gold = 9.4,
+			Honey = 9.3,
+			Diamond = 7.9,
+			Frozen = 7.9,
+			Party = 7.9,
+			Blood = 6.2,
+			Electric = 6.2,
+			Slime = 6.2,
+			Zombie = 6.2,
+			Ghost = 5.1,
+			Lava = 4.4,
+			Toxic = 4.4,
+			Lunar = 3.4,
+			Sinister = 2.8,
+			Solar = 2.4,
+			Nightmare = 2.1,
+			Void = 1.8,
+			Mars = 1.8,
+			Angelic = 1.8,
+			Dracula = 1.5,
+			Demonic = 1.3
+		},
+		MultiPullChances = {
+			90,
+			5.8,
+			4,
+			0.2
+		}
+	},
+	["Rod of the Heavens"] = {
+		Rarity = "Divine",
+		Strength = 27500,
+		Speed = 35.25,
+		Luck = 22500,
+		BaseClicks = 8,
+		ClickDecayPerSecond = 3.5,
+		PondCatchTime = {
+			Min = 1,
+			Max = 7
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0,
+			Mythical = 0,
+			Cosmic = 8.24999899998999,
+			Secret = 46,
+			Rainbow = 37,
+			Ascended = 3.70355,
+			Divine = 0.3779,
+			Supreme = 0.006,
+			Celestial = 0.0009,
+			Ancient = 0.0001,
+			God = 9.499998499e-8,
+			Omniscient = 8.26086826e-8
+		},
+		TypeChances = {
+			Gold = 9.4,
+			Honey = 9.3,
+			Diamond = 7.9,
+			Frozen = 7.9,
+			Party = 7.9,
+			Blood = 6.2,
+			Electric = 6.2,
+			Slime = 6.2,
+			Zombie = 6.2,
+			Ghost = 5.1,
+			Lava = 4.4,
+			Toxic = 4.4,
+			Lunar = 3.4,
+			Sinister = 2.8,
+			Solar = 2.4,
+			Nightmare = 2.1,
+			Void = 1.8,
+			Mars = 1.8,
+			Angelic = 1.8,
+			Dracula = 1.5,
+			Demonic = 1.3
+		},
+		MultiPullChances = {
+			90,
+			5.8,
+			4,
+			0.2
+		}
+	},
+	["Rod of Hell"] = {
+		Rarity = "Rainbow",
+		Unreleased = true,
+		Strength = 10000,
+		Speed = 25,
+		Luck = 6400,
+		BaseClicks = 8,
+		ClickDecayPerSecond = 3.5,
+		PondCatchTime = {
+			Min = 1,
+			Max = 7
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0,
+			Mythical = 0,
+			Cosmic = 44.5,
+			Secret = 41.212,
+			Rainbow = 8.4166,
+			Ascended = 1.39847,
+			Divine = 0.04875,
+			Supreme = 0.0037194,
+			Celestial = 0.00059816,
+			Ancient = 0.000066462,
+			God = 8.0724104e-8,
+			Omniscient = 7.0194833e-8
+		},
+		TypeChances = {
+			Gold = 9.4,
+			Honey = 9.3,
+			Diamond = 7.9,
+			Frozen = 7.9,
+			Party = 7.9,
+			Blood = 6.2,
+			Electric = 6.2,
+			Slime = 6.2,
+			Zombie = 6.2,
+			Ghost = 5.1,
+			Lava = 4.4,
+			Toxic = 4.4,
+			Lunar = 3.4,
+			Sinister = 2.8,
+			Solar = 2.4,
+			Nightmare = 2.1,
+			Void = 1.8,
+			Mars = 1.8,
+			Angelic = 1.8,
+			Dracula = 1.5,
+			Demonic = 1.3
+		},
+		MultiPullChances = {
+			90,
+			5.8,
+			4,
+			0.2
+		}
+	},
+	["Complexity Rod"] = {
+		Rarity = "Ascended",
+		Unreleased = true,
+		Strength = 13000,
+		Speed = 27.5,
+		Luck = 8800,
+		BaseClicks = 8,
+		ClickDecayPerSecond = 3.5,
+		PondCatchTime = {
+			Min = 1,
+			Max = 7
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0,
+			Mythical = 0,
+			Cosmic = 42,
+			Secret = 39.521,
+			Rainbow = 12.1885,
+			Ascended = 1.78395,
+			Divine = 0.08135,
+			Supreme = 0.00419199,
+			Celestial = 0.00066258,
+			Ancient = 0.00007362,
+			God = 8.4083983e-8,
+			Omniscient = 7.31129e-8
+		},
+		TypeChances = {
+			Gold = 9.4,
+			Honey = 9.3,
+			Diamond = 7.9,
+			Frozen = 7.9,
+			Party = 7.9,
+			Blood = 6.2,
+			Electric = 6.2,
+			Slime = 6.2,
+			Zombie = 6.2,
+			Ghost = 5.1,
+			Lava = 4.4,
+			Toxic = 4.4,
+			Lunar = 3.4,
+			Sinister = 2.8,
+			Solar = 2.4,
+			Nightmare = 2.1,
+			Void = 1.8,
+			Mars = 1.8,
+			Angelic = 1.8,
+			Dracula = 1.5,
+			Demonic = 1.3
+		},
+		MultiPullChances = {
+			90,
+			5.8,
+			4,
+			0.2
+		}
+	},
+	["Forgotten Rod"] = {
+		Rarity = "Supreme",
+		Unreleased = true,
+		Strength = 32500,
+		Speed = 38,
+		Luck = 25000,
+		BaseClicks = 8,
+		ClickDecayPerSecond = 3.5,
+		PondCatchTime = {
+			Min = 1,
+			Max = 7
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0,
+			Mythical = 0,
+			Cosmic = 30.2532,
+			Secret = 30.2532,
+			Rainbow = 30.2532,
+			Ascended = 4.147976,
+			Divine = 0.423248,
+			Supreme = 0.00672,
+			Celestial = 0.001008,
+			Ancient = 0.000112,
+			God = 1.06399983e-7,
+			Omniscient = 9.2521724e-8
+		},
+		TypeChances = {
+			Gold = 9.4,
+			Honey = 9.3,
+			Diamond = 7.9,
+			Frozen = 7.9,
+			Party = 7.9,
+			Blood = 6.2,
+			Electric = 6.2,
+			Slime = 6.2,
+			Zombie = 6.2,
+			Ghost = 5.1,
+			Lava = 4.4,
+			Toxic = 4.4,
+			Lunar = 3.4,
+			Sinister = 2.8,
+			Solar = 2.4,
+			Nightmare = 2.1,
+			Void = 1.8,
+			Mars = 1.8,
+			Angelic = 1.8,
+			Dracula = 1.5,
+			Demonic = 1.3
+		},
+		MultiPullChances = {
+			90,
+			5.8,
+			4,
+			0.2
+		}
+	},
+	["Admin Rod"] = {
+		Rarity = "Exclusive",
+		Strength = (1 / 0),
+		Speed = 1,
+		Luck = 1
+	}
+}
+
+local function _isotonicNonIncreasing(p1) --[[ _isotonicNonIncreasing | Line: 9906 ]]
+	local list = {}
+
+	for i, v in ipairs(p1) do
+		list[i] = -(tonumber(v) or 0)
+	end
+
+	local list2 = {}
+
+	for i, v in ipairs(list) do
+		table.insert(list2, {
+			w = 1,
+			s = i,
+			e = i,
+			sum = v,
+			avg = v
+		})
+
+		while #list2 >= 2 do
+			local v1 = list2[#list2]
+			local v2 = list2[#list2 - 1]
+
+			if v2.avg <= v1.avg then
+				break
+			end
+
+			local t = {
+				s = v2.s,
+				e = v1.e,
+				sum = v2.sum + v1.sum,
+				w = v2.w + v1.w
+			}
+
+			t.avg = t.sum / t.w
+			list2[#list2 - 1] = t
+			table.remove(list2, #list2)
+		end
+	end
+
+	local t = {}
+
+	for i, v in ipairs(list2) do
+		for i2 = v.s, v.e do
+			t[i2] = -v.avg
+		end
+	end
+
+	return t
+end
+
+local function _formatFishingStatValue(p1) --[[ _formatFishingStatValue | Line: 9975 ]]
+	local v1 = tonumber(p1)
+
+	if not v1 then
+		return tostring(p1)
+	end
+
+	if math.abs(v1 - math.floor(v1)) < 1e-9 then
+		return tostring((math.floor(v1)))
+	end
+
+	return string.format("%.3f", v1):gsub("0+$", ""):gsub("%.$", "")
+end
+
+local function _normalizeAndFixRodTypeChances() --[[ _normalizeAndFixRodTypeChances | Line: 10002 | Upvalues: t (copy) ]]
+	local v1 = if t.Fishing then t.Fishing.Rods or {} else {}
+	local v2 = t.TypeSystem and t.TypeSystem.Multipliers or {}
+	local t2 = {}
+
+	for k, v in pairs(v2) do
+		table.insert(t2, k)
+	end
+
+	table.sort(t2, function(p1, p2) --[[ Line: 10017 | Upvalues: v2 (copy) ]]
+		local v22 = tonumber(v2[p1]) or 1
+		local v4 = tonumber(v2[p2]) or 1
+
+		if v22 == v4 then
+			return tostring(p1) < tostring(p2)
+		end
+
+		return v22 < v4
+	end)
+
+	if #t2 == 0 then
+		return
+	end
+
+	local function _getTierSettings(p1) --[[ _getTierSettings | Line: 10041 ]]
+		if p1 == "Fishing Rod" or (p1 == "Steel Rod" or (p1 == "Iron Rod" or p1 == "Ice Rod")) then
+			return 10, 1.25
+		end
+
+		if p1 == "Amethyst Rod" or (p1 == "Gold Rod" or p1 == "Ruby Rod") then
+			return 12.5, 1
+		end
+
+		return 15, 0.85
+	end
+
+	local function _applyWeightedTable(p1, p2, p3, p4) --[[ _applyWeightedTable | Line: 10060 | Upvalues: t2 (copy), v2 (copy) ]]
+		local t = {}
+
+		for i, v in ipairs(t2) do
+			local v22 = tonumber(v2[v]) or 1
+
+			if v22 <= 0 then
+				v22 = 1
+			end
+
+			t[v] = 1 / v22 ^ p3
+		end
+
+		local sum = 0
+		local t3 = {}
+
+		repeat
+			local v3 = math.max(0, p2 - sum)
+			local sum2 = 0
+
+			for i, v in ipairs(t2) do
+				if not t3[v] then
+					sum2 = sum2 + (t[v] or 0)
+				end
+			end
+
+			local v4 = false
+
+			for i, v in ipairs(t2) do
+				if not t3[v] and (if sum2 > 0 then v3 * ((t[v] or 0) / sum2) else 0) < p4 then
+					t3[v] = p4
+					sum = sum + p4
+					v4 = true
+				end
+			end
+		until not v4
+
+		local v6 = math.max(0, p2 - sum)
+		local sum2 = 0
+
+		for i, v in ipairs(t2) do
+			if not t3[v] then
+				sum2 = sum2 + (t[v] or 0)
+			end
+		end
+
+		local t4 = {}
+
+		for i, v in ipairs(t2) do
+			if t3[v] then
+				t4[v] = t3[v]
+
+				continue
+			end
+
+			if sum2 > 0 then
+				t4[v] = v6 * ((t[v] or 0) / sum2)
+
+				continue
+			end
+
+			t4[v] = p4
+		end
+
+		local v8 = math.max(0, (math.floor(p4 * 1000 + 0.5)))
+		local v10 = math.max(0, (math.floor(p2 * 1000 + 0.5)))
+		local t5 = {}
+		local sum3 = 0
+
+		for i, v in ipairs(t2) do
+			local v13 = math.max(v8, (math.floor(t4[v] * 1000 + 0.5)))
+
+			t5[v] = v13
+			sum3 = sum3 + v13
+		end
+
+		local count = v10 - sum3
+
+		if count > 0 then
+			local count2 = 1
+
+			while count > 0 do
+				local v14 = t2[count2]
+
+				t5[v14] = t5[v14] + 1
+				count = count - 1
+				count2 = count2 + 1
+
+				if #t2 < count2 then
+					count2 = 1
+				end
+			end
+		elseif count < 0 then
+			local count2 = #t2
+
+			while count < 0 do
+				local v15 = t2[count2]
+
+				if v8 < t5[v15] then
+					t5[v15] = t5[v15] - 1
+					count = count + 1
+				end
+
+				count2 = count2 - 1
+
+				if count2 < 1 then
+					count2 = #t2
+				end
+			end
+		end
+
+		for k in pairs(p1) do
+			p1[k] = nil
+		end
+
+		for i, v in ipairs(t2) do
+			p1[v] = t5[v] / 1000
+		end
+	end
+
+	for k, v in pairs(v1) do
+		local v3, v4
+
+		if type(v) == "table" and k ~= "Admin Rod" then
+			if type(v.TypeChances) ~= "table" then
+				v.TypeChances = {}
+			end
+
+			if k == "Fishing Rod" or (k == "Steel Rod" or (k == "Iron Rod" or k == "Ice Rod")) then
+				v3 = 10
+				v4 = 1.25
+			elseif k == "Amethyst Rod" or (k == "Gold Rod" or k == "Ruby Rod") then
+				v3 = 12.5
+				v4 = 1
+			else
+				v3 = 15
+				v4 = 0.85
+			end
+
+			_applyWeightedTable(v.TypeChances, v3, v4, 0.05)
+		end
+	end
+end
+
+local function _normalizeAndFixRodRarityChances() --[[ _normalizeAndFixRodRarityChances | Line: 10283 | Upvalues: t (copy), _isotonicNonIncreasing (copy) ]]
+	local v1 = if t.Fishing then t.Fishing.Rods or {} else {}
+	local v2 = t.RarityOrder or {}
+
+	for k, v in pairs(v1) do
+		local v3 = if v then v.RarityChances else v
+
+		if type(v3) == "table" then
+			local v4 = nil
+
+			for i, v5 in ipairs(v2) do
+				if (tonumber(v3[v5]) or 0) > 0 then
+					v4 = i
+
+					break
+				end
+			end
+
+			if v4 then
+				local list = {}
+				local t2 = {}
+
+				for i = v4, #v2 do
+					local v6 = v2[i]
+
+					table.insert(list, v6)
+					table.insert(t2, tonumber(v3[v6]) or 0)
+				end
+
+				local v9 = _isotonicNonIncreasing(t2)
+
+				for i, v5 in ipairs(list) do
+					v3[v5] = math.max(0, v9[i] or 0)
+				end
+
+				local sum = 0
+
+				for k2, v5 in pairs(v3) do
+					sum = sum + (tonumber(v5) or 0)
+				end
+
+				if sum > 0 and math.abs(sum - 100) > 1e-12 then
+					local v11 = 100 / sum
+
+					for i, v5 in ipairs(list) do
+						v3[v5] = math.max(0, (tonumber(v3[v5]) or 0) * v11)
+					end
+				end
+			end
+		end
+	end
+end
+
+local function _syncFishingStoreOfferStats() --[[ _syncFishingStoreOfferStats | Line: 10368 | Upvalues: t (copy), _formatFishingStatValue (copy) ]]
+	local v1 = t.FishingStore and t.FishingStore.Offers
+	local v2 = t.Fishing and t.Fishing.Rods
+
+	if type(v1) ~= "table" or type(v2) ~= "table" then
+		return
+	end
+
+	for k, v in pairs(v1) do
+		if type(v) == "table" then
+			local v4 = v2[tostring(v.RodName or "")]
+
+			if type(v4) == "table" then
+				v.Luck = "- Luck +" .. _formatFishingStatValue(v4.Luck or 0) .. "x"
+				v.Speed = "- Speed +" .. _formatFishingStatValue(v4.Speed or 0) .. "x"
+				v.Strength = "- Total Strength +" .. _formatFishingStatValue(v4.Strength or 0)
+			end
+		end
+	end
+end
+
+local function _typedRate(p1) --[[ _typedRate | Line: 10420 ]]
+	return 2.5
+end
+
+for k, v in pairs(t.Fishing and t.Fishing.Rods or {}) do
+	if type(v) == "table" and k ~= "Admin Rod" and type(v.TypeChances) == "table" then
+		local sum = 0
+
+		for k2, v8 in pairs(v.TypeChances) do
+			sum = sum + math.max(0, tonumber(v8) or 0)
+		end
+
+		if sum > 0 then
+			local v68 = 2.5 / sum
+
+			for k2, v8 in pairs(v.TypeChances) do
+				v.TypeChances[k2] = math.max(0, tonumber(v8) or 0) * v68
+			end
+		end
+	end
+end
+
+_normalizeAndFixRodRarityChances()
+
+local v70 = t.Fishing and t.Fishing.Rods or {}
+local v71 = v70["Gold Rod"]
+local t11 = {
+	["Ruby Rod"] = 0,
+	["Astral Rod"] = 0.25,
+	["Void Rod"] = 0.5,
+	["Rod of Hell"] = 0.75
+}
+
+if type(v71) == "table" then
+	local v72 = tonumber(v71.Speed) or 7.5
+
+	for k, v in pairs(v70) do
+		if type(v) == "table" and k ~= "Admin Rod" and v72 < (tonumber(v.Speed) or 0) then
+			v.Speed = v72
+			v.BaseClicks = v71.BaseClicks
+			v.ClickDecayPerSecond = v71.ClickDecayPerSecond
+
+			if type(v71.PondCatchTime) == "table" then
+				v.PondCatchTime = {
+					Min = v71.PondCatchTime.Min,
+					Max = v71.PondCatchTime.Max
+				}
+			end
+
+			local v73 = t11[k]
+
+			if v73 then
+				local v74 = 1 - v73
+
+				v.ClickDecayPerSecond = (tonumber(v.ClickDecayPerSecond) or 2) * (1 + 0.35 * v74)
+
+				if type(v.PondCatchTime) == "table" then
+					v.PondCatchTime.Max = (tonumber(v.PondCatchTime.Max) or 10) * (1 + 0.2 * v74)
+				end
+			end
+		end
+	end
+end
+
+for k, v in pairs(t.Fishing and t.Fishing.Rods or {}) do
+	local v76 = if type(v) == "table" then v.PondCatchTime or nil else nil
+
+	if type(v76) == "table" then
+		if (tonumber(v76.Max) or 0) > 12 then
+			v76.Max = 12
+		end
+
+		if (tonumber(v76.Min) or 0) > 12 then
+			v76.Min = 12
+		end
+	end
+end
+
+_syncFishingStoreOfferStats()
+t.Fishing.Ponds = t.Fishing.Ponds or {
+	PONDAREA1 = {
+		RequiredStrength = 0,
+		BaseClicksMultiplier = 0,
+		PondCatchTimeMultiMINIMUM = 0,
+		PondCatchTimeMultiMAXIMUM = 0,
+		ClicksDecayPerSecondMultiplier = 0,
+		RarityChancesMultiplier = {},
+		TypeChancesMultiplier = {},
+		MultiPullChancesMultiplier = {}
+	},
+	PONDAREA2 = {
+		RequiredStrength = 2000,
+		BaseClicksMultiplier = 1.5,
+		PondCatchTimeMultiMAXIMUM = 0.8,
+		ClicksDecayPerSecondMultiplier = 1.3,
+		TypeChancesMultiplier = {
+			Lava = 4,
+			Solar = 1.1,
+			Mars = 1.2
+		},
+		RarityChancesMultiplier = {},
+		MultiPullChancesMultiplier = {
+			[3] = 1.5,
+			[4] = 2
+		}
+	},
+	PONDAREA7 = {
+		RequiredStrength = 1,
+		BaseClicks = 10,
+		ClickDecayPerSecond = 2,
+		PondCatchTime = {
+			Min = 1,
+			Max = 5
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0,
+			Mythical = 0,
+			Cosmic = 0,
+			Secret = 0,
+			Rainbow = 0,
+			God = 100
+		},
+		TypeChances = {},
+		MultiPullChances = { 100 }
+	},
+	PONDAREA8 = {
+		RequiredStrength = 1,
+		BaseClicks = 10,
+		ClickDecayPerSecond = 2,
+		PondCatchTime = {
+			Min = 1,
+			Max = 5
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0,
+			Mythical = 0,
+			Cosmic = 0,
+			Secret = 0,
+			Rainbow = 100,
+			God = 0
+		},
+		TypeChances = {},
+		MultiPullChances = { 100 }
+	},
+	PONDAREA9 = {
+		RequiredStrength = 1,
+		BaseClicks = 10,
+		ClickDecayPerSecond = 2,
+		PondCatchTime = {
+			Min = 1,
+			Max = 5
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0,
+			Mythical = 0,
+			Cosmic = 0,
+			Secret = 100,
+			Rainbow = 0,
+			God = 0
+		},
+		TypeChances = {},
+		MultiPullChances = { 100 }
+	},
+	PONDAREA10 = {
+		RequiredStrength = 1,
+		BaseClicks = 10,
+		ClickDecayPerSecond = 2,
+		PondCatchTime = {
+			Min = 1,
+			Max = 5
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0,
+			Mythical = 0,
+			Cosmic = 100,
+			Secret = 0,
+			Rainbow = 0,
+			God = 0
+		},
+		TypeChances = {},
+		MultiPullChances = { 100 }
+	},
+	PONDAREA11 = {
+		RequiredStrength = 1,
+		BaseClicks = 10,
+		ClickDecayPerSecond = 2,
+		PondCatchTime = {
+			Min = 1,
+			Max = 5
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0,
+			Mythical = 100,
+			Cosmic = 0,
+			Secret = 0,
+			Rainbow = 0,
+			God = 0
+		},
+		TypeChances = {},
+		MultiPullChances = { 100 }
+	},
+	PONDAREA12 = {
+		RequiredStrength = 1,
+		BaseClicks = 10,
+		ClickDecayPerSecond = 2,
+		PondCatchTime = {
+			Min = 1,
+			Max = 5
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 100,
+			Mythical = 0,
+			Cosmic = 0,
+			Secret = 0,
+			Rainbow = 0,
+			God = 0
+		},
+		TypeChances = {},
+		MultiPullChances = { 100 }
+	}
+}
+t.Fishing.GodBroadcast = t.Fishing.GodBroadcast or {
+	Enabled = true,
+	TriggerRarity = "God",
+	ChatTemplate = "[Server] {PLAYER} Has Just Caught {CHARACTER}{TYPE} with a {CHANCE} Chance!!!",
+	LabelTemplate = "{PLAYER} Has just Caught {CHARACTER} With a {CHANCE} Chance!",
+	LabelVisibleSeconds = 4,
+	ChatColor = Color3.fromRGB(255, 0, 0),
+	LabelColorA = Color3.fromRGB(255, 0, 4),
+	LabelColorB = Color3.fromRGB(0, 255, 38)
+}
+function t.FormatOneIn(p1) --[[ FormatOneIn | Line: 11075 ]]
+	local v1 = tonumber(p1)
+
+	if not v1 or (v1 ~= v1 or (v1 <= 0 or v1 == (1 / 0))) then
+		return nil
+	end
+
+	if v1 >= 1 then
+		return "1/1"
+	end
+
+	local v2 = 1 / v1
+
+	if v2 == v2 and v2 ~= (1 / 0) then
+		return "1/" .. string.format("%.0f", v2):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "")
+	end
+
+	return nil
+end
+function t.RareCatchChanceText(p1) --[[ RareCatchChanceText | Line: 11098 | Upvalues: t (copy) ]]
+	if type(p1) ~= "table" then
+		return nil
+	end
+
+	local v1 = tonumber(p1.rarityChanceExact)
+
+	if not v1 or v1 <= 0 then
+		v1 = tonumber(p1.chanceExact)
+	end
+
+	if not v1 or v1 <= 0 then
+		local v3 = tonumber(p1.chancePercent) or 0
+
+		if v3 > 0 then
+			v1 = v3 / 100
+		end
+	end
+
+	return t.FormatOneIn(v1)
+end
+t.GroupJoinRewards = t.GroupJoinRewards or {
+	Enabled = true,
+	GroupId = 35620138,
+	Cash = 5000,
+	Gems = 100,
+	CharacterName = "Zera Two",
+	NotificationInterval = 0.2
+}
+t.UpgradesStore = t.UpgradesStore or {}
+t.UpgradesStore.UpgradeLevelUpProductId = 3547588484
+t.UpgradesStore.CashBundles = {
+	Robux = {
+		DevProductId = 3542052376
+	},
+	Robux2 = {
+		DevProductId = 3542052630
+	},
+	Robux3 = {
+		DevProductId = 3542052818
+	},
+	Robux4 = {
+		DevProductId = 3542053306
+	}
+}
+t.UpgradesStore.Offers = {
+	T1O1 = {
+		Tab = "OfferTab1",
+		Slot = "Offer1",
+		Label = "Cash Multiplier",
+		StatLabel = "Cash",
+		AttrKey = "UpgCashMult",
+		MaxLevels = 300,
+		PerLevelPercent = 5,
+		MaxPercent = 1500,
+		Costs = {
+			2090,
+			2500,
+			3000,
+			3590,
+			4310,
+			5170,
+			6200,
+			7430,
+			8920,
+			10700,
+			12800,
+			15300,
+			18400,
+			22100,
+			26500,
+			31700,
+			38000,
+			45600,
+			54700,
+			65500,
+			78500,
+			94200,
+			113000,
+			135000,
+			162000,
+			195000,
+			234000,
+			280000,
+			335000,
+			402000,
+			482000,
+			578000,
+			693000,
+			831000,
+			994000,
+			1190000,
+			1430000,
+			1720000,
+			2060000,
+			2470000,
+			2960000,
+			3550000,
+			4250000,
+			5100000,
+			6110000,
+			7330000,
+			8770000,
+			10500000,
+			12600000,
+			15100000,
+			18100000,
+			21800000,
+			26100000,
+			31300000,
+			37500000,
+			45000000,
+			54000000,
+			64700000,
+			77500000,
+			92900000,
+			112000000,
+			134000000,
+			160000000,
+			192000000,
+			230000000,
+			276000000,
+			331000000,
+			397000000,
+			476000000,
+			570000000,
+			684000000,
+			820000000,
+			984000000,
+			1180000000,
+			1410000000,
+			1690000000,
+			2030000000,
+			2440000000,
+			2920000000,
+			3500000000,
+			4200000000,
+			5030000000,
+			6030000000,
+			7230000000,
+			8670000000,
+			10400000000,
+			12400000000,
+			14900000000,
+			17900000000,
+			21500000000,
+			25800000000,
+			30900000000,
+			37000000000,
+			44400000000,
+			53200000000,
+			63800000000,
+			76500000000,
+			91700000000,
+			110000000000,
+			132000000000,
+			158000000000,
+			190000000000,
+			227000000000,
+			272000000000,
+			327000000000,
+			392000000000,
+			470000000000,
+			563000000000,
+			675000000000,
+			809000000000,
+			969000000000,
+			1160000000000,
+			1390000000000,
+			1670000000000,
+			2000000000000,
+			2400000000000,
+			2880000000000,
+			3460000000000,
+			4150000000000,
+			4970000000000,
+			5960000000000,
+			7140000000000,
+			8580000000000,
+			10300000000000,
+			12300000000000,
+			14800000000000,
+			17700000000000,
+			21200000000000,
+			25400000000000,
+			30500000000000,
+			36500000000000,
+			43800000000000,
+			52500000000000,
+			63000000000000,
+			75500000000000,
+			90600000000000,
+			109000000000000,
+			130000000000000,
+			156000000000000,
+			187000000000000,
+			224000000000000,
+			269000000000000,
+			323000000000000,
+			387000000000000,
+			464000000000000,
+			556000000000000,
+			667000000000000,
+			799000000000000,
+			959000000000000,
+			1150000000000000,
+			1380000000000000,
+			1650000000000000,
+			1980000000000000,
+			2370000000000000,
+			2840000000000000,
+			3410000000000000,
+			4090000000000000,
+			4900000000000000,
+			5880000000000000,
+			7050000000000000,
+			8440000000000000,
+			1.01e16,
+			1.21e16,
+			1.46e16,
+			1.75e16,
+			2.09e16,
+			2.51e16,
+			3.01e16,
+			3.61e16,
+			4.33e16,
+			5.19e16,
+			6.22e16,
+			7.46e16,
+			8.94e16,
+			1.07e17,
+			1.28e17,
+			1.54e17,
+			1.85e17,
+			2.21e17,
+			2.65e17,
+			3.18e17,
+			3.82e17,
+			4.58e17,
+			5.49e17,
+			6.58e17,
+			7.89e17,
+			9.44e17,
+			1.13e18,
+			1.36e18,
+			1.63e18,
+			1.95e18,
+			2.34e18,
+			2.81e18,
+			3.37e18,
+			4.04e18,
+			4.84e18,
+			5.8e18,
+			6.96e18,
+			8.34e18,
+			1e19,
+			1.07e19,
+			1.15e19,
+			1.23e19,
+			1.32e19,
+			1.41e19,
+			1.51e19,
+			1.62e19,
+			1.74e19,
+			1.87e19,
+			2e19,
+			2.14e19,
+			2.29e19,
+			2.45e19,
+			2.63e19,
+			2.82e19,
+			3.02e19,
+			3.24e19,
+			3.47e19,
+			3.72e19,
+			3.98e19,
+			4.26e19,
+			4.57e19,
+			4.9e19,
+			5.25e19,
+			5.63e19,
+			6.03e19,
+			6.46e19,
+			6.92e19,
+			7.41e19,
+			7.94e19,
+			8.51e19,
+			9.12e19,
+			9.79e19,
+			1.05e20,
+			1.12e20,
+			1.2e20,
+			1.29e20,
+			1.38e20,
+			1.48e20,
+			1.58e20,
+			1.7e20,
+			1.82e20,
+			1.95e20,
+			2.09e20,
+			2.24e20,
+			2.4e20,
+			2.57e20,
+			2.75e20,
+			2.95e20,
+			3.16e20,
+			3.39e20,
+			3.63e20,
+			3.89e20,
+			4.17e20,
+			4.47e20,
+			4.79e20,
+			5.13e20,
+			5.5e20,
+			5.89e20,
+			6.31e20,
+			6.76e20,
+			7.24e20,
+			7.76e20,
+			8.32e20,
+			8.91e20,
+			9.55e20,
+			1.02e21,
+			1.1e21,
+			1.18e21,
+			1.26e21,
+			1.35e21,
+			1.45e21,
+			1.55e21,
+			1.66e21,
+			1.78e21,
+			1.91e21,
+			2.05e21,
+			2.19e21,
+			2.34e21,
+			2.51e21,
+			2.69e21,
+			2.88e21,
+			3.09e21,
+			3.31e21,
+			3.55e21,
+			3.8e21,
+			4.08e21,
+			4.37e21,
+			4.68e21,
+			5.01e21,
+			5.37e21,
+			5.75e21,
+			6.17e21,
+			6.61e21,
+			7.08e21,
+			7.59e21,
+			8.13e21,
+			8.71e21,
+			9.33e21,
+			1e22
+		}
+	},
+	T1O2 = {
+		Tab = "OfferTab1",
+		Slot = "Offer2",
+		Label = "Luck",
+		StatLabel = "Luck",
+		AttrKey = "UpgLuck",
+		MaxLevels = 160,
+		PerLevelPercent = 2.5,
+		MaxPercent = 400,
+		Costs = {
+			92600,
+			124000,
+			166000,
+			223000,
+			298000,
+			400000,
+			535000,
+			717000,
+			961000,
+			1290000,
+			1720000,
+			2310000,
+			3100000,
+			4150000,
+			5550000,
+			7440000,
+			9970000,
+			13400000,
+			17900000,
+			24000000,
+			32100000,
+			43000000,
+			57600000,
+			77200000,
+			103000000,
+			139000000,
+			186000000,
+			249000000,
+			333000000,
+			446000000,
+			598000000,
+			801000000,
+			1070000000,
+			1440000000,
+			1930000000,
+			2580000000,
+			3460000000,
+			4630000000,
+			6210000000,
+			8310000000,
+			11100000000,
+			14900000000,
+			20000000000,
+			26800000000,
+			35900000000,
+			48100000000,
+			64400000000,
+			86300000000,
+			116000000000,
+			155000000000,
+			207000000000,
+			278000000000,
+			372000000000,
+			499000000000,
+			668000000000,
+			895000000000,
+			1200000000000,
+			1610000000000,
+			2150000000000,
+			2880000000000,
+			3860000000000,
+			5180000000000,
+			6930000000000,
+			9290000000000,
+			12400000000000,
+			16700000000000,
+			22300000000000,
+			29900000000000,
+			40100000000000,
+			53700000000000,
+			71900000000000,
+			96400000000000,
+			129000000000000,
+			173000000000000,
+			232000000000000,
+			310000000000000,
+			416000000000000,
+			557000000000000,
+			746000000000000,
+			1000000000000000,
+			1260000000000000,
+			1580000000000000,
+			2000000000000000,
+			2510000000000000,
+			3160000000000000,
+			3980000000000000,
+			5010000000000000,
+			6310000000000000,
+			7940000000000000,
+			1e16,
+			1.26e16,
+			1.58e16,
+			2e16,
+			2.51e16,
+			3.16e16,
+			3.98e16,
+			5.01e16,
+			6.31e16,
+			7.94e16,
+			1e17,
+			1.08e17,
+			1.17e17,
+			1.27e17,
+			1.38e17,
+			1.5e17,
+			1.62e17,
+			1.76e17,
+			1.9e17,
+			2.06e17,
+			2.24e17,
+			2.42e17,
+			2.63e17,
+			2.85e17,
+			3.09e17,
+			3.34e17,
+			3.62e17,
+			3.93e17,
+			4.26e17,
+			4.61e17,
+			5e17,
+			7.86e17,
+			1.24e18,
+			1.94e18,
+			3.05e18,
+			4.8e18,
+			7.54e18,
+			1.18e19,
+			1.86e19,
+			2.93e19,
+			4.6e19,
+			7.23e19,
+			1.14e20,
+			1.79e20,
+			2.81e20,
+			4.41e20,
+			6.93e20,
+			1.09e21,
+			1.71e21,
+			2.69e21,
+			4.23e21,
+			6.65e21,
+			1.05e22,
+			1.64e22,
+			2.58e22,
+			4.06e22,
+			6.38e22,
+			1e23,
+			1.58e23,
+			2.48e23,
+			3.89e23,
+			6.12e23,
+			9.61e23,
+			1.51e24,
+			2.37e24,
+			3.73e24,
+			5.87e24,
+			9.22e24,
+			1.45e25,
+			2.28e25,
+			3.58e25
+		}
+	},
+	T2O1 = {
+		Tab = "OfferTab2",
+		Slot = "Offer1",
+		Label = "Mutation Chance",
+		StatLabel = "Mutations",
+		AttrKey = "UpgMutationChance",
+		MaxLevels = 15,
+		PerLevelPercent = 6.666666666666667,
+		MaxPercent = 100,
+		Costs = {
+			200000,
+			1000000,
+			250000000,
+			38500000000,
+			130000000000,
+			439000000000,
+			1480000000000,
+			5000000000000,
+			16900000000000,
+			57000000000000,
+			192000000000000,
+			650000000000000,
+			2190000000000000,
+			7400000000000000,
+			2.5e16
+		}
+	},
+	T2O2 = {
+		Tab = "OfferTab2",
+		Slot = "Offer2",
+		Label = "Better Mutations",
+		StatLabel = "Mutations",
+		AttrKey = "UpgBetterMutations",
+		MaxLevels = 20,
+		PerLevelPercent = 1,
+		MaxPercent = 20,
+		Costs = {
+			1000000000,
+			2070000000,
+			4280000000,
+			8860000000,
+			18300000000,
+			37900000000,
+			78500000000,
+			162000000000,
+			336000000000,
+			695000000000,
+			1440000000000,
+			2980000000000,
+			6160000000000,
+			12700000000000,
+			26400000000000,
+			54600000000000,
+			113000000000000,
+			234000000000000,
+			483000000000000,
+			1000000000000000
+		}
+	},
+	T2O3 = {
+		Tab = "OfferTab2",
+		Slot = "Offer3",
+		Label = "Cheaper Level Ups",
+		StatLabel = "Discount",
+		AttrKey = "UpgLevelDiscount",
+		MaxLevels = 10,
+		PerLevelPercent = 1,
+		MaxPercent = 10,
+		Costs = {
+			100000,
+			750000,
+			250000000,
+			1000000000,
+			1600000000000000,
+			7800000000000000,
+			3.9e16,
+			2e17,
+			9.8e17,
+			5e18
+		}
+	},
+	T3O1 = {
+		Tab = "OfferTab3",
+		Slot = "Offer1",
+		Label = "Offline Earnings",
+		StatLabel = "Earnings",
+		AttrKey = "UpgOfflineEarnings",
+		MaxLevels = 50,
+		PerLevelPercent = 1,
+		MaxPercent = 50,
+		Costs = {
+			10000000,
+			2000000000,
+			24200000000,
+			37600000000,
+			58500000000,
+			91000000000,
+			142000000000,
+			220000000000,
+			342000000000,
+			532000000000,
+			828000000000,
+			1290000000000,
+			2000000000000,
+			3110000000000,
+			4840000000000,
+			7530000000000,
+			11700000000000,
+			18200000000000,
+			28300000000000,
+			44100000000000,
+			68500000000000,
+			107000000000000,
+			166000000000000,
+			258000000000000,
+			401000000000000,
+			624000000000000,
+			970000000000000,
+			1510000000000000,
+			2350000000000000,
+			3650000000000000,
+			5670000000000000,
+			8820000000000000,
+			1.37e16,
+			2.13e16,
+			3.32e16,
+			5.16e16,
+			8.03e16,
+			1.25e17,
+			1.94e17,
+			3.02e17,
+			4.7e17,
+			7.3e17,
+			1.14e18,
+			1.77e18,
+			2.75e18,
+			4.27e18,
+			6.65e18,
+			1.03e19,
+			1.61e19,
+			2.5e19
+		}
+	},
+	T3O2 = {
+		Tab = "OfferTab3",
+		Slot = "Offer2",
+		Label = "Potion Time",
+		StatLabel = "Time",
+		AttrKey = "UpgPotionTime",
+		MaxLevels = 20,
+		PerLevelPercent = 1,
+		MaxPercent = 20,
+		Costs = {
+			2500000000000,
+			9040000000000,
+			32700000000000,
+			118000000000000,
+			427000000000000,
+			1540000000000000,
+			5570000000000000,
+			2.01e16,
+			7.28e16,
+			2.63e17,
+			9.51e17,
+			3.44e18,
+			1.24e19,
+			4.49e19,
+			1.62e20,
+			5.86e20,
+			2.12e21,
+			7.66e21,
+			2.77e22,
+			1e23
+		}
+	},
+	T3O3 = {
+		Tab = "OfferTab3",
+		Slot = "Offer3",
+		Label = "Faster Catch",
+		StatLabel = "Speed",
+		AttrKey = "UpgFasterCatch",
+		MaxLevels = 160,
+		PerLevelPercent = 1.25,
+		MaxPercent = 200,
+		Costs = {
+			112,
+			159,
+			224,
+			318,
+			449,
+			636,
+			900,
+			1270,
+			1800,
+			2550,
+			3610,
+			5110,
+			7230,
+			10200,
+			14500,
+			20500,
+			29000,
+			41100,
+			58100,
+			82300,
+			116000,
+			165000,
+			233000,
+			330000,
+			467000,
+			661000,
+			936000,
+			1320000,
+			1870000,
+			2650000,
+			3760000,
+			5310000,
+			7520000,
+			10600000,
+			15100000,
+			21300000,
+			30200000,
+			42700000,
+			60500000,
+			85600000,
+			121000000,
+			171000000,
+			243000000,
+			343000000,
+			486000000,
+			688000000,
+			973000000,
+			1380000000,
+			1950000000,
+			2760000000,
+			3900000000,
+			5530000000,
+			7820000000,
+			11100000000,
+			15700000000,
+			22200000000,
+			31400000000,
+			44400000000,
+			62900000000,
+			89000000000,
+			126000000000,
+			178000000000,
+			252000000000,
+			357000000000,
+			505000000000,
+			715000000000,
+			1010000000000,
+			1430000000000,
+			2030000000000,
+			2870000000000,
+			4060000000000,
+			5750000000000,
+			8130000000000,
+			11500000000000,
+			16300000000000,
+			23100000000000,
+			32600000000000,
+			46200000000000,
+			65400000000000,
+			92500000000000,
+			131000000000000,
+			185000000000000,
+			262000000000000,
+			371000000000000,
+			525000000000000,
+			743000000000000,
+			1050000000000000,
+			1490000000000000,
+			2110000000000000,
+			2980000000000000,
+			4220000000000000,
+			5970000000000000,
+			8460000000000000,
+			1.2e16,
+			1.69e16,
+			2.4e16,
+			3.39e16,
+			4.8e16,
+			6.8e16,
+			9.62e16,
+			1.36e17,
+			1.93e17,
+			2.73e17,
+			3.86e17,
+			5.46e17,
+			7.73e17,
+			1.09e18,
+			1.55e18,
+			2.19e18,
+			3.1e18,
+			4.39e18,
+			6.21e18,
+			8.79e18,
+			1.24e19,
+			1.76e19,
+			2.49e19,
+			3.53e19,
+			4.99e19,
+			7.07e19,
+			1e20,
+			1.26e20,
+			1.58e20,
+			2e20,
+			2.51e20,
+			3.16e20,
+			3.98e20,
+			5.01e20,
+			6.31e20,
+			7.94e20,
+			1e21,
+			1.26e21,
+			1.58e21,
+			2e21,
+			2.51e21,
+			3.16e21,
+			3.98e21,
+			5.01e21,
+			6.31e21,
+			7.94e21,
+			1e22,
+			1.26e22,
+			1.58e22,
+			2e22,
+			2.51e22,
+			3.16e22,
+			3.98e22,
+			5.01e22,
+			6.31e22,
+			7.94e22,
+			1e23,
+			1.26e23,
+			1.58e23,
+			2e23,
+			2.51e23,
+			3.16e23,
+			3.98e23,
+			5.01e23,
+			6.31e23,
+			7.94e23,
+			1e24
+		}
+	},
+	T4O1 = {
+		Tab = "OfferTab4",
+		Slot = "Offer1",
+		Label = "Secret Rarity Chance",
+		StatLabel = "Catch Rate",
+		AttrKey = "UpgSecretChance",
+		MaxLevels = 30,
+		PerLevelPercent = 10,
+		MaxPercent = 300,
+		CostBase = 250,
+		CostScale = 2
+	},
+	T4O2 = {
+		Tab = "OfferTab4",
+		Slot = "Offer2",
+		Label = "Rainbow Rarity Chance",
+		StatLabel = "Catch Rate",
+		AttrKey = "UpgRainbowChance",
+		MaxLevels = 30,
+		PerLevelPercent = 10,
+		MaxPercent = 300,
+		CostBase = 14000,
+		CostScale = 2
+	},
+	T4O3 = {
+		Tab = "OfferTab4",
+		Slot = "Offer3",
+		Label = "Ancient Rarity Chance",
+		StatLabel = "Catch Rate",
+		AttrKey = "UpgAncientChance",
+		MaxLevels = 40,
+		PerLevelPercent = 5,
+		MaxPercent = 200,
+		CostBase = 2000000,
+		CostScale = 2.190402105577382
+	},
+	T5O1 = {
+		Tab = "OfferTab5",
+		Slot = "Offer1",
+		Label = "God Rarity Chance",
+		StatLabel = "Catch Rate",
+		AttrKey = "UpgGodChance",
+		MaxLevels = 200,
+		PerLevelPercent = 100,
+		MaxPercent = 20000,
+		CostAnchors = {
+			{ 1, 1000000000000 },
+			{ 50, 20000000000000 },
+			{ 150, 1e17 },
+			{ 200, 4e20 }
+		}
+	},
+	T5O2 = {
+		Tab = "OfferTab5",
+		Slot = "Offer2",
+		Label = "Omniscient Rarity Chance",
+		StatLabel = "Catch Rate",
+		AttrKey = "UpgOmniscientChance",
+		MaxLevels = 400,
+		PerLevelPercent = 4.75,
+		MaxPercent = 1900,
+		CostBase = 1000,
+		CostScale = 1.128837891684689
+	}
+}
+t.DebugAnimations = false
+t.BaseSkins = {
+	{
+		Name = "Default Skin",
+		Rarity = "Common",
+		UnlockRebirth = 0,
+		UnlockText = "",
+		Colors = {}
+	},
+	{
+		Name = "Military Base",
+		Rarity = "Uncommon",
+		UnlockRebirth = 5,
+		UnlockText = "5 Rebirths!",
+		Colors = {
+			ColorableRebirth4 = Color3.fromRGB(15, 70, 3),
+			ColorableRebirth3 = Color3.fromRGB(105, 102, 92)
+		}
+	},
+	{
+		Name = "Night",
+		Rarity = "Uncommon",
+		UnlockRebirth = 10,
+		UnlockText = "10 Rebirths!",
+		Colors = {
+			ColorableRebirth4 = Color3.fromRGB(19, 14, 53),
+			ColorableRebirth3 = Color3.fromRGB(124, 124, 255)
+		}
+	},
+	{
+		Name = "Dojo Base",
+		Rarity = "Epic",
+		UnlockRebirth = 25,
+		UnlockText = "25 Rebirths!",
+		Colors = {
+			ColorableRebirth4 = Color3.fromRGB(117, 0, 0),
+			ColorableRebirth12 = Color3.fromRGB(86, 36, 36),
+			ColorableRebirth3 = Color3.fromRGB(86, 36, 36),
+			ColorableRebirth2 = Color3.fromRGB(74, 51, 51),
+			ColorableRebirth1 = Color3.fromRGB(165, 131, 131),
+			ColorableRebirth11 = Color3.fromRGB(117, 0, 0)
+		}
+	},
+	{
+		Name = "Electric Base",
+		Rarity = "Epic",
+		UnlockRebirth = 30,
+		UnlockText = "30 Rebirths!",
+		Colors = {
+			ColorableRebirth4 = Color3.fromRGB(13, 105, 172),
+			ColorableRebirth3 = Color3.fromRGB(69, 119, 255),
+			ColorableRebirth1 = Color3.fromRGB(116, 154, 165),
+			ColorableRebirth2 = Color3.fromRGB(0, 140, 205)
+		}
+	},
+	{
+		Name = "Yin Yang",
+		Rarity = "Exclusive",
+		Unobtainable = true,
+		UnlockRebirth = 0,
+		UnlockText = "Not Owned!",
+		Colors = {
+			ColorableRebirth1 = Color3.fromRGB(0, 0, 0),
+			ColorableRebirth2 = Color3.fromRGB(248, 248, 248),
+			ColorableRebirth3 = Color3.fromRGB(17, 17, 17),
+			ColorableRebirth4 = Color3.fromRGB(0, 0, 0),
+			ColorableRebirth5 = Color3.fromRGB(17, 17, 17),
+			ColorableRebirth6 = Color3.fromRGB(248, 248, 248),
+			ColorableRebirth9 = Color3.fromRGB(248, 248, 248),
+			ColorableRebirth11 = Color3.fromRGB(248, 248, 248),
+			ColorableRebirth12 = Color3.fromRGB(0, 0, 0),
+			ColorableRebirth13 = Color3.fromRGB(248, 248, 248),
+			ColorableRebirth15 = Color3.fromRGB(17, 17, 17)
+		}
+	},
+	{
+		Name = "Lunar Base",
+		Rarity = "Legendary",
+		UnlockRebirth = 50,
+		UnlockText = "50 Rebirths!",
+		Colors = {
+			ColorableRebirth4 = Color3.fromRGB(138, 0, 138),
+			ColorableRebirth3 = Color3.fromRGB(85, 0, 127),
+			ColorableRebirth2 = Color3.fromRGB(85, 85, 127),
+			ColorableRebirth1 = Color3.fromRGB(114, 96, 165),
+			ColorableRebirth12 = Color3.fromRGB(170, 0, 170),
+			ColorableRebirth6 = Color3.fromRGB(107, 50, 124)
+		}
+	}
+}
+t.Potions = t.Potions or {}
+t.Potions.MaxStackSeconds = 0
+t.Potions.Definitions = {
+	cash_2x = {
+		Type = "Cash",
+		Multiplier = 1.25,
+		DurationSeconds = 300,
+		ToolName = "Cash Potion Lvl. 1"
+	},
+	cash_4x = {
+		Type = "Cash",
+		Multiplier = 1.5,
+		DurationSeconds = 300,
+		ToolName = "Cash Potion Lvl. 2"
+	},
+	cash_8x = {
+		Type = "Cash",
+		Multiplier = 2,
+		DurationSeconds = 300,
+		ToolName = "Cash Potion Lvl. 3"
+	},
+	gems_2x = {
+		Type = "Gems",
+		Multiplier = 1.5,
+		DurationSeconds = 300,
+		ToolName = "Gems Potion Lvl. 1"
+	},
+	gems_4x = {
+		Type = "Gems",
+		Multiplier = 2,
+		DurationSeconds = 300,
+		ToolName = "Gems Potion Lvl. 2"
+	},
+	gems_8x = {
+		Type = "Gems",
+		Multiplier = 3,
+		DurationSeconds = 300,
+		ToolName = "Gems Potion Lvl. 3"
+	},
+	mutation_2x = {
+		Type = "Mutation",
+		Multiplier = 2,
+		DurationSeconds = 300,
+		ToolName = "Mutation Potion Lvl. 1"
+	},
+	fastcatch_2x = {
+		Type = "FastCatch",
+		Multiplier = 2,
+		DurationSeconds = 300,
+		ToolName = "Fast Catch Potion Lvl. 1"
+	},
+	luck_2x = {
+		Type = "Luck",
+		Multiplier = 2,
+		DurationSeconds = 300,
+		ToolName = "Luck Potion Lvl. 1"
+	},
+	HeavenCollide = {
+		Type = "HeavenCollide",
+		Multiplier = 1,
+		DurationSeconds = 300,
+		ToolName = "Heaven\'s Collide Potion"
+	},
+	Luck_L2 = {
+		Type = "Luck",
+		Multiplier = 4,
+		DurationSeconds = 300,
+		ToolName = "Luck Potion Lvl. 2"
+	},
+	Luck_L3 = {
+		Type = "Luck",
+		Multiplier = 10,
+		DurationSeconds = 120,
+		ToolName = "Luck Potion Lvl. 3",
+		GiftRebirthRequirement = 50
+	},
+	Meteorite = {
+		Type = "Meteorite",
+		Multiplier = 4,
+		DurationSeconds = 300,
+		ToolName = "Meteorite Potion"
+	},
+	CorruptionEffect = {
+		Type = "FastCatch",
+		Multiplier = 2,
+		DurationSeconds = 30,
+		ToolName = "Corrupted"
+	},
+	DreamEffect = {
+		Type = "Dream",
+		Multiplier = 1,
+		DurationSeconds = 30,
+		ToolName = "Dreamer"
+	},
+	PartyEffect = {
+		Type = "PartyMutate",
+		Multiplier = 1,
+		DurationSeconds = 30,
+		ToolName = "Party",
+		ForceType = "Party"
+	},
+	Honey = {
+		Type = "Honey",
+		Multiplier = 8,
+		DurationSeconds = 300,
+		ToolName = "Honey Potion"
+	},
+	Sinister = {
+		Type = "Sinister",
+		Multiplier = 2,
+		DurationSeconds = 300,
+		ToolName = "Sinister Potion"
+	},
+	EXE = {
+		Type = "LuckCharge",
+		ChargeBased = true,
+		LuckPerCharge = 20,
+		ToolName = "EXE Potion"
+	},
+	Forgotten = {
+		Type = "RarityCharge",
+		ChargeBased = true,
+		ForceRarity = "Ancient",
+		ToolName = "Forgotten Potion",
+		Rarity = "Ancient",
+		GiftRebirthRequirement = 20
+	},
+	CyberneticGlitch = {
+		Type = "EventTrigger",
+		TriggersEvent = "Cyberspace",
+		Multiplier = 1,
+		DurationSeconds = 300,
+		ToolName = "Cybernetic Glitch Potion",
+		Rarity = "Celestial",
+		GiftRebirthRequirement = 20
+	},
+	Dreamer = {
+		Type = "EventTrigger",
+		TriggersEvent = "Dreamspace",
+		Multiplier = 1,
+		DurationSeconds = 300,
+		ToolName = "Dreamer Potion",
+		Rarity = "Ascended",
+		GiftRebirthRequirement = 20
+	},
+	PartyPotion = {
+		Type = "EventTrigger",
+		TriggersEvent = "Party",
+		Multiplier = 1,
+		DurationSeconds = 300,
+		ToolName = "Party Potion",
+		Rarity = "Celestial",
+		GiftRebirthRequirement = 20
+	},
+	FastCatch_L2 = {
+		Type = "FastCatch",
+		Multiplier = 3,
+		DurationSeconds = 300,
+		ToolName = "Fast Catch Potion Lvl. 2",
+		Rarity = "Epic"
+	},
+	RealizationEffect = {
+		Type = "FastCatch",
+		Multiplier = 5,
+		DurationSeconds = 10,
+		ToolName = "Realization"
+	},
+	SacrificationEffect = {
+		Type = "Luck",
+		Multiplier = 10,
+		DurationSeconds = 30,
+		ToolName = "Sacrification",
+		ForceType = "Solar"
+	},
+	ForgottenEffect = {
+		Type = "FastCatch",
+		Multiplier = 50,
+		DurationSeconds = 15,
+		ToolName = "Forgotten"
+	},
+	RebornEffect = {
+		Type = "Reborn",
+		WalkSpeedAdd = 20,
+		JumpAdd = 100,
+		DurationSeconds = 600,
+		ToolName = "Reborn",
+		TimerTextOverride = "????",
+		Multipliers = {
+			Luck = 20,
+			FastCatch = 10
+		}
+	}
+}
+
+for k, v in pairs(t.Potions.Definitions) do
+	if type(v) == "table" and (tonumber(v.GiftRebirthRequirement) or 0) < 20 then
+		v.GiftRebirthRequirement = 20
+	end
+end
+
+t.Potions.StarDisplay.Forgotten = {
+	Count = 4,
+	Gradient = "God",
+	Color = Color3.fromRGB(255, 255, 255)
+}
+t.Potions.StarDisplay.CyberneticGlitch = {
+	Count = 3,
+	Gradient = "God",
+	Color = Color3.fromRGB(255, 255, 255)
+}
+t.Potions.StarDisplay.Dreamer = {
+	Count = 5,
+	Gradient = "Evolved",
+	Color = Color3.fromRGB(255, 255, 255)
+}
+t.Potions.StarDisplay.FastCatch_L2 = {
+	Count = 4
+}
+t.Potions.StarDisplay.PartyPotion = {
+	Count = 3,
+	Gradient = "God",
+	Color = Color3.fromRGB(255, 255, 255)
+}
+t.BoostsStore = t.BoostsStore or {}
+t.BoostsStore.RestockIntervalSeconds = 300
+t.BoostsStore.Offers = {
+	Offer1 = {
+		PotionKey = "cash_2x",
+		DevProductId = 3540562816,
+		Title = "Cash Potion Lvl. 1",
+		Benefits = "2x Cash for 5 Min",
+		CashCost = 7500,
+		GemsCost = 50,
+		RestockChance = 3,
+		RestockChanceDenom = 8,
+		RestockMin = 1,
+		RestockMax = 3
+	},
+	Offer2 = {
+		PotionKey = "cash_4x",
+		DevProductId = 3540563037,
+		Title = "Cash Potion Lvl. 2",
+		Benefits = "4x Cash for 5 Min",
+		CashCost = 20000000000,
+		GemsCost = 2000,
+		RestockChance = 1,
+		RestockChanceDenom = 4,
+		RestockMin = 1,
+		RestockMax = 2
+	},
+	Offer3 = {
+		PotionKey = "cash_8x",
+		DevProductId = 3540563165,
+		Title = "Cash Potion Lvl. 3",
+		Benefits = "8x Cash for 5 Min",
+		CashCost = 1e16,
+		GemsCost = 10000,
+		RestockChance = 1,
+		RestockChanceDenom = 8,
+		RestockMin = 1,
+		RestockMax = 2
+	},
+	Offer4 = {
+		PotionKey = "gems_2x",
+		DevProductId = 3540563378,
+		Title = "Gems Potion Lvl. 1",
+		Benefits = "1.5x Gems for 5 Min",
+		CashCost = 15000000,
+		GemsCost = 150,
+		RestockChance = 3,
+		RestockChanceDenom = 8,
+		RestockMin = 1,
+		RestockMax = 3
+	},
+	Offer5 = {
+		PotionKey = "gems_4x",
+		DevProductId = 3540563496,
+		Title = "Gems Potion Lvl. 2",
+		Benefits = "2x Gems for 5 Min",
+		CashCost = 30000000000,
+		GemsCost = 1500,
+		RestockChance = 1,
+		RestockChanceDenom = 4,
+		RestockMin = 1,
+		RestockMax = 2
+	},
+	Offer6 = {
+		PotionKey = "gems_8x",
+		DevProductId = 3540563719,
+		Title = "Gems Potion Lvl. 3",
+		Benefits = "3x Gems for 5 Min",
+		CashCost = 1.5e16,
+		GemsCost = 7500,
+		RestockChance = 1,
+		RestockChanceDenom = 8,
+		RestockMin = 1,
+		RestockMax = 1
+	},
+	Offer7 = {
+		PotionKey = "mutation_2x",
+		DevProductId = 3545568290,
+		Title = "Mutation Potion",
+		Benefits = "2x Mutation for 5 Min",
+		CashCost = 50000000000000,
+		GemsCost = 500,
+		RestockChance = 1,
+		RestockChanceDenom = 4,
+		RestockMin = 1,
+		RestockMax = 2
+	},
+	Offer8 = {
+		PotionKey = "fastcatch_2x",
+		DevProductId = 3545569372,
+		Title = "Fast Catch Potion",
+		Benefits = "2x Catch Speed for 5 Min",
+		CashCost = 2500000,
+		GemsCost = 100,
+		RestockChance = 1,
+		RestockChanceDenom = 4,
+		RestockMin = 1,
+		RestockMax = 2
+	},
+	Offer9 = {
+		PotionKey = "luck_2x",
+		DevProductId = 3545573078,
+		Title = "Luck Potion Lvl. 1",
+		Benefits = "2x Luck for 5 Min",
+		CashCost = 10000000000,
+		GemsCost = 250,
+		RestockChance = 1,
+		RestockChanceDenom = 4,
+		RestockMin = 1,
+		RestockMax = 2
+	}
+}
+t.ClanConfig = {
+	CreateGemsCost = 20000,
+	CreateRobuxProductId = 3604658943,
+	EditGemsCost = 100,
+	DefaultDecalId = "rbxassetid://5647507800",
+	MaxNameLength = 20,
+	MaxTagLength = 10,
+	MaxDescriptionLength = 150,
+	MaxRebirthRequirement = 10000,
+	MaxCoLeaders = 5,
+	QuestRefreshSeconds = 86400,
+	BrowsePageSize = 6,
+	MemberCPSFlushSecs = 300,
+	QuestContribFlushSecs = 300,
+	ClanRankCacheSecs = 120,
+	ClanCacheSecs = 300,
+	ClanSaveIntervalSecs = 300,
+	JoinCooldownSecs = 60,
+	InviteCooldownSecs = 5,
+	GlobalStatsCacheSecs = 300,
+	GlobalPlayersBase = 0
+}
+t.ClanLevelCosts = {
+	10,
+	25,
+	50,
+	100,
+	150,
+	175,
+	200,
+	250,
+	275,
+	300,
+	350,
+	400,
+	450,
+	475,
+	500,
+	600,
+	700,
+	800,
+	900,
+	1000,
+	1100,
+	1200,
+	1300,
+	1400,
+	1500,
+	1750,
+	2000,
+	2250,
+	2500,
+	3000,
+	3250,
+	3500,
+	3750,
+	4000,
+	4500,
+	4750,
+	5000,
+	5250,
+	5500,
+	6000,
+	6250,
+	6500,
+	6750,
+	7000,
+	7250,
+	7500,
+	7750,
+	8000,
+	8500,
+	10000
+}
+t.ClanMemberCaps = {
+	{
+		level = 0,
+		cap = 10
+	},
+	{
+		level = 5,
+		cap = 15
+	},
+	{
+		level = 10,
+		cap = 20
+	},
+	{
+		level = 15,
+		cap = 30
+	},
+	{
+		level = 20,
+		cap = 40
+	},
+	{
+		level = 25,
+		cap = 50
+	},
+	{
+		level = 30,
+		cap = 55
+	},
+	{
+		level = 35,
+		cap = 60
+	},
+	{
+		level = 40,
+		cap = 65
+	},
+	{
+		level = 50,
+		cap = 70
+	}
+}
+
+local function cqC(p1, p2) --[[ cqC | Line: 12948 ]]
+	return "<font color=\"" .. p2 .. "\">" .. tostring(p1) .. "</font>"
+end
+
+local t12 = { "rgb(255,0,0)", "rgb(255,127,0)", "rgb(255,255,0)", "rgb(0,200,0)", "rgb(0,127,255)", "rgb(75,0,200)", "rgb(148,0,211)" }
+
+local function cqRainbow(p1) --[[ cqRainbow | Line: 12965 | Upvalues: t12 (copy) ]]
+	local t = {}
+	local count = 0
+
+	for v1, v2 in utf8.codes(p1) do
+		local v3 = utf8.char(v2)
+
+		if v3 == " " then
+			t[#t + 1] = " "
+
+			continue
+		end
+
+		t[#t + 1] = "<font color=\"" .. t12[count % #t12 + 1] .. "\">" .. tostring(v3) .. "</font>"
+		count = count + 1
+	end
+
+	return table.concat(t)
+end
+
+local t13 = {
+	{ 1000000000000, "T" },
+	{ 1000000000, "B" },
+	{ 1000000, "M" },
+	{ 1000, "K" }
+}
+
+local function cqFood(p1) --[[ cqFood | Line: 12994 | Upvalues: t13 (copy) ]]
+	local v1 = tonumber(p1) or 0
+
+	for i, v in ipairs(t13) do
+		if v[1] <= v1 then
+			local v2 = v1 / v[1]
+
+			if v2 == math.floor(v2) then
+				return string.format("%d%s", v2, v[2])
+			end
+
+			return string.format("%.1f%s", v2, v[2])
+		end
+	end
+
+	return tostring((math.floor(v1)))
+end
+
+local function cqComma(p1) --[[ cqComma | Line: 13017 ]]
+	return tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "")
+end
+
+local t14 = {
+	luck_2x = "2x Luck Potion",
+	Luck_L2 = "4x Luck Potion",
+	fastcatch_2x = "Fast Catch Potion Lvl. 1"
+}
+
+local function cqCharText(p1) --[[ cqCharText | Line: 13039 ]]
+	local v2 = tostring(p1.Rarity or "")
+
+	if p1.Type and p1.Type ~= "" then
+		return v2 .. " " .. tostring(p1.Type) .. " Character"
+	end
+
+	return v2 .. " Character"
+end
+
+local function cqReward(p1) --[[ cqReward | Line: 13056 | Upvalues: cqFood (copy), t14 (copy) ]]
+	local t = {}
+
+	if p1.Gems and p1.Gems > 0 then
+		t[#t + 1] = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("+" .. tostring((math.floor(tonumber(p1.Gems) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Gems") .. "</font>"
+	end
+
+	if p1.Exp and p1.Exp > 0 then
+		t[#t + 1] = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("+" .. p1.Exp .. " EXP") .. "</font>"
+	end
+
+	if p1.Food and p1.Food > 0 then
+		t[#t + 1] = "<font color=\"" .. "rgb(255,170,0)" .. "\">" .. tostring("+" .. cqFood(p1.Food) .. " Food") .. "</font>"
+	end
+
+	if p1.Potion then
+		t[#t + 1] = "<font color=\"" .. "rgb(255,105,180)" .. "\">" .. tostring("+" .. p1.Potion.Count .. " " .. (t14[p1.Potion.Id] or "Potion")) .. "</font>"
+	end
+
+	if p1.Char then
+		local Char = p1.Char
+		local v9 = tostring(Char.Rarity or "")
+
+		t[#t + 1] = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(if Char.Type and Char.Type ~= "" then v9 .. " " .. tostring(Char.Type) .. " Character" else v9 .. " Character") .. "</font>"
+	end
+
+	return table.concat(t, "<font color=\"" .. "rgb(255,255,255)" .. "\">" .. tostring(" / ") .. "</font>")
+end
+
+local function dFishing(p1) --[[ dFishing | Line: 13077 ]]
+	local v1 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Character") .. "</font>"
+	local v2 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Any Pond") .. "</font>"
+
+	return "Catch any " .. v1 .. " from " .. v2 .. " " .. tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. "x Times"
+end
+
+local function dIced(p1) --[[ dIced | Line: 13079 ]]
+	local v1 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Ice!") .. "</font>"
+	local v2 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>"
+
+	return "There is never enough " .. v1 .. " " .. v2 .. " " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("+" .. tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Gems") .. "</font>"
+end
+
+local function dFarmer(p1) --[[ dFarmer | Line: 13081 ]]
+	return "Collect total " .. ("<font color=\"" .. "rgb(255,170,0)" .. "\">" .. tostring(p1) .. "</font>") .. " of Food!"
+end
+
+local function dPlaytime(p1) --[[ dPlaytime | Line: 13083 ]]
+	return "Play the Game for " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring(p1) .. "</font>") .. "!"
+end
+
+local function dThirsty(p1) --[[ dThirsty | Line: 13085 ]]
+	return "Drink total of " .. "<font color=\"" .. "rgb(255,105,180)" .. "\">" .. tostring(tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Potions!") .. "</font>"
+end
+
+local function dLevelUp(p1) --[[ dLevelUp | Line: 13087 ]]
+	local v1 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Level Up") .. "</font>"
+
+	return v1 .. " any Character " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Times!") .. "</font>"
+end
+
+local function dBusiness(p1) --[[ dBusiness | Line: 13089 ]]
+	return "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring(p1) .. "</font>") .. " total Cash!"
+end
+
+local function dRainbow(p1) --[[ dRainbow | Line: 13091 | Upvalues: cqRainbow (copy) ]]
+	return "Catch total of " .. cqRainbow(tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Rainbow Characters!")
+end
+
+local function dCelestial(p1) --[[ dCelestial | Line: 13093 ]]
+	return "Catch total of " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring(tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Celestial Characters!") .. "</font>"
+end
+
+local function dAncient(p1) --[[ dAncient | Line: 13095 ]]
+	return "Catch total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Ancient Characters!") .. "</font>"
+end
+
+local function dHunt(p1) --[[ dHunt | Line: 13097 ]]
+	return "Pick up and collect total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters!") .. "</font>"
+end
+
+local function dLunar(p1) --[[ dLunar | Line: 13099 ]]
+	local v3 = tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters"
+
+	return "Catch " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(v3) .. "</font>") .. " with the type " .. "<font color=\"" .. "rgb(200,120,255)" .. "\">" .. tostring("[Lunar]") .. "</font>"
+end
+
+local t15 = {}
+local t16 = {
+	Title = "Fishing",
+	Order = 1,
+	Stat = "fishCatch",
+	Fmt = "count"
+}
+local t17 = {}
+local t18 = {
+	W = 25,
+	Goal = 50000,
+	Exp = 50,
+	Gems = 100
+}
+local v83 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Character") .. "</font>"
+local v84 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Any Pond") .. "</font>"
+
+t18.Desc = "Catch any " .. v83 .. " from " .. v84 .. " " .. tostring((math.floor(tonumber(50000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. "x Times"
+
+local t19 = {
+	W = 25,
+	Goal = 100000,
+	Exp = 100,
+	Gems = 250
+}
+local v87 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Character") .. "</font>"
+local v88 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Any Pond") .. "</font>"
+
+t19.Desc = "Catch any " .. v87 .. " from " .. v88 .. " " .. tostring((math.floor(tonumber(100000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. "x Times"
+t19.Char = {
+	Rarity = "Legendary"
+}
+
+local t20 = {
+	W = 25,
+	Goal = 200000,
+	Exp = 125,
+	Gems = 300
+}
+local v91 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Character") .. "</font>"
+local v92 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Any Pond") .. "</font>"
+
+t20.Desc = "Catch any " .. v91 .. " from " .. v92 .. " " .. tostring((math.floor(tonumber(200000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. "x Times"
+t20.Potion = {
+	Id = "luck_2x",
+	Count = 1
+}
+
+local t21 = {
+	W = 25,
+	Goal = 500000,
+	Exp = 150,
+	Gems = 350
+}
+local v95 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Character") .. "</font>"
+local v96 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Any Pond") .. "</font>"
+
+t21.Desc = "Catch any " .. v95 .. " from " .. v96 .. " " .. tostring((math.floor(tonumber(500000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. "x Times"
+t21.Potion = {
+	Id = "Luck_L2",
+	Count = 1
+}
+t17[1] = t18
+t17[2] = t19
+t17[3] = t20
+t17[4] = t21
+t16.Variants = t17
+t15.Fishing = t16
+
+local t22 = {
+	Title = "Iced Out",
+	Order = 2,
+	Stat = "gemsCollect",
+	Fmt = "count"
+}
+local t23 = {}
+local t24 = {
+	W = 25,
+	Goal = 100000,
+	Exp = 50,
+	Food = 1000000
+}
+local v99 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Ice!") .. "</font>"
+local v100 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>"
+
+t24.Desc = "There is never enough " .. v99 .. " " .. v100 .. " " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("+" .. tostring((math.floor(tonumber(100000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Gems") .. "</font>"
+
+local t25 = {
+	W = 25,
+	Goal = 500000,
+	Exp = 100,
+	Food = 5000000
+}
+local v104 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Ice!") .. "</font>"
+local v105 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>"
+
+t25.Desc = "There is never enough " .. v104 .. " " .. v105 .. " " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("+" .. tostring((math.floor(tonumber(500000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Gems") .. "</font>"
+
+local t26 = {
+	W = 25,
+	Goal = 1000000,
+	Exp = 125,
+	Food = 10000000
+}
+local v109 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Ice!") .. "</font>"
+local v110 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>"
+
+t26.Desc = "There is never enough " .. v109 .. " " .. v110 .. " " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("+" .. tostring((math.floor(tonumber(1000000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Gems") .. "</font>"
+
+local t27 = {
+	W = 25,
+	Goal = 10000000,
+	Exp = 200,
+	Food = 25000000
+}
+local v114 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Ice!") .. "</font>"
+local v115 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>"
+
+t27.Desc = "There is never enough " .. v114 .. " " .. v115 .. " " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("+" .. tostring((math.floor(tonumber(10000000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Gems") .. "</font>"
+t27.Char = {
+	Rarity = "Secret"
+}
+t23[1] = t24
+t23[2] = t25
+t23[3] = t26
+t23[4] = t27
+t22.Variants = t23
+t15.IcedOut = t22
+t15.RebornClan = {
+	Title = "Reborn",
+	Order = 3,
+	Stat = "rebirth",
+	Fmt = "count",
+	Variants = {
+		{
+			W = 100,
+			Goal = 25,
+			Exp = 25,
+			Gems = 50,
+			Desc = ("<font color=\"" .. "rgb(200,120,255)" .. "\">" .. tostring("Rebirthing") .. "</font>") .. " is always a great way to Restart!"
+		}
+	}
+}
+t15.Farmer = {
+	Title = "Farmer",
+	Order = 4,
+	Stat = "foodCollect",
+	Fmt = "food",
+	Variants = {
+		{
+			W = 25,
+			Goal = 25000000,
+			Exp = 25,
+			Gems = 50,
+			Desc = "Collect total " .. ("<font color=\"" .. "rgb(255,170,0)" .. "\">" .. tostring("25M") .. "</font>") .. " of Food!"
+		},
+		{
+			W = 25,
+			Goal = 100000000,
+			Exp = 50,
+			Gems = 100,
+			Desc = "Collect total " .. ("<font color=\"" .. "rgb(255,170,0)" .. "\">" .. tostring("100M") .. "</font>") .. " of Food!"
+		},
+		{
+			W = 25,
+			Goal = 500000000,
+			Exp = 75,
+			Gems = 200,
+			Desc = "Collect total " .. ("<font color=\"" .. "rgb(255,170,0)" .. "\">" .. tostring("500M") .. "</font>") .. " of Food!"
+		},
+		{
+			W = 12.5,
+			Goal = 1000000000,
+			Exp = 125,
+			Gems = 300,
+			Desc = "Collect total " .. ("<font color=\"" .. "rgb(255,170,0)" .. "\">" .. tostring("1B") .. "</font>") .. " of Food!"
+		},
+		{
+			W = 12.5,
+			Goal = 100000000000,
+			Exp = 250,
+			Gems = 1000,
+			Desc = "Collect total " .. ("<font color=\"" .. "rgb(255,170,0)" .. "\">" .. tostring("100B") .. "</font>") .. " of Food!",
+			Char = {
+				Rarity = "Rainbow"
+			}
+		}
+	}
+}
+t15.Login = {
+	Title = "Login",
+	Order = 5,
+	Stat = "login",
+	Fmt = "count",
+	Variants = {
+		{
+			W = 100,
+			Goal = 0.75,
+			Exp = 50,
+			Gems = 100,
+			Desc = "Make " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("75%") .. "</font>") .. " of your clan " .. ("<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Login") .. "</font>") .. " atleast once!"
+		}
+	}
+}
+t15.Playtime = {
+	Title = "Playtime",
+	Order = 6,
+	Stat = "playtime",
+	Fmt = "hours",
+	Variants = {
+		{
+			W = 50,
+			Goal = 15000,
+			Exp = 25,
+			Gems = 100,
+			Desc = "Play the Game for " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("250 Hours") .. "</font>") .. "!"
+		},
+		{
+			W = 50,
+			Goal = 30000,
+			Exp = 75,
+			Gems = 200,
+			Desc = "Play the Game for " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("500 Hours") .. "</font>") .. "!"
+		}
+	}
+}
+
+local t28 = {
+	Title = "Thirsty",
+	Order = 7,
+	Stat = "potion",
+	Fmt = "count"
+}
+local t29 = {}
+local t30 = {
+	W = 25,
+	Goal = 100,
+	Exp = 10,
+	Gems = 20
+}
+
+t30.Desc = "Drink total of " .. "<font color=\"" .. "rgb(255,105,180)" .. "\">" .. tostring(tostring((math.floor(tonumber(100) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Potions!") .. "</font>"
+
+local t31 = {
+	W = 25,
+	Goal = 250,
+	Exp = 30,
+	Gems = 50
+}
+
+t31.Desc = "Drink total of " .. "<font color=\"" .. "rgb(255,105,180)" .. "\">" .. tostring(tostring((math.floor(tonumber(250) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Potions!") .. "</font>"
+
+local t32 = {
+	W = 25,
+	Goal = 500,
+	Exp = 50,
+	Gems = 100
+}
+
+t32.Desc = "Drink total of " .. "<font color=\"" .. "rgb(255,105,180)" .. "\">" .. tostring(tostring((math.floor(tonumber(500) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Potions!") .. "</font>"
+
+local t33 = {
+	W = 12.5,
+	Goal = 1000,
+	Exp = 75,
+	Gems = 150
+}
+
+t33.Desc = "Drink total of " .. "<font color=\"" .. "rgb(255,105,180)" .. "\">" .. tostring(tostring((math.floor(tonumber(1000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Potions!") .. "</font>"
+
+local t34 = {
+	W = 10,
+	Goal = 2500,
+	Exp = 150,
+	Gems = 500
+}
+
+t34.Desc = "Drink total of " .. "<font color=\"" .. "rgb(255,105,180)" .. "\">" .. tostring(tostring((math.floor(tonumber(2500) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Potions!") .. "</font>"
+
+local t35 = {
+	W = 2.5,
+	Goal = 10000,
+	Exp = 300,
+	Gems = 2500
+}
+
+t35.Desc = "Drink total of " .. "<font color=\"" .. "rgb(255,105,180)" .. "\">" .. tostring(tostring((math.floor(tonumber(10000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Potions!") .. "</font>"
+t35.Char = {
+	Rarity = "Rainbow"
+}
+t29[1] = t30
+t29[2] = t31
+t29[3] = t32
+t29[4] = t33
+t29[5] = t34
+t29[6] = t35
+t28.Variants = t29
+t15.Thirsty = t28
+
+local t36 = {
+	Title = "Level Up!",
+	Order = 8,
+	Stat = "levelup",
+	Fmt = "count"
+}
+local t37 = {}
+local t38 = {
+	W = 25,
+	Goal = 1000,
+	Exp = 20,
+	Gems = 50
+}
+local v137 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Level Up") .. "</font>"
+
+t38.Desc = v137 .. " any Character " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(1000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Times!") .. "</font>"
+
+local t39 = {
+	W = 25,
+	Goal = 12500,
+	Exp = 40,
+	Gems = 100
+}
+local v141 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Level Up") .. "</font>"
+
+t39.Desc = v141 .. " any Character " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(12500) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Times!") .. "</font>"
+
+local t40 = {
+	W = 25,
+	Goal = 25000,
+	Exp = 75,
+	Gems = 125,
+	Food = 1000000
+}
+local v145 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Level Up") .. "</font>"
+
+t40.Desc = v145 .. " any Character " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(25000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Times!") .. "</font>"
+
+local t41 = {
+	W = 20,
+	Goal = 50000,
+	Exp = 150,
+	Gems = 200,
+	Food = 5000000
+}
+local v149 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Level Up") .. "</font>"
+
+t41.Desc = v149 .. " any Character " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(50000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Times!") .. "</font>"
+
+local t42 = {
+	W = 5,
+	Goal = 100000,
+	Exp = 200,
+	Gems = 500,
+	Food = 10000000
+}
+local v153 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Level Up") .. "</font>"
+
+t42.Desc = v153 .. " any Character " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(100000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Times!") .. "</font>"
+t37[1] = t38
+t37[2] = t39
+t37[3] = t40
+t37[4] = t41
+t37[5] = t42
+t36.Variants = t37
+t15.LevelUp = t36
+t15.Business = {
+	Title = "Business",
+	Order = 9,
+	Stat = "cash",
+	Fmt = "cash",
+	Variants = {
+		{
+			W = 25,
+			Goal = 1000000000000,
+			Exp = 10,
+			Gems = 10,
+			Desc = "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("1T") .. "</font>") .. " total Cash!"
+		},
+		{
+			W = 25,
+			Goal = 100000000000000,
+			Exp = 20,
+			Gems = 50,
+			Desc = "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("100T") .. "</font>") .. " total Cash!"
+		},
+		{
+			W = 20,
+			Goal = 1000000000000000,
+			Exp = 25,
+			Gems = 75,
+			Desc = "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("1Qa") .. "</font>") .. " total Cash!"
+		},
+		{
+			W = 12.5,
+			Goal = 2.5e17,
+			Exp = 75,
+			Gems = 200,
+			Desc = "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("250Qa") .. "</font>") .. " total Cash!"
+		},
+		{
+			W = 10,
+			Goal = 1e18,
+			Exp = 100,
+			Gems = 300,
+			Desc = "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("1Qi") .. "</font>") .. " total Cash!"
+		},
+		{
+			W = 5,
+			Goal = 1e20,
+			Exp = 125,
+			Gems = 400,
+			Desc = "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("100Qi") .. "</font>") .. " total Cash!"
+		},
+		{
+			W = 2,
+			Goal = 1e21,
+			Exp = 200,
+			Gems = 1000,
+			Food = 20000000,
+			Desc = "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("1Sx") .. "</font>") .. " total Cash!"
+		},
+		{
+			W = 0.5,
+			Goal = 1e23,
+			Exp = 500,
+			Gems = 2500,
+			Food = 50000000,
+			Desc = "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("100Sx") .. "</font>") .. " total Cash!"
+		}
+	}
+}
+
+local t43 = {
+	Title = "Rainbow and Sunshine",
+	Order = 10,
+	Stat = "rainbowCatch",
+	Fmt = "count"
+}
+local t44 = {}
+local t45 = {
+	W = 25,
+	Goal = 10,
+	Exp = 10,
+	Gems = 50
+}
+
+t45.Desc = "Catch total of " .. cqRainbow(tostring((math.floor(tonumber(10) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Rainbow Characters!")
+
+local t46 = {
+	W = 25,
+	Goal = 100,
+	Exp = 25,
+	Gems = 100
+}
+
+t46.Desc = "Catch total of " .. cqRainbow(tostring((math.floor(tonumber(100) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Rainbow Characters!")
+
+local t47 = {
+	W = 25,
+	Goal = 500,
+	Exp = 50,
+	Gems = 200
+}
+
+t47.Desc = "Catch total of " .. cqRainbow(tostring((math.floor(tonumber(500) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Rainbow Characters!")
+
+local t48 = {
+	W = 12.5,
+	Goal = 1000,
+	Exp = 75,
+	Gems = 300
+}
+
+t48.Desc = "Catch total of " .. cqRainbow(tostring((math.floor(tonumber(1000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Rainbow Characters!")
+
+local t49 = {
+	W = 10,
+	Goal = 2500,
+	Exp = 100,
+	Gems = 400
+}
+
+t49.Desc = "Catch total of " .. cqRainbow(tostring((math.floor(tonumber(2500) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Rainbow Characters!")
+
+local t50 = {
+	W = 2.5,
+	Goal = 10000,
+	Exp = 150,
+	Gems = 500
+}
+
+t50.Desc = "Catch total of " .. cqRainbow(tostring((math.floor(tonumber(10000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Rainbow Characters!")
+t50.Potion = {
+	Id = "fastcatch_2x",
+	Count = 10
+}
+t44[1] = t45
+t44[2] = t46
+t44[3] = t47
+t44[4] = t48
+t44[5] = t49
+t44[6] = t50
+t43.Variants = t44
+t15.RainbowSunshine = t43
+
+local t51 = {
+	Title = "Celestial Dream",
+	Order = 11,
+	Stat = "celestialCatch",
+	Fmt = "count"
+}
+local t52 = {}
+local t53 = {
+	W = 50,
+	Goal = 10,
+	Exp = 50,
+	Gems = 100
+}
+
+t53.Desc = "Catch total of " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring(tostring((math.floor(tonumber(10) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Celestial Characters!") .. "</font>"
+
+local t54 = {
+	W = 25,
+	Goal = 25,
+	Exp = 75,
+	Gems = 200
+}
+
+t54.Desc = "Catch total of " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring(tostring((math.floor(tonumber(25) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Celestial Characters!") .. "</font>"
+
+local t55 = {
+	W = 25,
+	Goal = 100,
+	Exp = 125,
+	Gems = 300
+}
+
+t55.Desc = "Catch total of " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring(tostring((math.floor(tonumber(100) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Celestial Characters!") .. "</font>"
+t52[1] = t53
+t52[2] = t54
+t52[3] = t55
+t51.Variants = t52
+t15.CelestialDream = t51
+
+local t56 = {
+	Title = "Ancient Tales",
+	Order = 12,
+	Stat = "ancientCatch",
+	Fmt = "count"
+}
+local t57 = {}
+local t58 = {
+	W = 50,
+	Goal = 1,
+	Exp = 50,
+	Gems = 200
+}
+
+t58.Desc = "Catch total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Ancient Characters!") .. "</font>"
+
+local t59 = {
+	W = 25,
+	Goal = 3,
+	Exp = 75,
+	Gems = 300
+}
+
+t59.Desc = "Catch total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(3) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Ancient Characters!") .. "</font>"
+
+local t60 = {
+	W = 25,
+	Goal = 5,
+	Exp = 100,
+	Gems = 500
+}
+
+t60.Desc = "Catch total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(5) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Ancient Characters!") .. "</font>"
+t57[1] = t58
+t57[2] = t59
+t57[3] = t60
+t56.Variants = t57
+t15.AncientTales = t56
+
+local t61 = {
+	Title = "The Hunt!",
+	Order = 13,
+	Stat = "carryPickup",
+	Fmt = "count"
+}
+local t62 = {}
+local t63 = {
+	W = 25,
+	Goal = 100,
+	Exp = 20,
+	Gems = 50
+}
+
+t63.Desc = "Pick up and collect total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(100) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters!") .. "</font>"
+
+local t64 = {
+	W = 25,
+	Goal = 250,
+	Exp = 30,
+	Gems = 100
+}
+
+t64.Desc = "Pick up and collect total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(250) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters!") .. "</font>"
+
+local t65 = {
+	W = 25,
+	Goal = 500,
+	Exp = 40,
+	Food = 200000
+}
+
+t65.Desc = "Pick up and collect total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(500) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters!") .. "</font>"
+
+local t66 = {
+	W = 12.5,
+	Goal = 1000,
+	Exp = 50,
+	Food = 500000
+}
+
+t66.Desc = "Pick up and collect total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(1000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters!") .. "</font>"
+
+local t67 = {
+	W = 12.5,
+	Goal = 5000,
+	Exp = 75,
+	Food = 1000000
+}
+
+t67.Desc = "Pick up and collect total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(5000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters!") .. "</font>"
+t62[1] = t63
+t62[2] = t64
+t62[3] = t65
+t62[4] = t66
+t62[5] = t67
+t61.Variants = t62
+t15.TheHunt = t61
+
+local t68 = {
+	Title = "Lunar Star",
+	Order = 14,
+	Stat = "lunarCatch",
+	Fmt = "count"
+}
+local t69 = {}
+local t70 = {
+	W = 25,
+	Goal = 25,
+	Exp = 20,
+	Gems = 100
+}
+local v204 = tostring((math.floor(tonumber(25) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters"
+
+t70.Desc = "Catch " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(v204) .. "</font>") .. " with the type " .. "<font color=\"" .. "rgb(200,120,255)" .. "\">" .. tostring("[Lunar]") .. "</font>"
+
+local t71 = {
+	W = 25,
+	Goal = 100,
+	Exp = 40
+}
+local v207 = tostring((math.floor(tonumber(100) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters"
+
+t71.Desc = "Catch " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(v207) .. "</font>") .. " with the type " .. "<font color=\"" .. "rgb(200,120,255)" .. "\">" .. tostring("[Lunar]") .. "</font>"
+t71.Char = {
+	Rarity = "Legendary",
+	Type = "Lunar"
+}
+
+local t72 = {
+	W = 25,
+	Goal = 200,
+	Exp = 50
+}
+local v210 = tostring((math.floor(tonumber(200) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters"
+
+t72.Desc = "Catch " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(v210) .. "</font>") .. " with the type " .. "<font color=\"" .. "rgb(200,120,255)" .. "\">" .. tostring("[Lunar]") .. "</font>"
+t72.Char = {
+	Rarity = "Mythical",
+	Type = "Lunar"
+}
+
+local t73 = {
+	W = 25,
+	Goal = 500,
+	Exp = 75
+}
+local v213 = tostring((math.floor(tonumber(500) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters"
+
+t73.Desc = "Catch " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(v213) .. "</font>") .. " with the type " .. "<font color=\"" .. "rgb(200,120,255)" .. "\">" .. tostring("[Lunar]") .. "</font>"
+t73.Char = {
+	Rarity = "Cosmic",
+	Type = "Lunar"
+}
+t69[1] = t70
+t69[2] = t71
+t69[3] = t72
+t69[4] = t73
+t68.Variants = t69
+t15.LunarStar = t68
+t.ClanQuests = t15
+
+for k, v in pairs(t.ClanQuests) do
+	for i, v8 in ipairs(v.Variants) do
+		v8.RewardText = cqReward(v8)
+	end
+end
+
+t.ClanStarThresholds = {
+	{
+		rarity = "Common",
+		minCPS = 640
+	},
+	{
+		rarity = "Uncommon",
+		minCPS = 3440
+	},
+	{
+		rarity = "Rare",
+		minCPS = 15600
+	},
+	{
+		rarity = "Epic",
+		minCPS = 62000
+	},
+	{
+		rarity = "Legendary",
+		minCPS = 302000
+	},
+	{
+		rarity = "Mythical",
+		minCPS = 2660000
+	},
+	{
+		rarity = "Cosmic",
+		minCPS = 21200000
+	},
+	{
+		rarity = "Secret",
+		minCPS = 100000000
+	},
+	{
+		rarity = "Rainbow",
+		minCPS = 800000000
+	},
+	{
+		rarity = "Ascended",
+		minCPS = 6400000000
+	},
+	{
+		rarity = "Divine",
+		minCPS = 54000000000
+	},
+	{
+		rarity = "Supreme",
+		minCPS = 640000000000
+	},
+	{
+		rarity = "Celestial",
+		minCPS = 2000000000000
+	},
+	{
+		rarity = "Ancient",
+		minCPS = 11200000000000
+	},
+	{
+		rarity = "God",
+		minCPS = 70000000000000
+	},
+	{
+		rarity = "Omniscient",
+		minCPS = 120000000000000
+	}
+}
+t.ClanGradientBuckets = {
+	{
+		maxRank = 1,
+		name = "#1"
+	},
+	{
+		maxRank = 2,
+		name = "#2"
+	},
+	{
+		maxRank = 3,
+		name = "#3"
+	},
+	{
+		maxRank = 10,
+		name = "#4-10"
+	},
+	{
+		maxRank = 25,
+		name = "#11-25"
+	},
+	{
+		maxRank = 100,
+		name = "#26-100"
+	},
+	{
+		maxRank = 250,
+		name = "#101-250"
+	}
+}
+function t.GetClanLevelCost(p1) --[[ GetClanLevelCost | Line: 13449 | Upvalues: t (copy) ]]
+	local v3 = math.max(0, (math.floor(tonumber(p1) or 0))) + 1
+	local ClanLevelCosts = t.ClanLevelCosts
+
+	if ClanLevelCosts[v3] then
+		return ClanLevelCosts[v3]
+	end
+
+	return math.min(10000 + (v3 - 50) * 250, 15000)
+end
+function t.GetClanMaxMembers(p1) --[[ GetClanMaxMembers | Line: 13468 | Upvalues: t (copy) ]]
+	local v4, v5 = math.max(0, (math.floor(tonumber(p1) or 0))), 10
+
+	for i, v in ipairs(t.ClanMemberCaps) do
+		if not (v.level <= v4) then
+			break
+		end
+
+		v5 = v.cap
+	end
+
+	return v5
+end
+function t.GetClanStarRarity(p1) --[[ GetClanStarRarity | Line: 13495 | Upvalues: t (copy) ]]
+	local v1 = tonumber(p1) or 0
+	local v2 = nil
+
+	for i, v in ipairs(t.ClanStarThresholds) do
+		if not (v.minCPS <= v1) then
+			break
+		end
+
+		v2 = v.rarity
+	end
+
+	return v2
+end
+function t.GetClanGradientName(p1) --[[ GetClanGradientName | Line: 13522 | Upvalues: t (copy) ]]
+	local v1 = tonumber(p1)
+
+	if not v1 or v1 <= 0 then
+		return "None"
+	end
+
+	local v2 = v1
+
+	for i, v in ipairs(t.ClanGradientBuckets) do
+		if v2 <= v.maxRank then
+			return v.name
+		end
+	end
+
+	return "None"
+end
+t.MapCharacterSpawn = {
+	DefaultLifetimeSeconds = 60,
+	MaxLifetimeSeconds = 3600,
+	MaxAlive = 50,
+	PromptDistance = 14,
+	PromptHoldSeconds = 0.4
+}
+function t.GetRebirthSkipProductId(p1) --[[ GetRebirthSkipProductId | Line: 13752 | Upvalues: t (copy) ]]
+	local v3 = math.max(0, (math.floor(tonumber(p1) or 0)))
+	local REBIRTH_SKIP_TIERS = (t.DevProducts or {}).REBIRTH_SKIP_TIERS
+
+	if type(REBIRTH_SKIP_TIERS) == "table" then
+		local v5 = v3
+
+		for i, v in ipairs(REBIRTH_SKIP_TIERS) do
+			if type(v) == "table" and (tonumber(v.From) or 0) <= v5 then
+				local v6 = tonumber(v.Id) or 0
+
+				if v6 > 0 then
+					return v6
+				end
+			end
+		end
+	end
+
+	return tonumber((t.DevProducts or {}).REBIRTH_SKIP) or 3543635803
+end
+function t.IsRebirthSkipProductId(p1) --[[ IsRebirthSkipProductId | Line: 13785 | Upvalues: t (copy) ]]
+	local v1 = tonumber(p1) or 0
+
+	if v1 <= 0 then
+		return false
+	end
+
+	local REBIRTH_SKIP_TIERS = (t.DevProducts or {}).REBIRTH_SKIP_TIERS
+
+	if type(REBIRTH_SKIP_TIERS) == "table" then
+		for i, v in ipairs(REBIRTH_SKIP_TIERS) do
+			if type(v) == "table" and (tonumber(v.Id) or 0) == v1 then
+				return true
+			end
+		end
+	end
+
+	return v1 == (tonumber((t.DevProducts or {}).REBIRTH_SKIP) or 3543635803)
+end
+function t.GetCharacterCustomEvent(p1) --[[ GetCharacterCustomEvent | Line: 13842 | Upvalues: t (copy) ]]
+	local v1
+
+	if type(p1) == "table" then
+		v1 = p1
+	else
+		local v2 = tostring(p1 or "")
+
+		if v2 == "" then
+			return nil
+		end
+
+		v1 = (t.Characters or {})[v2]
+
+		if type(v1) ~= "table" then
+			local v4 = v2:lower()
+			local v5 = pairs
+
+			for v7, v8 in v5(t.Characters or {}) do
+				if type(v8) == "table" and tostring(v7):lower() == v4 then
+					v1 = v8
+
+					break
+				end
+			end
+		end
+
+		if type(v1) ~= "table" then
+			return nil
+		end
+	end
+
+	local CustomEvent = v1.CustomEvent
+
+	if type(CustomEvent) ~= "string" or CustomEvent == "" then
+		return nil
+	end
+
+	local v11 = ((t.TypeEvents or {}).Events or {})[CustomEvent]
+
+	if type(v11) == "table" and v11.Enabled ~= false then
+		return CustomEvent, tonumber(v1.CustomEventDuration) or 300
+	end
+
+	warn("[Constants] CustomEvent \'" .. CustomEvent .. "\' is not a known enabled type event -- ignoring")
+
+	return nil
+end
+function t.IsCharacterRandomlyObtainable(p1) --[[ IsCharacterRandomlyObtainable | Line: 13896 ]]
+	if type(p1) ~= "table" then
+		return false
+	end
+
+	return if p1.SecretCharacter == true then false else p1.Exclusive ~= true
+end
+t.Crates = {
+	Timing = {
+		MaxOnScreen = 5,
+		FadeSeconds = 0.35,
+		BackgroundTransparency = 0.5,
+		PopInSeconds = 0.45,
+		PopInGap = 0.25,
+		SpinSeconds = 9,
+		SpinStagger = 0.6,
+		FinishDelay = 1,
+		ViewSeconds = 2.5,
+		ExitSeconds = 0.5,
+		PurchaseOpenDelay = 1.5
+	},
+	Reel = {
+		Items = 72,
+		WinnerIndex = 62,
+		CellHeightScale = 0.86,
+		CellGapScale = 0.22,
+		CellBottomPadScale = 0.02,
+		LineMargin = 0.2,
+		RigsPerFrame = 2,
+		LandingRigsPerFrame = 3,
+		AnimateRigsMaxCrates = 1,
+		SpinEasingStyle = "Quart",
+		TeaseChance = 0.15,
+		TeaseCandidates = 2,
+		TeaseLandMargin = 0.1,
+		TickMinInterval = 0.04,
+		TickPitchMin = 0.95,
+		TickPitchMax = 1.05
+	},
+	CaseItems = {
+		TradeRebirthRequirement = 20,
+		BatchSize = 5,
+		ShowOpenAll = false,
+		LegacyKeys = {
+			EpicLuckyBox = "EpicCase",
+			LegendaryLuckyBox = "LegendaryCase",
+			MythicalLuckyBox = "MythicalCase",
+			CosmicLuckyBox = "CosmicCase",
+			SecretLuckyBox = "SecretCase",
+			AscendedLuckyBox = "AscendedCase",
+			AscendedLuckyBoxII = "AncientCase",
+			EpicBox = "EpicCase",
+			LegendaryBox = "LegendaryCase",
+			MythicalBox = "MythicalCase",
+			CosmicBox = "CosmicCase",
+			SecretBox = "SecretCase",
+			AscendedBox = "AscendedCase",
+			AncientBox = "AncientCase",
+			TestBox = "Test"
+		},
+		ClaimNotifyColor = { 255, 45, 170 }
+	},
+	Crates = {
+		Test = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Test Box",
+			Rarity = "Epic",
+			Rewards = {
+				{
+					Kind = "cash",
+					Amount = 1000,
+					Chance = 15,
+					Template = "Cash",
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "gems",
+					Amount = 1000,
+					Chance = 15,
+					Template = "Gems",
+					Rarity = "Epic"
+				},
+				{
+					Kind = "food",
+					Amount = 1000,
+					Chance = 15,
+					Template = "Food",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Legendary",
+					Chance = 15
+				},
+				{
+					Kind = "rod",
+					Rod = "Ice Rod",
+					Chance = 10,
+					Image = "rbxassetid://8196118875"
+				},
+				{
+					Kind = "coil",
+					Coil = "Speed Coil",
+					Chance = 10
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Chance = 10,
+					Amount = 1,
+					Rarity = "Mythical"
+				},
+				{
+					Kind = "character",
+					Character = "Chiya",
+					Chance = 5
+				},
+				{
+					Kind = "base",
+					Skin = "Yin Yang",
+					Chance = 5,
+					Rarity = "Exclusive",
+					Image = "rbxassetid://102149189884304"
+				}
+			}
+		},
+		EpicCase = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Epic Box",
+			Rarity = "Epic",
+			Rewards = {
+				{
+					Kind = "cash",
+					Amount = 1000,
+					Chance = 30,
+					Template = "Cash",
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "gems",
+					Amount = 50,
+					Chance = 20,
+					Template = "Gems",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "food",
+					Amount = 2000,
+					Chance = 20,
+					Template = "Food",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Rare",
+					Chance = 15
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Epic",
+					Chance = 10
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Legendary",
+					Chance = 5
+				}
+			}
+		},
+		LegendaryCase = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Legendary Box",
+			Rarity = "Legendary",
+			Rewards = {
+				{
+					Kind = "cash",
+					Amount = 500000,
+					Chance = 30,
+					Template = "Cash",
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "gems",
+					Amount = 100,
+					Chance = 15,
+					Template = "Gems",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "food",
+					Amount = 20000,
+					Chance = 20,
+					Template = "Food",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Legendary",
+					Chance = 15
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Mythical",
+					Chance = 10
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Cosmic",
+					Chance = 5
+				},
+				{
+					Kind = "potion",
+					Potion = "cash_2x",
+					Chance = 5,
+					Amount = 1,
+					Rarity = "Common"
+				}
+			}
+		},
+		MythicalCase = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Mythical Box",
+			Rarity = "Mythical",
+			Rewards = {
+				{
+					Kind = "cash",
+					Amount = 10000000,
+					Chance = 25,
+					Template = "Cash",
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "gems",
+					Amount = 250,
+					Chance = 19,
+					Template = "Gems",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "food",
+					Amount = 50000,
+					Chance = 20,
+					Template = "Food",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Legendary",
+					Chance = 15
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Mythical",
+					Chance = 10
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Cosmic",
+					Chance = 5
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Chance = 1,
+					Amount = 1,
+					Rarity = "Mythical"
+				},
+				{
+					Kind = "potion",
+					Potion = "cash_2x",
+					Chance = 5,
+					Amount = 1,
+					Rarity = "Common"
+				}
+			}
+		},
+		CosmicCase = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Cosmic Box",
+			Rarity = "Cosmic",
+			Rewards = {
+				{
+					Kind = "cash",
+					Amount = 100000000,
+					Chance = 25,
+					Template = "Cash",
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "gems",
+					Amount = 500,
+					Chance = 15,
+					Template = "Gems",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "food",
+					Amount = 100000,
+					Chance = 20,
+					Template = "Food",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Mythical",
+					Chance = 10
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Cosmic",
+					Chance = 10
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Secret",
+					Chance = 5
+				},
+				{
+					Kind = "potion",
+					Potion = "luck_2x",
+					Chance = 5,
+					Amount = 1,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "cash_2x",
+					Chance = 5,
+					Amount = 1,
+					Rarity = "Common"
+				},
+				{
+					Kind = "potion",
+					Potion = "cash_4x",
+					Chance = 5,
+					Amount = 1,
+					Rarity = "Uncommon"
+				}
+			}
+		},
+		SecretCase = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Secret Box",
+			Rarity = "Secret",
+			Rewards = {
+				{
+					Kind = "cash",
+					Amount = 25000000,
+					Chance = 25,
+					Template = "Cash",
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "gems",
+					Amount = 750,
+					Chance = 14,
+					Template = "Gems",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "food",
+					Amount = 1000000,
+					Chance = 20,
+					Template = "Food",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Cosmic",
+					Chance = 15
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Secret",
+					Chance = 15
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Rainbow",
+					Chance = 1
+				},
+				{
+					Kind = "potion",
+					Potion = "luck_2x",
+					Chance = 5,
+					Amount = 1,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Chance = 4,
+					Amount = 1,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Chance = 1,
+					Amount = 1,
+					Rarity = "Mythical"
+				}
+			}
+		},
+		AscendedCase = {
+			DisplayName = "Ascended Box",
+			Rarity = "Ascended",
+			Rewards = {
+				{
+					Kind = "cash",
+					Amount = 50000000,
+					Chance = 25,
+					Template = "Cash",
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "gems",
+					Amount = 1250,
+					Chance = 15,
+					Template = "Gems",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "food",
+					Amount = 5000000,
+					Chance = 20,
+					Template = "Food",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Cosmic",
+					Chance = 15
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Secret",
+					Chance = 10
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Rainbow",
+					Chance = 5
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Ascended",
+					Chance = 1
+				},
+				{
+					Kind = "potion",
+					Potion = "luck_2x",
+					Chance = 5,
+					Amount = 1,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Chance = 4,
+					Amount = 1,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Chance = 1,
+					Amount = 1,
+					Rarity = "Mythical"
+				}
+			}
+		},
+		AncientCase = {
+			DisplayName = "Ancient Box",
+			Rarity = "Ancient",
+			Rewards = {
+				{
+					Kind = "cash",
+					Amount = 100000000,
+					Chance = 25,
+					Template = "Cash",
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "gems",
+					Amount = 2000,
+					Chance = 15,
+					Template = "Gems",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "food",
+					Amount = 100000000,
+					Chance = 19,
+					Template = "Food",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Secret",
+					Chance = 25
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Rainbow",
+					Chance = 2
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Ascended",
+					Chance = 1
+				},
+				{
+					Kind = "potion",
+					Potion = "luck_2x",
+					Chance = 5,
+					Amount = 3,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Chance = 4,
+					Amount = 2,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L3",
+					Chance = 2,
+					Amount = 1,
+					Rarity = "Legendary"
+				},
+				{
+					Kind = "potion",
+					Potion = "HeavenCollide",
+					Chance = 1,
+					Amount = 2,
+					Rarity = "Rainbow"
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Chance = 1,
+					Amount = 5,
+					Rarity = "Mythical"
+				}
+			}
+		},
+		YinYangCase = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Yin Yang Box",
+			Rarity = "Exclusive",
+			Rewards = {
+				{
+					Kind = "character",
+					Character = "Yang",
+					Chance = 30
+				},
+				{
+					Kind = "potion",
+					Potion = "luck_2x",
+					Amount = 5,
+					Chance = 26,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "fastcatch_2x",
+					Amount = 5,
+					Chance = 15,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Amount = 3,
+					Chance = 11,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L3",
+					Amount = 2,
+					Chance = 10,
+					Rarity = "Legendary"
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Amount = 10,
+					Chance = 5,
+					Rarity = "Mythical"
+				},
+				{
+					Kind = "base",
+					Skin = "Yin Yang",
+					Chance = 2,
+					Rarity = "Exclusive",
+					Template = "CharacterTemplate",
+					Image = "rbxassetid://102149189884304"
+				},
+				{
+					Kind = "character",
+					Character = "Yin",
+					Chance = 1
+				}
+			}
+		},
+		PotionPackI = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Potion Pack I",
+			Rarity = "Epic",
+			Rewards = {
+				{
+					Kind = "potion",
+					Potion = "luck_2x",
+					Amount = 7,
+					Chance = 30,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "gems_2x",
+					Amount = 7,
+					Chance = 20,
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "potion",
+					Potion = "gems_4x",
+					Amount = 5,
+					Chance = 15,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "cash_4x",
+					Amount = 5,
+					Chance = 15,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Amount = 2,
+					Chance = 10,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "cash_8x",
+					Amount = 2,
+					Chance = 7,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "gems_8x",
+					Amount = 3,
+					Chance = 2,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Amount = 10,
+					Chance = 1,
+					Rarity = "Mythical"
+				}
+			}
+		},
+		PotionPackII = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Potion Pack II",
+			Rarity = "Legendary",
+			Rewards = {
+				{
+					Kind = "potion",
+					Potion = "gems_4x",
+					Amount = 5,
+					Chance = 30,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Amount = 3,
+					Chance = 20,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "gems_4x",
+					Amount = 7,
+					Chance = 15,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "cash_4x",
+					Amount = 7,
+					Chance = 15,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Amount = 4,
+					Chance = 10,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "gems_8x",
+					Amount = 3,
+					Chance = 5,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Amount = 7,
+					Chance = 2,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Amount = 40,
+					Chance = 1,
+					Rarity = "Mythical"
+				},
+				{
+					Kind = "potion",
+					Potion = "Dreamer",
+					Amount = 1,
+					Chance = 1,
+					Rarity = "Ascended"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L3",
+					Amount = 1,
+					Chance = 1,
+					Rarity = "Legendary"
+				}
+			}
+		},
+		PotionPackIII = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Potion Pack III",
+			Rarity = "Mythical",
+			Rewards = {
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Amount = 7,
+					Chance = 20,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Amount = 50,
+					Chance = 20,
+					Rarity = "Mythical"
+				},
+				{
+					Kind = "potion",
+					Potion = "Dreamer",
+					Amount = 2,
+					Chance = 20,
+					Rarity = "Ascended"
+				},
+				{
+					Kind = "potion",
+					Potion = "CyberneticGlitch",
+					Amount = 1,
+					Chance = 20,
+					Rarity = "Celestial"
+				},
+				{
+					Kind = "potion",
+					Potion = "gems_8x",
+					Amount = 15,
+					Chance = 10,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L3",
+					Amount = 3,
+					Chance = 9,
+					Rarity = "Legendary"
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Amount = 1000,
+					Chance = 1,
+					Rarity = "Mythical"
+				}
+			}
+		}
+	}
+}
+t.LimitedOffers = {
+	YinYangBox = {
+		CrateKey = "YinYangCase",
+		DiscountAttribute = "YinYangDiscountEndsAt",
+		EndsUtc = {
+			year = 2026,
+			month = 9,
+			day = 7,
+			hour = 0,
+			min = 0,
+			sec = 0
+		},
+		Products = {
+			{
+				ProductId = 3631572404,
+				Boxes = 3,
+				DiscountProductId = 3544367288
+			},
+			{
+				ProductId = 3631575689,
+				Boxes = 15,
+				DiscountProductId = 3544366929
+			}
+		},
+		Guarantee = {
+			Goal = 100,
+			Character = "Yin",
+			Attribute = "YinYangGuarantee"
+		}
+	}
+}
+t.PotionPackOffer = {
+	ProductId = 3701182648,
+	DiscountProductId = 3544366273,
+	DiscountAttribute = "PotionPackDiscountEndsAt",
+	PreviewCrateKey = "PotionPackIII",
+	Packs = {
+		{
+			Key = "PotionPackI",
+			Amount = 15
+		},
+		{
+			Key = "PotionPackII",
+			Amount = 10
+		},
+		{
+			Key = "PotionPackIII",
+			Amount = 5
+		}
+	}
+}
+function t.PotionPackDiscountEndsAt() --[[ PotionPackDiscountEndsAt | Line: 15050 | Upvalues: t (copy) ]]
+	local PotionPackOffer = t.PotionPackOffer
+
+	if type(PotionPackOffer) ~= "table" then
+		return 0
+	end
+
+	local ok, result = pcall(function() --[[ Line: 15060 | Upvalues: PotionPackOffer (copy) ]]
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+		return ReplicatedStorage:GetAttribute((tostring(PotionPackOffer.DiscountAttribute or "")))
+	end)
+
+	return if ok then tonumber(result) or 0 else 0
+end
+function t.PotionPackDiscountActive() --[[ PotionPackDiscountActive | Line: 15071 | Upvalues: t (copy) ]]
+	local PotionPackOffer = t.PotionPackOffer
+
+	if type(PotionPackOffer) ~= "table" then
+		return false
+	end
+
+	if (tonumber(PotionPackOffer.DiscountProductId) or 0) <= 0 then
+		return false
+	end
+
+	return t.PotionPackDiscountEndsAt() > os.time()
+end
+function t.PotionPackActiveProductId() --[[ PotionPackActiveProductId | Line: 15086 | Upvalues: t (copy) ]]
+	local PotionPackOffer = t.PotionPackOffer
+
+	if type(PotionPackOffer) ~= "table" then
+		return 0
+	end
+
+	local v1 = tonumber(PotionPackOffer.ProductId) or 0
+
+	if v1 <= 0 then
+		return 0
+	end
+
+	if t.PotionPackDiscountActive() then
+		return tonumber(PotionPackOffer.DiscountProductId) or v1
+	end
+
+	return v1
+end
+function t.YinYangDiscountEndsAt() --[[ YinYangDiscountEndsAt | Line: 15131 | Upvalues: t (copy) ]]
+	local YinYangBox = (t.LimitedOffers or {}).YinYangBox
+
+	if type(YinYangBox) ~= "table" then
+		return 0
+	end
+
+	local ok, result = pcall(function() --[[ Line: 15141 | Upvalues: YinYangBox (copy) ]]
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+		return ReplicatedStorage:GetAttribute((tostring(YinYangBox.DiscountAttribute or "")))
+	end)
+
+	return if ok then tonumber(result) or 0 else 0
+end
+function t.YinYangDiscountActive() --[[ YinYangDiscountActive | Line: 15152 | Upvalues: t (copy) ]]
+	if type((t.LimitedOffers or {}).YinYangBox) ~= "table" then
+		return false
+	end
+
+	return t.YinYangDiscountEndsAt() > os.time()
+end
+function t.YinYangActiveProductId(p1) --[[ YinYangActiveProductId | Line: 15179 | Upvalues: t (copy) ]]
+	local YinYangBox = (t.LimitedOffers or {}).YinYangBox
+
+	if type(YinYangBox) ~= "table" then
+		return 0, false
+	end
+
+	local v3 = (YinYangBox.Products or {})[tonumber(p1) or 0]
+
+	if type(v3) ~= "table" then
+		return 0, false
+	end
+
+	local v4 = tonumber(v3.ProductId) or 0
+
+	if v4 <= 0 then
+		return 0, false
+	end
+
+	local v5 = tonumber(v3.DiscountProductId) or 0
+
+	if v5 > 0 and t.YinYangDiscountActive() then
+		return v5, true
+	end
+
+	return v4, false
+end
+function t.GetFishingRodSellRefund(p1) --[[ GetFishingRodSellRefund | Line: 15286 | Upvalues: t (copy) ]]
+	local v1 = tostring(p1 or "")
+
+	if v1 == "" then
+		return 0, false
+	end
+
+	local v4 = ((t.Fishing or {}).Rods or {})[v1]
+
+	if type(v4) ~= "table" then
+		return 0, false
+	end
+
+	if tostring(v4.Rarity or "") == "Exclusive" then
+		return 0, false
+	end
+
+	local v9 = v1
+
+	for v10, v11 in pairs((t.FishingStore or {}).Offers or {}) do
+		if type(v11) == "table" and tostring(v11.RodName or "") == v9 then
+			local v13 = tonumber(v11.CashCost) or 0
+
+			if v13 <= 0 then
+				break
+			end
+
+			return math.floor(v13 / 100), true
+		end
+	end
+
+	return 0, false
+end
+function t.IsFishingRodSellable(p1) --[[ IsFishingRodSellable | Line: 15323 | Upvalues: t (copy) ]]
+	local _, v1 = t.GetFishingRodSellRefund(p1)
+
+	return v1 == true
+end
+t.RodAbilities = {
+	["Forgotten Rod"] = {
+		Name = "Forgotten Call",
+		CooldownSeconds = 600,
+		DurationSeconds = 15
+	}
+}
+
+return t
