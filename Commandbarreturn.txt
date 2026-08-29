@@ -1,0 +1,540 @@
+.030  [ReplicatedStorage] ReplicatedStorage.Remotes.BoostsStoreUpdated  -  Edit
+  12:58:12.030  [ReplicatedStorage] ReplicatedStorage.Remotes.GetSettingsData  -  Edit
+  12:58:12.030  [ReplicatedStorage] ReplicatedStorage.Remotes.CarryShopUpdated  -  Edit
+  12:58:12.030  [ReplicatedStorage] ReplicatedStorage.Remotes.IndexTryUnlock  -  Edit
+  12:58:12.030  [ReplicatedStorage] ReplicatedStorage.Remotes.PurchaseDisplayRemote  -  Edit
+  12:58:12.030  [ReplicatedStorage] ReplicatedStorage.Remotes.BoostsStoreGetState  -  Edit
+  12:58:12.030  [ReplicatedStorage] ReplicatedStorage.Remotes.UpdateShutdownNotice  -  Edit
+  12:58:12.030  [ReplicatedStorage] ReplicatedStorage.Remotes.BoostsStorePurchase_OLD_RemoteEvent  -  Edit
+  12:58:12.030  [ReplicatedStorage] ReplicatedStorage.Remotes.GetCarryShopData  -  Edit
+  12:58:12.030  [ReplicatedStorage] ReplicatedStorage.Remotes.PingServer  -  Edit
+  12:58:12.030  [ReplicatedStorage] ReplicatedStorage.Remotes.RequestDropCharacter  -  Edit
+  12:58:12.030  [ReplicatedStorage] ReplicatedStorage.Remotes.PromptProductPurchase  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.GetAutoCollectState  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.ShowNoMoney  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.PurchaseCarry  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackEquipBest  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.TeleportRequest  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.GetServerStartTime  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.ToggleDropCharacter  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackGetHotbarLayout  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.ReviveGranted  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.ChatServerMessage  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.ChatServerWelcome  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackSetHotbarLayout  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackNotify  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.IndexGetData  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.PromptCarryRobux  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.BoostsStorePurchase  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackSetSortMode  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.IndexSetSettings  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.SetMusicSetting  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.PotionState  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.GroupJoinRewardNotify  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.RedeemCode  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.GiftFeedback  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.PotionUse  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.SetAutoCollectState  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.MissingDisplayRemote  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.OpenGroupInvite  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackStorageUpdated  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.Spin  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.CarryNotify  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.HideGamepassModel  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackCharSummaryGet  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackCharSummaryDelta  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackHoldCharacter  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.PairTutStart  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.TeleportBackTrigger  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.TradeFeedback  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.RigCullDead  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.CrateOpen  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.CaseOpenRequest  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.CashCollectFX  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackGetEquippedState  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackEquipCharacter  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackUnequipCharacter  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackSelectSync  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackEquippedUpdated  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingStoreGetState  -  Edit
+  12:58:12.031  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingStorePurchase  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingStoreUpdated  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.UpgradesStoreGetState  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.UpgradesStorePurchase  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.UpgradesStoreUpdated  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.UpgradesStoreSetPending  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.RebirthGetState  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.RebirthPurchase  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.RebirthStateUpdated  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.RebirthClientNotify  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.QuestGetState  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.QuestClaim  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.QuestClaimAll  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.QuestStateChanged  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.QuestProgressMark  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.ShowCatchReward  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.SetCharacterRenderSetting  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.GetWelcomeOfflineState  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.FinalizeWelcomeOffline  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.WelcomeFlowState  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.GetTutorialState  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.CompleteTutorial  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.TutorialGiftCash  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.PotionRemove  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingRequestStart  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingClick  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingCancel  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingState  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingGlobalCatch  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingAutoFishPurchase  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.GetTypeEventState  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.TypeEventState  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.BaseSkinGetState  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.BaseSkinEquip  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.BaseSkinNotify  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.AdminCheckAuth  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.AdminAction  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.AdminFeedback  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.AdminAnnouncement  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.AdminEffect  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.AdminLayoutGet  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.AdminLayoutSave  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.GardenCollectSound  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.GardenSyncFarming  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.GardenUnequipChar  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.PlotUnlockPurchased  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.LemonSyncStand  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.LemonUnequipChar  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.LemonGiveAnim  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingDockSync  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingDockUnequipChar  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingDockCatchNotify  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.TutorialMarkDone  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.StorageTutStart  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.CharacterSold  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanBrowse  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanSearch  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanGetInfo  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanGetMyInfo  -  Edit
+  12:58:12.032  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanGetPlayerStats  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanCreate  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanEdit  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanLeave  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanKickMember  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanMakeCoLeader  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanMakeLeader  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanUndoCoLeader  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanSetPending  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanUpdated  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanQuestProgress  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanJoin  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanInvite  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanGetInvites  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanAcceptInvite  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanDeclineInvite  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanGetGlobalStats  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanGetUserCard  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.AdminClanAction  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ClanInvitesUpdated  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingNearbyAudio  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.RarePullBroadcast  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.GodCatchSequenceAcknowledge  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingForceAutoFish  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingAfkResumeClaim  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingGetRarityChances  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingGetTypeChances  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingRodPurchased  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.GetTimeSkipValues  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.DepolarizrUI  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.DepolarizrConfirm  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.DraculaEmitBroadcast  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackPickUpAll  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackSeedHotbarLayout  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackSellAllRequest  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackSellSelectedRequest  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.RarityAutoSellGetState  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.RarityAutoSellSet  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.IndexClaimReward  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.IndexClaimAllRewards  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.IndexSetAdminOff  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ResearchGetData  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ResearchStart  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ResearchRequestSkip  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.ResearchUpdate  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.SecretStoreGetState  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.SecretStorePurchase  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.SecretStoreUpdated  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.PotionGetState  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.PotionGift  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.SetStarsSetting  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.SetViewportsSetting  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.SetPerformanceModeSetting  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.SetRarityDisplaySetting  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.SetAutoCollectSfxSetting  -  Edit
+  12:58:12.033  [ReplicatedStorage] ReplicatedStorage.Remotes.AlphaClaimRequest  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.CaseTutStart  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.CaseHold  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.CaseSummaryGet  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.CaseSummaryDelta  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.PotionUseMany  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.FunnelStep  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.GardenGetFarmingState  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.LemonGetStandState  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingDockGetState  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.PotionHotbarInsert  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.StoreGiftCheckOffers  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.SetFishButtonSetting  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.SetBatSetting  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.GodCatchMoment  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.CaseTutAbort  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.ResearchIdleNudge  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.SetJoystickSetting  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.SetCharacterVfxSetting  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.MedalQuestGet  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.MedalQuestClaim  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.AdminRodGetStats  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.AdminRodSetStat  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.AdminRodGUIToggle  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.LeaveOfferState  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.LeaveOfferClaim  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackSellRarityRequest  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.SecretStore2GetState  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.SecretStore2Purchase  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.SecretStore2Updated  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.RodAbility  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.SetFishActionSetting  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.AdminCamCheck  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.AdminCamState  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.SacrificeRequest  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.SacrificeDialogue  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.SacrificeState  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.PlaytimeRewardsStateChanged  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.GetPlaytimeRewardsState  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.ClaimPlaytimeReward  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.FishingAutoFishEnabledSync  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.GodCatchSequence  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.GodCatchGlobalNotice  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackFavoritesUpdated  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.DailyRewardsStateChanged  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.GetDailyRewardsState  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.ClaimDailyReward  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.AutoRejoinIdle  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.BoostsStoreSetAutoBuy  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.StorePackGetState  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.StorePackUpdated  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.StorePackPurchaseSuccess  -  Edit
+  12:58:12.034  [ReplicatedStorage] ReplicatedStorage.Remotes.GemStoreGetState  -  Edit
+  12:58:12.035  [ReplicatedStorage] ReplicatedStorage.Remotes.GemStorePurchase  -  Edit
+  12:58:12.035  [ReplicatedStorage] ReplicatedStorage.Remotes.GemStoreNotify  -  Edit
+  12:58:12.035  [ReplicatedStorage] ReplicatedStorage.Remotes.StoreGiftSetPending  -  Edit
+  12:58:12.035  [ReplicatedStorage] ReplicatedStorage.Remotes.StoreGiftCheckGamepass  -  Edit
+  12:58:12.035  [ReplicatedStorage] ReplicatedStorage.Remotes.SetCutsceneSkipSetting  -  Edit
+  12:58:12.035  [ReplicatedStorage] ReplicatedStorage.Remotes.GetBoostsState  -  Edit
+  12:58:12.035  [ReplicatedStorage] ReplicatedStorage.Remotes.SetBoostsState  -  Edit
+  12:58:12.035  [ReplicatedStorage] ReplicatedStorage.Remotes.TutorialReseedHotbar  -  Edit
+  12:58:12.035  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackGetFavorites  -  Edit
+  12:58:12.035  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackSetFavorite  -  Edit
+  12:58:12.035  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackEquipCoil  -  Edit
+  12:58:12.035  [ReplicatedStorage] ReplicatedStorage.Remotes.BackpackUnequipCoil  -  Edit
+  12:58:12.035  [ReplicatedStorage] ReplicatedStorage.Remotes.StandPromptRepairRemote  -  Edit
+  12:58:12.035  [ReplicatedStorage] ReplicatedStorage.Remotes.ExistCountsGet  -  Edit
+  13:40:25.903  > local targets = {
+	"FishingRequestStart",
+	"FishingClick",
+	"FishingCancel",
+	"FishingState",
+	"FishingGlobalCatch",
+	"FishingForceAutoFish",
+	"FishingAfkResumeClaim",
+	"FishingAutoFishPurchase"
+}
+
+local function scan(root)
+	for _, obj in ipairs(root:GetDescendants()) do
+		if obj:IsA("Script") or obj:IsA("LocalScript") or obj:IsA("ModuleScript") then
+			local ok, source = pcall(function()
+				return obj.Source
+			end)
+
+			if ok and source then
+				for _, target in ipairs(targets) do
+					if string.find(source, target, 1, true) then
+						print("FOUND:", target, "->", obj:GetFullName())
+
+						-- Print the lines containing the remote
+						local lineNo = 0
+						for line in source:gmatch("[^\r\n]+") do
+							lineNo += 1
+							if string.find(line, target, 1, true) then
+								print("  Line", lineNo, ":", line)
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+end
+
+scan(game)  -  Studio
+  13:40:26.032  FOUND: FishingCancel -> StarterGui.MainGui.FishAction.Fish.FishService  -  Edit
+  13:40:26.033    Line 849 : 		local FishingCancel = Remotes:FindFirstChild("FishingCancel")  -  Edit
+  13:40:26.033    Line 850 : 		if FishingCancel then  -  Edit
+  13:40:26.033    Line 851 : 			FishingCancel:FireServer()  -  Edit
+  13:40:26.033  FOUND: FishingState -> StarterGui.MainGui.FishAction.Fish.FishService  -  Edit
+  13:40:26.033    Line 404 : local function applyFishingState() --[[ applyFishingState | Line: 530 | Upvalues: v26 (ref), v23 (ref), v2 (copy), v25 (ref), v24 (ref), v29 (ref) ]]  -  Edit
+  13:40:26.033    Line 652 : local function runFishFlow() --[[ runFishFlow | Line: 843 | Upvalues: v35 (ref), v26 (ref), v23 (ref), applyFishingState (copy), LocalPlayer (copy), nearestPartTo (copy), notify (copy), rodStrength (copy), waitUntil (copy), v2 (copy) ]]  -  Edit
+  13:40:26.033    Line 657 : 		applyFishingState()  -  Edit
+  13:40:26.033    Line 794 : 		applyFishingState()  -  Edit
+  13:40:26.033    Line 799 : local function applyInstantStop() --[[ applyInstantStop | Line: 1071 | Upvalues: v26 (ref), v23 (ref), v27 (ref), applyFishingState (copy) ]]  -  Edit
+  13:40:26.033    Line 806 : 	applyFishingState()  -  Edit
+  13:40:26.033    Line 808 : 	task.delay(3, function() --[[ Line: 1092 | Upvalues: v26 (ref), applyFishingState (ref) ]]  -  Edit
+  13:40:26.033    Line 813 : 		applyFishingState()  -  Edit
+  13:40:26.033    Line 902 : v2:GetAttributeChangedSignal("FishingUiOpen"):Connect(function() --[[ Line: 1222 | Upvalues: v26 (ref), applyFishingState (copy) ]]  -  Edit
+  13:40:26.033    Line 904 : 	applyFishingState()  -  Edit
+  13:40:26.033    Line 958 : applyFishingState()  -  Edit
+  13:40:26.037  FOUND: FishingAutoFishPurchase -> StarterGui.ClientScriptsHost.ClientScripts.QuickFishClientService  -  Edit
+  13:40:26.037    Line 13 : local FishingAutoFishPurchase = ReplicatedStorage:WaitForChild("Remotes"):WaitForChild("FishingAutoFishPurchase")  -  Edit
+  13:40:26.037    Line 118 : local function updateFromServer() --[[ updateFromServer | Line: 102 | Upvalues: FishingAutoFishPurchase (copy), LocalPlayer (copy), applyVisuals (copy) ]]  -  Edit
+  13:40:26.037    Line 119 : 	local ok, result = pcall(function() --[[ Line: 103 | Upvalues: FishingAutoFishPurchase (ref) ]]  -  Edit
+  13:40:26.037    Line 120 : 		return FishingAutoFishPurchase:InvokeServer("GetState")  -  Edit
+  13:40:26.037    Line 140 : local function toggleQuickFish() --[[ toggleQuickFish | Line: 136 | Upvalues: t2 (copy), FishingAutoFishPurchase (copy), LocalPlayer (copy), show (copy), applyVisuals (copy) ]]  -  Edit
+  13:40:26.037    Line 142 : 	local ok, result = pcall(function() --[[ Line: 138 | Upvalues: FishingAutoFishPurchase (ref), v1 (copy) ]]  -  Edit
+  13:40:26.037    Line 143 : 		return FishingAutoFishPurchase:InvokeServer("SetQuickFishEnabled", v1)  -  Edit
+  13:40:26.037    Line 167 : 	t.purchaseButton.MouseButton1Click:Connect(function() --[[ Line: 166 | Upvalues: FishingAutoFishPurchase (copy), LocalPlayer (copy), applyVisuals (copy), show (copy), v9 (copy) ]]  -  Edit
+  13:40:26.037    Line 168 : 		local ok, result = pcall(function() --[[ Line: 167 | Upvalues: FishingAutoFishPurchase (ref) ]]  -  Edit
+  13:40:26.037    Line 169 : 			return FishingAutoFishPurchase:InvokeServer("BuyQuickFishWithGems")  -  Edit
+  13:40:26.039  FOUND: FishingRequestStart -> StarterGui.ClientScriptsHost.ClientScripts.FishingClientService  -  Edit
+  13:40:26.040    Line 18 : local FishingRequestStart = Remotes:WaitForChild("FishingRequestStart")  -  Edit
+  13:40:26.041    Line 4060 : 	function tryStartFishingAt(p1, p2) --[[ tryStartFishingAt | Line: 3919 | Upvalues: t9 (copy), t10 (copy), FishingRequestStart (copy) ]]  -  Edit
+  13:40:26.041    Line 4079 : 			FishingRequestStart:FireServer(p1, p2)  -  Edit
+  13:40:26.042  FOUND: FishingClick -> StarterGui.ClientScriptsHost.ClientScripts.FishingClientService  -  Edit
+  13:40:26.042    Line 19 : local FishingClick = Remotes:WaitForChild("FishingClick")  -  Edit
+  13:40:26.043    Line 2056 : 	local function doAutoFishClick() --[[ doAutoFishClick | Line: 2075 | Upvalues: t10 (copy), t9 (copy), TextLabel (copy), onCatchClickCameraPulse (copy), FishingClick (copy) ]]  -  Edit
+  13:40:26.043    Line 2065 : 			FishingClick:FireServer()  -  Edit
+  13:40:26.044    Line 4221 : 	UserInputService.InputBegan:Connect(function(p1, p2) --[[ Line: 4141 | Upvalues: UserInputService (copy), t9 (copy), TextLabel (copy), popCatchText (copy), onCatchClickCameraPulse (copy), FishingClick (copy), getPondFromMouseRay (copy), LocalPlayer (copy), v11 (copy), NotificationService (copy), playSimpleSound (copy), v1 (copy) ]]  -  Edit
+  13:40:26.044    Line 4243 : 			FishingClick:FireServer()  -  Edit
+  13:40:26.044  FOUND: FishingCancel -> StarterGui.ClientScriptsHost.ClientScripts.FishingClientService  -  Edit
+  13:40:26.045    Line 20 : local FishingCancel = Remotes:WaitForChild("FishingCancel")  -  Edit
+  13:40:26.046    Line 4040 : 	function _G.__Fishing_CancelForTeleport() --[[ Line: 3897 | Upvalues: t9 (copy), FishingCancel (copy) ]]  -  Edit
+  13:40:26.046    Line 4049 : 			pcall(function() --[[ Line: 3916 | Upvalues: FishingCancel (ref) ]]  -  Edit
+  13:40:26.046    Line 4050 : 				FishingCancel:FireServer()  -  Edit
+  13:40:26.046    Line 4056 : 		pcall(function() --[[ Line: 3916 | Upvalues: FishingCancel (ref) ]]  -  Edit
+  13:40:26.046    Line 4057 : 			FishingCancel:FireServer()  -  Edit
+  13:40:26.046    Line 4131 : 	CloseBTN.MouseButton1Click:Connect(function() --[[ Line: 4074 | Upvalues: t9 (copy), FishingCancel (copy), Drop (copy), popClose (copy), FishAction (copy) ]]  -  Edit
+  13:40:26.046    Line 4136 : 			FishingCancel:FireServer()  -  Edit
+  13:40:26.046    Line 4143 : 		pcall(function() --[[ Line: 4087 | Upvalues: FishingCancel (ref) ]]  -  Edit
+  13:40:26.046    Line 4144 : 			FishingCancel:FireServer()  -  Edit
+  13:40:26.047    Line 4730 : 	function onFishingRenderStep(p1) --[[ onFishingRenderStep | Line: 4580 | Upvalues: getHeldRod (copy), updateFishSelectVisual (copy), t12 (copy), t9 (copy), t10 (copy), LocalPlayer (copy), v25 (ref), setAutoFishEnabled (copy), stopLoopSound (copy), clearCatchCameraPulse (copy), forceStopFishingAnimationTracks (copy), popClose (copy), FishAction (copy), FishingCancel (copy), playAnimationFromConfig (copy), v7 (copy), t6 (copy), TextLabel (copy), v27 (copy), doAutoFishClick (copy), v22 (copy), v21 (copy) ]]  -  Edit
+  13:40:26.047    Line 4880 : 			FishingCancel:FireServer()  -  Edit
+  13:40:26.047  FOUND: FishingState -> StarterGui.ClientScriptsHost.ClientScripts.FishingClientService  -  Edit
+  13:40:26.048    Line 21 : local FishingState = Remotes:WaitForChild("FishingState")  -  Edit
+  13:40:26.049    Line 4378 : 	FishingState.OnClientEvent:Connect(function(p1) --[[ Line: 4265 | Upvalues: t9 (copy), NotificationService (copy), playSimpleSound (copy), t10 (copy), setAutoFishEnabled (copy), forceStopFishingAnimationTracks (copy), armBackpackSpaceWatch (copy), v30 (copy), getHeldRod (copy), v52 (ref), LocalPlayer (copy), TextLabel (copy), setBarProgress (copy), t (copy), ReplicatedStorage (copy), FishAction (copy), v49 (ref), FirstRarityCatchClient (copy), Assets (copy) ]]  -  Edit
+  13:40:26.049  FOUND: FishingGlobalCatch -> StarterGui.ClientScriptsHost.ClientScripts.FishingClientService  -  Edit
+  13:40:26.050    Line 22 : local FishingGlobalCatch = Remotes:WaitForChild("FishingGlobalCatch")  -  Edit
+  13:40:26.052    Line 4299 : 	FishingGlobalCatch.OnClientEvent:Connect(function(p1) --[[ Line: 4213 | Upvalues: LocalPlayer (copy), t9 (copy) ]]  -  Edit
+  13:40:26.052  FOUND: FishingAutoFishPurchase -> StarterGui.ClientScriptsHost.ClientScripts.FishingClientService  -  Edit
+  13:40:26.053    Line 23 : local FishingAutoFishPurchase = Remotes:WaitForChild("FishingAutoFishPurchase")  -  Edit
+  13:40:26.054    Line 4211 : 		Purchase.MouseButton1Click:Connect(function() --[[ Line: 4131 | Upvalues: FishingAutoFishPurchase (copy), setAutoFishOwnedUi (copy) ]]  -  Edit
+  13:40:26.054    Line 4212 : 			local ok, result = pcall(function() --[[ Line: 4132 | Upvalues: FishingAutoFishPurchase (ref) ]]  -  Edit
+  13:40:26.054    Line 4213 : 				return FishingAutoFishPurchase:InvokeServer("BuyWithGems")  -  Edit
+  13:40:26.055    Line 5099 : pcall(function() --[[ Line: 4985 | Upvalues: FishingAutoFishPurchase (copy) ]]  -  Edit
+  13:40:26.055    Line 5100 : 	FishingAutoFishPurchase:InvokeServer("GetState")  -  Edit
+  13:40:26.055  FOUND: FishingState -> StarterGui.ClientScriptsHost.ClientScripts.FishAction2Client  -  Edit
+  13:40:26.055    Line 13 : local FishingState = Remotes:WaitForChild("FishingState")  -  Edit
+  13:40:26.056    Line 261 : FishingState.OnClientEvent:Connect(function(p1) --[[ Line: 310 | Upvalues: LocalPlayer (copy), t2 (copy), popIn (copy), fetchChances (copy), popOut (copy) ]]  -  Edit
+  13:40:26.056  FOUND: FishingForceAutoFish -> StarterGui.ClientScriptsHost.ClientScripts.AfkFishResumeClient  -  Edit
+  13:40:26.056    Line 317 : 	local FishingForceAutoFish = Remotes:WaitForChild("FishingForceAutoFish", 30)  -  Edit
+  13:40:26.056    Line 318 : 	if FishingForceAutoFish then  -  Edit
+  13:40:26.056    Line 319 : 		FishingForceAutoFish.OnClientEvent:Connect(function(p1) --[[ Line: 219 | Upvalues: runAutoFishStart (ref) ]]  -  Edit
+  13:40:26.056  FOUND: FishingAfkResumeClaim -> StarterGui.ClientScriptsHost.ClientScripts.AfkFishResumeClient  -  Edit
+  13:40:26.056    Line 145 : 	local FishingAfkResumeClaim = Remotes:WaitForChild("FishingAfkResumeClaim", 20)  -  Edit
+  13:40:26.056    Line 146 : 	if not FishingAfkResumeClaim then  -  Edit
+  13:40:26.056    Line 157 : 	local ok, result = pcall(function() --[[ Line: 172 | Upvalues: FishingAfkResumeClaim (copy) ]]  -  Edit
+  13:40:26.056    Line 158 : 		return FishingAfkResumeClaim:InvokeServer()  -  Edit
+  13:40:26.056  FOUND: FishingState -> StarterGui.ClientScriptsHost.ClientScripts.FishAction3Client  -  Edit
+  13:40:26.056    Line 14 : local FishingState = Remotes:WaitForChild("FishingState")  -  Edit
+  13:40:26.057    Line 309 : FishingState.OnClientEvent:Connect(function(p1) --[[ Line: 347 | Upvalues: LocalPlayer (copy), t2 (copy), popIn (copy), fetchChances (copy), popOut (copy) ]]  -  Edit
+  13:40:26.092  FOUND: FishingRequestStart -> ReplicatedStorage.Modules.FishingClientRuntime  -  Edit
+  13:40:26.092    Line 18 : local FishingRequestStart = Remotes:WaitForChild("FishingRequestStart")  -  Edit
+  13:40:26.094    Line 1750 : local function tryStartFishingAt(p1, p2) --[[ tryStartFishingAt | Line: 1657 | Upvalues: t11 (copy), t9 (copy), t12 (copy), FishingRequestStart (copy) ]]  -  Edit
+  13:40:26.094    Line 1772 : 	FishingRequestStart:FireServer(v1, v3)  -  Edit
+  13:40:26.095  FOUND: FishingClick -> ReplicatedStorage.Modules.FishingClientRuntime  -  Edit
+  13:40:26.095    Line 19 : local FishingClick = Remotes:WaitForChild("FishingClick")  -  Edit
+  13:40:26.096    Line 1917 : local function doAutoFishClick() --[[ doAutoFishClick | Line: 1796 | Upvalues: t12 (copy), t11 (copy), TextLabel (copy), onCatchClickCameraPulse (copy), FishingClick (copy) ]]  -  Edit
+  13:40:26.096    Line 1926 : 		FishingClick:FireServer()  -  Edit
+  13:40:26.096    Line 2827 : UserInputService.InputBegan:Connect(function(p1, p2) --[[ Line: 2512 | Upvalues: UserInputService (copy), t11 (copy), TextLabel (copy), popCatchText (copy), onCatchClickCameraPulse (copy), FishingClick (copy), t9 (copy), v11 (copy), v1 (copy), LocalPlayer (copy), tryStartFishingAt (copy) ]]  -  Edit
+  13:40:26.096    Line 2849 : 		FishingClick:FireServer()  -  Edit
+  13:40:26.096  FOUND: FishingCancel -> ReplicatedStorage.Modules.FishingClientRuntime  -  Edit
+  13:40:26.097    Line 20 : local FishingCancel = Remotes:WaitForChild("FishingCancel")  -  Edit
+  13:40:26.098    Line 3261 : function onFishingRenderStep(p1) --[[ onFishingRenderStep | Line: 2794 | Upvalues: getHeldRod (copy), updateFishSelectVisual (copy), t19 (copy), v82 (ref), t15 (copy), v39 (copy), LocalPlayer (copy), t9 (copy), v43 (copy), startOrbGuide (copy), updateOrbs (copy), t17 (copy), t12 (copy), v24 (ref), setAutoFishEnabled (copy), t11 (copy), FishingCancel (copy), playAnimationFromConfig (copy), v6 (copy), t18 (copy), TextLabel (copy), FishActionTextSize (copy), FishActionTextPos (copy), t6 (copy), v26 (copy), doAutoFishClick (copy), t (copy) ]]  -  Edit
+  13:40:26.098    Line 3382 : 					FishingCancel:FireServer()  -  Edit
+  13:40:26.098  FOUND: FishingState -> ReplicatedStorage.Modules.FishingClientRuntime  -  Edit
+  13:40:26.098    Line 21 : local FishingState = Remotes:WaitForChild("FishingState")  -  Edit
+  13:40:26.099    Line 2909 : FishingState.OnClientEvent:Connect(function(p1) --[[ Line: 2570 | Upvalues: t12 (copy), v27 (copy), t9 (copy), tryStartFishingAt (copy), t11 (copy), NotificationService (copy), playSimpleSound (copy), setAutoFishEnabled (copy), t18 (copy), LocalPlayer (copy), getHeldRod (copy), TextLabel (copy), setBarProgress (copy), t2 (copy), v76 (ref), FirstRarityCatchClient (copy), Assets (copy) ]]  -  Edit
+  13:40:26.100  FOUND: FishingGlobalCatch -> ReplicatedStorage.Modules.FishingClientRuntime  -  Edit
+  13:40:26.101    Line 22 : local FishingGlobalCatch = Remotes:WaitForChild("FishingGlobalCatch")  -  Edit
+  13:40:26.102    Line 2876 : FishingGlobalCatch.OnClientEvent:Connect(function(p1) --[[ Line: 2546 | Upvalues: LocalPlayer (copy), t11 (copy), showRareCatch (copy) ]]  -  Edit
+  13:40:26.102  FOUND: FishingAutoFishPurchase -> ReplicatedStorage.Modules.FishingClientRuntime  -  Edit
+  13:40:26.103    Line 23 : local FishingAutoFishPurchase = Remotes:WaitForChild("FishingAutoFishPurchase")  -  Edit
+  13:40:26.104    Line 2739 : 	QuickFish.MouseButton1Click:Connect(function() --[[ Line: 2450 | Upvalues: t13 (copy), NotificationService (copy), playSimpleSound (copy), MarketplaceService (copy), LocalPlayer (copy), v19 (copy), FishingAutoFishPurchase (copy), setQuickFishOwnedUi (copy), Disabled2 (copy), Enabled2 (copy) ]]  -  Edit
+  13:40:26.104    Line 2750 : 		local ok, result = pcall(function() --[[ Line: 2458 | Upvalues: FishingAutoFishPurchase (ref), v1 (copy) ]]  -  Edit
+  13:40:26.104    Line 2751 : 			return FishingAutoFishPurchase:InvokeServer("SetQuickFishEnabled", v1)  -  Edit
+  13:40:26.104    Line 2779 : 	Purchase.MouseButton1Click:Connect(function() --[[ Line: 2481 | Upvalues: FishingAutoFishPurchase (copy), setAutoFishOwnedUi (copy), setQuickFishOwnedUi (copy), t13 (copy), Disabled2 (copy), Enabled2 (copy) ]]  -  Edit
+  13:40:26.104    Line 2780 : 		local ok, result = pcall(function() --[[ Line: 2482 | Upvalues: FishingAutoFishPurchase (ref) ]]  -  Edit
+  13:40:26.104    Line 2781 : 			return FishingAutoFishPurchase:InvokeServer("BuyWithGems")  -  Edit
+  13:40:26.104    Line 2805 : 	Purchase2.MouseButton1Click:Connect(function() --[[ Line: 2498 | Upvalues: FishingAutoFishPurchase (copy), setQuickFishOwnedUi (copy), t13 (copy), Disabled2 (copy), Enabled2 (copy), setAutoFishOwnedUi (copy) ]]  -  Edit
+  13:40:26.104    Line 2806 : 		local ok, result = pcall(function() --[[ Line: 2499 | Upvalues: FishingAutoFishPurchase (ref) ]]  -  Edit
+  13:40:26.104    Line 2807 : 			return FishingAutoFishPurchase:InvokeServer("BuyQuickFishWithGems")  -  Edit
+  13:40:26.104    Line 3505 : pcall(function() --[[ Line: 2972 | Upvalues: FishingAutoFishPurchase (copy), setAutoFishOwnedUi (copy), setQuickFishOwnedUi (copy), t13 (copy), Disabled2 (copy), Enabled2 (copy) ]]  -  Edit
+  13:40:26.104    Line 3506 : 	local v1 = FishingAutoFishPurchase:InvokeServer("GetState")  -  Edit
+  13:40:37.483  > local targets = {
+	"FishingRequestStart",
+	"FishingClick",
+	"FishingCancel",
+	"FishingState",
+	"FishingGlobalCatch",
+	"FishingForceAutoFish",
+	"FishingAfkResumeClaim",
+	"FishingAutoFishPurchase"
+}
+
+local function scan(root)
+	for _, obj in ipairs(root:GetDescendants()) do
+		if obj:IsA("Script") or obj:IsA("LocalScript") or obj:IsA("ModuleScript") then
+			local ok, source = pcall(function()
+				return obj.Source
+			end)
+
+			if ok and source then
+				for _, target in ipairs(targets) do
+					if string.find(source, target, 1, true) then
+						print("FOUND:", target, "->", obj:GetFullName())
+
+						-- Print the lines containing the remote
+						local lineNo = 0
+						for line in source:gmatch("[^\r\n]+") do
+							lineNo += 1
+							if string.find(line, target, 1, true) then
+								print("  Line", lineNo, ":", line)
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+end
+
+scan(game)  -  Studio
+  13:40:37.555  FOUND: FishingCancel -> StarterGui.MainGui.FishAction.Fish.FishService  -  Edit
+  13:40:37.556    Line 849 : 		local FishingCancel = Remotes:FindFirstChild("FishingCancel")  -  Edit
+  13:40:37.556    Line 850 : 		if FishingCancel then  -  Edit
+  13:40:37.556    Line 851 : 			FishingCancel:FireServer()  -  Edit
+  13:40:37.556  FOUND: FishingState -> StarterGui.MainGui.FishAction.Fish.FishService  -  Edit
+  13:40:37.556    Line 404 : local function applyFishingState() --[[ applyFishingState | Line: 530 | Upvalues: v26 (ref), v23 (ref), v2 (copy), v25 (ref), v24 (ref), v29 (ref) ]]  -  Edit
+  13:40:37.556    Line 652 : local function runFishFlow() --[[ runFishFlow | Line: 843 | Upvalues: v35 (ref), v26 (ref), v23 (ref), applyFishingState (copy), LocalPlayer (copy), nearestPartTo (copy), notify (copy), rodStrength (copy), waitUntil (copy), v2 (copy) ]]  -  Edit
+  13:40:37.556    Line 657 : 		applyFishingState()  -  Edit
+  13:40:37.556    Line 794 : 		applyFishingState()  -  Edit
+  13:40:37.556    Line 799 : local function applyInstantStop() --[[ applyInstantStop | Line: 1071 | Upvalues: v26 (ref), v23 (ref), v27 (ref), applyFishingState (copy) ]]  -  Edit
+  13:40:37.556    Line 806 : 	applyFishingState()  -  Edit
+  13:40:37.556    Line 808 : 	task.delay(3, function() --[[ Line: 1092 | Upvalues: v26 (ref), applyFishingState (ref) ]]  -  Edit
+  13:40:37.556    Line 813 : 		applyFishingState()  -  Edit
+  13:40:37.556    Line 902 : v2:GetAttributeChangedSignal("FishingUiOpen"):Connect(function() --[[ Line: 1222 | Upvalues: v26 (ref), applyFishingState (copy) ]]  -  Edit
+  13:40:37.556    Line 904 : 	applyFishingState()  -  Edit
+  13:40:37.556    Line 958 : applyFishingState()  -  Edit
+  13:40:37.560  FOUND: FishingAutoFishPurchase -> StarterGui.ClientScriptsHost.ClientScripts.QuickFishClientService  -  Edit
+  13:40:37.561    Line 13 : local FishingAutoFishPurchase = ReplicatedStorage:WaitForChild("Remotes"):WaitForChild("FishingAutoFishPurchase")  -  Edit
+  13:40:37.561    Line 118 : local function updateFromServer() --[[ updateFromServer | Line: 102 | Upvalues: FishingAutoFishPurchase (copy), LocalPlayer (copy), applyVisuals (copy) ]]  -  Edit
+  13:40:37.561    Line 119 : 	local ok, result = pcall(function() --[[ Line: 103 | Upvalues: FishingAutoFishPurchase (ref) ]]  -  Edit
+  13:40:37.561    Line 120 : 		return FishingAutoFishPurchase:InvokeServer("GetState")  -  Edit
+  13:40:37.561    Line 140 : local function toggleQuickFish() --[[ toggleQuickFish | Line: 136 | Upvalues: t2 (copy), FishingAutoFishPurchase (copy), LocalPlayer (copy), show (copy), applyVisuals (copy) ]]  -  Edit
+  13:40:37.561    Line 142 : 	local ok, result = pcall(function() --[[ Line: 138 | Upvalues: FishingAutoFishPurchase (ref), v1 (copy) ]]  -  Edit
+  13:40:37.561    Line 143 : 		return FishingAutoFishPurchase:InvokeServer("SetQuickFishEnabled", v1)  -  Edit
+  13:40:37.561    Line 167 : 	t.purchaseButton.MouseButton1Click:Connect(function() --[[ Line: 166 | Upvalues: FishingAutoFishPurchase (copy), LocalPlayer (copy), applyVisuals (copy), show (copy), v9 (copy) ]]  -  Edit
+  13:40:37.561    Line 168 : 		local ok, result = pcall(function() --[[ Line: 167 | Upvalues: FishingAutoFishPurchase (ref) ]]  -  Edit
+  13:40:37.561    Line 169 : 			return FishingAutoFishPurchase:InvokeServer("BuyQuickFishWithGems")  -  Edit
+  13:40:37.562  FOUND: FishingRequestStart -> StarterGui.ClientScriptsHost.ClientScripts.FishingClientService  -  Edit
+  13:40:37.563    Line 18 : local FishingRequestStart = Remotes:WaitForChild("FishingRequestStart")  -  Edit
+  13:40:37.564    Line 4060 : 	function tryStartFishingAt(p1, p2) --[[ tryStartFishingAt | Line: 3919 | Upvalues: t9 (copy), t10 (copy), FishingRequestStart (copy) ]]  -  Edit
+  13:40:37.564    Line 4079 : 			FishingRequestStart:FireServer(p1, p2)  -  Edit
+  13:40:37.565  FOUND: FishingClick -> StarterGui.ClientScriptsHost.ClientScripts.FishingClientService  -  Edit
+  13:40:37.566    Line 19 : local FishingClick = Remotes:WaitForChild("FishingClick")  -  Edit
+  13:40:37.566    Line 2056 : 	local function doAutoFishClick() --[[ doAutoFishClick | Line: 2075 | Upvalues: t10 (copy), t9 (copy), TextLabel (copy), onCatchClickCameraPulse (copy), FishingClick (copy) ]]  -  Edit
+  13:40:37.566    Line 2065 : 			FishingClick:FireServer()  -  Edit
+  13:40:37.567    Line 4221 : 	UserInputService.InputBegan:Connect(function(p1, p2) --[[ Line: 4141 | Upvalues: UserInputService (copy), t9 (copy), TextLabel (copy), popCatchText (copy), onCatchClickCameraPulse (copy), FishingClick (copy), getPondFromMouseRay (copy), LocalPlayer (copy), v11 (copy), NotificationService (copy), playSimpleSound (copy), v1 (copy) ]]  -  Edit
+  13:40:37.567    Line 4243 : 			FishingClick:FireServer()  -  Edit
+  13:40:37.567  FOUND: FishingCancel -> StarterGui.ClientScriptsHost.ClientScripts.FishingClientService  -  Edit
+  13:40:37.568    Line 20 : local FishingCancel = Remotes:WaitForChild("FishingCancel")  -  Edit
+  13:40:37.569    Line 4040 : 	function _G.__Fishing_CancelForTeleport() --[[ Line: 3897 | Upvalues: t9 (copy), FishingCancel (copy) ]]  -  Edit
+  13:40:37.569    Line 4049 : 			pcall(function() --[[ Line: 3916 | Upvalues: FishingCancel (ref) ]]  -  Edit
+  13:40:37.569    Line 4050 : 				FishingCancel:FireServer()  -  Edit
+  13:40:37.569    Line 4056 : 		pcall(function() --[[ Line: 3916 | Upvalues: FishingCancel (ref) ]]  -  Edit
+  13:40:37.569    Line 4057 : 			FishingCancel:FireServer()  -  Edit
+  13:40:37.569    Line 4131 : 	CloseBTN.MouseButton1Click:Connect(function() --[[ Line: 4074 | Upvalues: t9 (copy), FishingCancel (copy), Drop (copy), popClose (copy), FishAction (copy) ]]  -  Edit
+  13:40:37.569    Line 4136 : 			FishingCancel:FireServer()  -  Edit
+  13:40:37.569    Line 4143 : 		pcall(function() --[[ Line: 4087 | Upvalues: FishingCancel (ref) ]]  -  Edit
+  13:40:37.569    Line 4144 : 			FishingCancel:FireServer()  -  Edit
+  13:40:37.569    Line 4730 : 	function onFishingRenderStep(p1) --[[ onFishingRenderStep | Line: 4580 | Upvalues: getHeldRod (copy), updateFishSelectVisual (copy), t12 (copy), t9 (copy), t10 (copy), LocalPlayer (copy), v25 (ref), setAutoFishEnabled (copy), stopLoopSound (copy), clearCatchCameraPulse (copy), forceStopFishingAnimationTracks (copy), popClose (copy), FishAction (copy), FishingCancel (copy), playAnimationFromConfig (copy), v7 (copy), t6 (copy), TextLabel (copy), v27 (copy), doAutoFishClick (copy), v22 (copy), v21 (copy) ]]  -  Edit
+  13:40:37.569    Line 4880 : 			FishingCancel:FireServer()  -  Edit
+  13:40:37.570  FOUND: FishingState -> StarterGui.ClientScriptsHost.ClientScripts.FishingClientService  -  Edit
+  13:40:37.570    Line 21 : local FishingState = Remotes:WaitForChild("FishingState")  -  Edit
+  13:40:37.572    Line 4378 : 	FishingState.OnClientEvent:Connect(function(p1) --[[ Line: 4265 | Upvalues: t9 (copy), NotificationService (copy), playSimpleSound (copy), t10 (copy), setAutoFishEnabled (copy), forceStopFishingAnimationTracks (copy), armBackpackSpaceWatch (copy), v30 (copy), getHeldRod (copy), v52 (ref), LocalPlayer (copy), TextLabel (copy), setBarProgress (copy), t (copy), ReplicatedStorage (copy), FishAction (copy), v49 (ref), FirstRarityCatchClient (copy), Assets (copy) ]]  -  Edit
+  13:40:37.572  FOUND: FishingGlobalCatch -> StarterGui.ClientScriptsHost.ClientScripts.FishingClientService  -  Edit
+  13:40:37.573    Line 22 : local FishingGlobalCatch = Remotes:WaitForChild("FishingGlobalCatch")  -  Edit
+  13:40:37.574    Line 4299 : 	FishingGlobalCatch.OnClientEvent:Connect(function(p1) --[[ Line: 4213 | Upvalues: LocalPlayer (copy), t9 (copy) ]]  -  Edit
+  13:40:37.575  FOUND: FishingAutoFishPurchase -> StarterGui.ClientScriptsHost.ClientScripts.FishingClientService  -  Edit
+  13:40:37.575    Line 23 : local FishingAutoFishPurchase = Remotes:WaitForChild("FishingAutoFishPurchase")  -  Edit
+  13:40:37.577    Line 4211 : 		Purchase.MouseButton1Click:Connect(function() --[[ Line: 4131 | Upvalues: FishingAutoFishPurchase (copy), setAutoFishOwnedUi (copy) ]]  -  Edit
+  13:40:37.577    Line 4212 : 			local ok, result = pcall(function() --[[ Line: 4132 | Upvalues: FishingAutoFishPurchase (ref) ]]  -  Edit
+  13:40:37.577    Line 4213 : 				return FishingAutoFishPurchase:InvokeServer("BuyWithGems")  -  Edit
+  13:40:37.577    Line 5099 : pcall(function() --[[ Line: 4985 | Upvalues: FishingAutoFishPurchase (copy) ]]  -  Edit
+  13:40:37.577    Line 5100 : 	FishingAutoFishPurchase:InvokeServer("GetState")  -  Edit
+  13:40:37.578  FOUND: FishingState -> StarterGui.ClientScriptsHost.ClientScripts.FishAction2Client  -  Edit
+  13:40:37.578    Line 13 : local FishingState = Remotes:WaitForChild("FishingState")  -  Edit
+  13:40:37.578    Line 261 : FishingState.OnClientEvent:Connect(function(p1) --[[ Line: 310 | Upvalues: LocalPlayer (copy), t2 (copy), popIn (copy), fetchChances (copy), popOut (copy) ]]  -  Edit
+  13:40:37.578  FOUND: FishingForceAutoFish -> StarterGui.ClientScriptsHost.ClientScripts.AfkFishResumeClient  -  Edit
+  13:40:37.578    Line 317 : 	local FishingForceAutoFish = Remotes:WaitForChild("FishingForceAutoFish", 30)  -  Edit
+  13:40:37.578    Line 318 : 	if FishingForceAutoFish then  -  Edit
+  13:40:37.578    Line 319 : 		FishingForceAutoFish.OnClientEvent:Connect(function(p1) --[[ Line: 219 | Upvalues: runAutoFishStart (ref) ]]  -  Edit
+  13:40:37.578  FOUND: FishingAfkResumeClaim -> StarterGui.ClientScriptsHost.ClientScripts.AfkFishResumeClient  -  Edit
+  13:40:37.578    Line 145 : 	local FishingAfkResumeClaim = Remotes:WaitForChild("FishingAfkResumeClaim", 20)  -  Edit
+  13:40:37.578    Line 146 : 	if not FishingAfkResumeClaim then  -  Edit
+  13:40:37.578    Line 157 : 	local ok, result = pcall(function() --[[ Line: 172 | Upvalues: FishingAfkResumeClaim (copy) ]]  -  Edit
+  13:40:37.578    Line 158 : 		return FishingAfkResumeClaim:InvokeServer()  -  Edit
+  13:40:37.579  FOUND: FishingState -> StarterGui.ClientScriptsHost.ClientScripts.FishAction3Client  -  Edit
+  13:40:37.579    Line 14 : local FishingState = Remotes:WaitForChild("FishingState")  -  Edit
+  13:40:37.579    Line 309 : FishingState.OnClientEvent:Connect(function(p1) --[[ Line: 347 | Upvalues: LocalPlayer (copy), t2 (copy), popIn (copy), fetchChances (copy), popOut (copy) ]]  -  Edit
+  13:40:37.614  FOUND: FishingRequestStart -> ReplicatedStorage.Modules.FishingClientRuntime  -  Edit
+  13:40:37.615    Line 18 : local FishingRequestStart = Remotes:WaitForChild("FishingRequestStart")  -  Edit
+  13:40:37.616    Line 1750 : local function tryStartFishingAt(p1, p2) --[[ tryStartFishingAt | Line: 1657 | Upvalues: t11 (copy), t9 (copy), t12 (copy), FishingRequestStart (copy) ]]  -  Edit
+  13:40:37.616    Line 1772 : 	FishingRequestStart:FireServer(v1, v3)  -  Edit
+  13:40:37.617  FOUND: FishingClick -> ReplicatedStorage.Modules.FishingClientRuntime  -  Edit
+  13:40:37.617    Line 19 : local FishingClick = Remotes:WaitForChild("FishingClick")  -  Edit
+  13:40:37.618    Line 1917 : local function doAutoFishClick() --[[ doAutoFishClick | Line: 1796 | Upvalues: t12 (copy), t11 (copy), TextLabel (copy), onCatchClickCameraPulse (copy), FishingClick (copy) ]]  -  Edit
+  13:40:37.618    Line 1926 : 		FishingClick:FireServer()  -  Edit
+  13:40:37.618    Line 2827 : UserInputService.InputBegan:Connect(function(p1, p2) --[[ Line: 2512 | Upvalues: UserInputService (copy), t11 (copy), TextLabel (copy), popCatchText (copy), onCatchClickCameraPulse (copy), FishingClick (copy), t9 (copy), v11 (copy), v1 (copy), LocalPlayer (copy), tryStartFishingAt (copy) ]]  -  Edit
+  13:40:37.618    Line 2849 : 		FishingClick:FireServer()  -  Edit
+  13:40:37.618  FOUND: FishingCancel -> ReplicatedStorage.Modules.FishingClientRuntime  -  Edit
+  13:40:37.619    Line 20 : local FishingCancel = Remotes:WaitForChild("FishingCancel")  -  Edit
+  13:40:37.620    Line 3261 : function onFishingRenderStep(p1) --[[ onFishingRenderStep | Line: 2794 | Upvalues: getHeldRod (copy), updateFishSelectVisual (copy), t19 (copy), v82 (ref), t15 (copy), v39 (copy), LocalPlayer (copy), t9 (copy), v43 (copy), startOrbGuide (copy), updateOrbs (copy), t17 (copy), t12 (copy), v24 (ref), setAutoFishEnabled (copy), t11 (copy), FishingCancel (copy), playAnimationFromConfig (copy), v6 (copy), t18 (copy), TextLabel (copy), FishActionTextSize (copy), FishActionTextPos (copy), t6 (copy), v26 (copy), doAutoFishClick (copy), t (copy) ]]  -  Edit
+  13:40:37.620    Line 3382 : 					FishingCancel:FireServer()  -  Edit
+  13:40:37.620  FOUND: FishingState -> ReplicatedStorage.Modules.FishingClientRuntime  -  Edit
+  13:40:37.621    Line 21 : local FishingState = Remotes:WaitForChild("FishingState")  -  Edit
+  13:40:37.621    Line 2909 : FishingState.OnClientEvent:Connect(function(p1) --[[ Line: 2570 | Upvalues: t12 (copy), v27 (copy), t9 (copy), tryStartFishingAt (copy), t11 (copy), NotificationService (copy), playSimpleSound (copy), setAutoFishEnabled (copy), t18 (copy), LocalPlayer (copy), getHeldRod (copy), TextLabel (copy), setBarProgress (copy), t2 (copy), v76 (ref), FirstRarityCatchClient (copy), Assets (copy) ]]  -  Edit
+  13:40:37.622  FOUND: FishingGlobalCatch -> ReplicatedStorage.Modules.FishingClientRuntime  -  Edit
+  13:40:37.622    Line 22 : local FishingGlobalCatch = Remotes:WaitForChild("FishingGlobalCatch")  -  Edit
+  13:40:37.623    Line 2876 : FishingGlobalCatch.OnClientEvent:Connect(function(p1) --[[ Line: 2546 | Upvalues: LocalPlayer (copy), t11 (copy), showRareCatch (copy) ]]  -  Edit
+  13:40:37.624  FOUND: FishingAutoFishPurchase -> ReplicatedStorage.Modules.FishingClientRuntime  -  Edit
+  13:40:37.624    Line 23 : local FishingAutoFishPurchase = Remotes:WaitForChild("FishingAutoFishPurchase")  -  Edit
+  13:40:37.625    Line 2739 : 	QuickFish.MouseButton1Click:Connect(function() --[[ Line: 2450 | Upvalues: t13 (copy), NotificationService (copy), playSimpleSound (copy), MarketplaceService (copy), LocalPlayer (copy), v19 (copy), FishingAutoFishPurchase (copy), setQuickFishOwnedUi (copy), Disabled2 (copy), Enabled2 (copy) ]]  -  Edit
+  13:40:37.625    Line 2750 : 		local ok, result = pcall(function() --[[ Line: 2458 | Upvalues: FishingAutoFishPurchase (ref), v1 (copy) ]]  -  Edit
+  13:40:37.625    Line 2751 : 			return FishingAutoFishPurchase:InvokeServer("SetQuickFishEnabled", v1)  -  Edit
+  13:40:37.625    Line 2779 : 	Purchase.MouseButton1Click:Connect(function() --[[ Line: 2481 | Upvalues: FishingAutoFishPurchase (copy), setAutoFishOwnedUi (copy), setQuickFishOwnedUi (copy), t13 (copy), Disabled2 (copy), Enabled2 (copy) ]]  -  Edit
+  13:40:37.625    Line 2780 : 		local ok, result = pcall(function() --[[ Line: 2482 | Upvalues: FishingAutoFishPurchase (ref) ]]  -  Edit
+  13:40:37.625    Line 2781 : 			return FishingAutoFishPurchase:InvokeServer("BuyWithGems")  -  Edit
+  13:40:37.625    Line 2805 : 	Purchase2.MouseButton1Click:Connect(function() --[[ Line: 2498 | Upvalues: FishingAutoFishPurchase (copy), setQuickFishOwnedUi (copy), t13 (copy), Disabled2 (copy), Enabled2 (copy), setAutoFishOwnedUi (copy) ]]  -  Edit
+  13:40:37.625    Line 2806 : 		local ok, result = pcall(function() --[[ Line: 2499 | Upvalues: FishingAutoFishPurchase (ref) ]]  -  Edit
+  13:40:37.625    Line 2807 : 			return FishingAutoFishPurchase:InvokeServer("BuyQuickFishWithGems")  -  Edit
+  13:40:37.625    Line 3505 : pcall(function() --[[ Line: 2972 | Upvalues: FishingAutoFishPurchase (copy), setAutoFishOwnedUi (copy), setQuickFishOwnedUi (copy), t13 (copy), Disabled2 (copy), Enabled2 (copy) ]]  -  Edit
+  13:40:37.625    Line 3506 : 	local v1 = FishingAutoFishPurchase:InvokeServer("GetState")  -  Edit
