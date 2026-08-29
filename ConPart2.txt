@@ -1,0 +1,1500 @@
+		Time = 60,
+		Chance = "1/20,000"
+	},
+	Neliera = {
+		CPS = 5,
+		Rarity = "Rare",
+		Time = 60,
+		Chance = "1/14,000"
+	},
+	["Harla Quinne"] = {
+		CPS = 5,
+		Rarity = "Rare",
+		Time = 60,
+		Chance = "1/7,000"
+	},
+	Anastasia = {
+		CPS = 5,
+		Rarity = "Rare",
+		Time = 60,
+		Chance = "1/4,450",
+		SecretCharacter = true,
+		SecretCharacterPrice = 20
+	},
+	["Rudeus Chan"] = {
+		CPS = 5,
+		Rarity = "Rare",
+		Time = 60,
+		Chance = "1/6,000",
+		CombinationPartner = "Sylphette",
+		"Roxia"
+	},
+	["Kitsune Maiden"] = {
+		CPS = 5,
+		Rarity = "Rare",
+		Time = 60,
+		Chance = "1/9,500"
+	},
+	["Goth Elf"] = {
+		CPS = 14,
+		Rarity = "Epic",
+		Time = 60,
+		Chance = "1/25,000",
+		SecretCharacter = true,
+		SecretCharacterPrice = 75
+	},
+	Valora = {
+		CPS = 14,
+		Rarity = "Epic",
+		Time = 60,
+		Chance = "1/25,000",
+		SecretCharacter = true,
+		SecretCharacterPrice = 75
+	},
+	Rukira = {
+		CPS = 20,
+		Rarity = "Epic",
+		Time = 60,
+		Chance = "1/80,000"
+	},
+	Yuura = {
+		CPS = 19,
+		Rarity = "Epic",
+		Time = 60,
+		Chance = "1/75,000",
+		CombinationPartner = "Chiya"
+	},
+	Chiya = {
+		CPS = 19,
+		Rarity = "Epic",
+		Time = 60,
+		Chance = "1/75,000",
+		CombinationPartner = "Yuura"
+	},
+	Shizura = {
+		CPS = 20,
+		Rarity = "Epic",
+		Time = 60,
+		Chance = "1/87,000"
+	},
+	["Toxic Ivy"] = {
+		CPS = 15,
+		Rarity = "Epic",
+		Time = 60,
+		Chance = "1/32,500"
+	},
+	Alyra = {
+		CPS = 14,
+		Rarity = "Epic",
+		Time = 60,
+		Chance = "1/25,000"
+	},
+	Askira = {
+		CPS = 15,
+		Rarity = "Epic",
+		Time = 60,
+		Chance = "1/33,000",
+		CombinationPartner = "Reia"
+	},
+	Reia = {
+		CPS = 15,
+		Rarity = "Epic",
+		Time = 60,
+		Chance = "1/33,000",
+		CombinationPartner = "Askira"
+	},
+	Etoa = {
+		CPS = 16,
+		Rarity = "Epic",
+		Time = 60,
+		Chance = "1/42,000"
+	},
+	["Summer Mika"] = {
+		CPS = 93,
+		Rarity = "Legendary",
+		Time = 60,
+		Chance = "1/200,000",
+		CombinationPartner = "Teto"
+	},
+	["Ashlyn Grave"] = {
+		CPS = 95,
+		Rarity = "Legendary",
+		Time = 60,
+		Chance = "1/212,500"
+	},
+	Bokira = {
+		CPS = 88,
+		Rarity = "Legendary",
+		Time = 60,
+		Chance = "1/120,000",
+		Exclusive = true,
+		OnlyDefaultType = true,
+		LockOnReceive = true,
+		UnlockTrueCps = true,
+		UnlockTrueCpsLockedValue = 200,
+		UnlockTrueCpsRebirth = 5
+	},
+	Ferna = {
+		CPS = 98,
+		Rarity = "Legendary",
+		Time = 60,
+		Chance = "1/425,000",
+		CombinationPartner = "Froza"
+	},
+	Powera = {
+		CPS = 110,
+		Rarity = "Legendary",
+		Time = 60,
+		Chance = "1/675,000"
+	},
+	["Akina Asari"] = {
+		CPS = 110,
+		Rarity = "Legendary",
+		Time = 60,
+		Chance = "1/675,000"
+	},
+	["Linnete Yagami"] = {
+		CPS = 94,
+		Rarity = "Legendary",
+		Time = 60,
+		Chance = "1/210,000",
+		CombinationPartner = "Lawliete"
+	},
+	["Yuta Chan"] = {
+		CPS = 90,
+		Rarity = "Legendary",
+		Time = 60,
+		Chance = "1/140,000"
+	},
+	Lawliete = {
+		CPS = 94,
+		Rarity = "Legendary",
+		Time = 60,
+		Chance = "1/210,000",
+		CombinationPartner = "Linnete Yagami"
+	},
+	Sabera = {
+		CPS = 88,
+		Rarity = "Legendary",
+		Time = 60,
+		Chance = "1/120,000"
+	},
+	["Jayne Doe"] = {
+		CPS = 103,
+		Rarity = "Legendary",
+		Time = 60,
+		Chance = "1/535,000"
+	},
+	Researcher = {
+		CPS = 103,
+		Rarity = "Legendary",
+		Time = 60,
+		Chance = "1/500,000",
+		SecretCharacter = true,
+		SecretCharacterPrice = 1000
+	},
+	Runia = {
+		CPS = 118,
+		Rarity = "Legendary",
+		Time = 60,
+		Chance = "1/888,888"
+	},
+	Mary = {
+		CPS = 120,
+		Rarity = "Legendary",
+		Time = 60,
+		Chance = "1/975,000"
+	},
+	["Kitsune Maiden II"] = {
+		CPS = 280,
+		Rarity = "Mythical",
+		Time = 60,
+		Chance = "1/1,250,000"
+	},
+	["Fisher Bokira"] = {
+		CPS = 310,
+		Rarity = "Mythical",
+		Time = 60,
+		Chance = "1/1,750,000",
+		SecretCharacter = true,
+		SecretCharacterPrice = 4750
+	},
+	["Yora Forge"] = {
+		CPS = 360,
+		Rarity = "Mythical",
+		Time = 60,
+		Chance = "1/3,200,000"
+	},
+	Kirara = {
+		CPS = 340,
+		Rarity = "Mythical",
+		Time = 60,
+		Chance = "1/2,222,222"
+	},
+	Roxia = {
+		CPS = 295,
+		Rarity = "Mythical",
+		Time = 60,
+		Chance = "1/1,400,000",
+		CombinationPartner = "Sylphette",
+		"Rudeus Chan"
+	},
+	Teto = {
+		CPS = 375,
+		Rarity = "Mythical",
+		Time = 60,
+		Chance = "1/3,600,000"
+	},
+	Amora = {
+		CPS = 360,
+		Rarity = "Mythical",
+		Time = 60,
+		Chance = "1/3,200,000"
+	},
+	Makina = {
+		CPS = 400,
+		Rarity = "Mythical",
+		Time = 60,
+		Chance = "1/5,000,000"
+	},
+	["Elena Joh"] = {
+		CPS = 340,
+		Rarity = "Mythical",
+		Time = 60,
+		Chance = "1/2,250,000"
+	},
+	["Zera Two"] = {
+		CPS = 325,
+		Rarity = "Mythical",
+		Time = 60,
+		Chance = "1/2,000,000"
+	},
+	["Misa Amara"] = {
+		CPS = 305,
+		Rarity = "Mythical",
+		Time = 60,
+		Chance = "1/1,700,000"
+	},
+	Aquella = {
+		CPS = 840,
+		Rarity = "Cosmic",
+		Time = 60,
+		Chance = "1/6,250,000",
+		CombinationPartner = "Megumia"
+	},
+	Akara = {
+		CPS = 920,
+		Rarity = "Cosmic",
+		Time = 60,
+		Chance = "1/7,500,000"
+	},
+	Riza = {
+		CPS = 1160,
+		Rarity = "Cosmic",
+		Time = 60,
+		Chance = "1/12,000,000",
+		CombinationPartner = { "Kaneko", "Kaneko II" }
+	},
+	Reinette = {
+		CPS = 1000,
+		Rarity = "Cosmic",
+		Time = 60,
+		Chance = "1/8,100,000"
+	},
+	["Ria Gramera"] = {
+		CPS = 1200,
+		Rarity = "Cosmic",
+		Time = 60,
+		Chance = "1/13,250,000"
+	},
+	Nefera = {
+		CPS = 1200,
+		Rarity = "Cosmic",
+		Time = 60,
+		Chance = "1/13,000,000"
+	},
+	Sylphette = {
+		CPS = 1360,
+		Rarity = "Cosmic",
+		Time = 60,
+		Chance = "1/20,250,000",
+		CombinationPartner = "Rudeus Chan"
+	},
+	Goja = {
+		CPS = 5600,
+		Rarity = "Secret",
+		Time = 60,
+		Chance = "1/66,625,000"
+	},
+	Rami = {
+		CPS = 5200,
+		Rarity = "Secret",
+		Time = 60,
+		Chance = "1/50,000,000",
+		CombinationPartner = "Remi"
+	},
+	["Love Princess"] = {
+		CPS = 5200,
+		Rarity = "Secret",
+		Time = 60,
+		Chance = "1/53,215,000"
+	},
+	["Mahita Chan"] = {
+		CPS = 4200,
+		Rarity = "Secret",
+		Time = 60,
+		Chance = "1/25,000,000"
+	},
+	Neona = {
+		CPS = 4600,
+		Rarity = "Secret",
+		Time = 60,
+		Chance = "1/37,500,000"
+	},
+	["Serah Victoire"] = {
+		CPS = 6000,
+		Rarity = "Secret",
+		Time = 60,
+		Chance = "1/70,000,000",
+		CombinationPartner = { "Alucardia", "Girlyfang" }
+	},
+	["Super Woman"] = {
+		CPS = 4400,
+		Rarity = "Secret",
+		Time = 60,
+		Chance = "1/35,625,000"
+	},
+	Yumeka = {
+		CPS = 4800,
+		Rarity = "Secret",
+		Time = 60,
+		Chance = "1/44,444,444"
+	},
+	Echidra = {
+		CPS = 5800,
+		Rarity = "Secret",
+		Time = 60,
+		Chance = "1/67,200,000"
+	},
+	Zamasina = {
+		CPS = 35000,
+		Rarity = "Rainbow",
+		Time = 60,
+		Chance = "1/200,000,000"
+	},
+	Pomna = {
+		CPS = 32500,
+		Rarity = "Rainbow",
+		Time = 60,
+		Chance = "1/150,000,000"
+	},
+	Dantessa = {
+		CPS = 31667,
+		Rarity = "Rainbow",
+		Time = 60,
+		Chance = "1/120,000,000"
+	},
+	Sukana = {
+		CPS = 38333,
+		Rarity = "Rainbow",
+		Time = 60,
+		Chance = "1/240,000,000"
+	},
+	Nazira = {
+		CPS = 35000,
+		Rarity = "Rainbow",
+		Time = 60,
+		Chance = "1/200,000,000"
+	},
+	Megumia = {
+		CPS = 40000,
+		Rarity = "Rainbow",
+		Time = 60,
+		Chance = "1/270,000,000",
+		CombinationPartner = "Aquella"
+	},
+	["Jester Baddie"] = {
+		CPS = 31667,
+		Rarity = "Rainbow",
+		Time = 60,
+		Chance = "1/122,525,000"
+	},
+	Chosa = {
+		CPS = 32500,
+		Rarity = "Rainbow",
+		Time = 60,
+		Chance = "1/150,000,000"
+	},
+	Goka = {
+		CPS = 35000,
+		Rarity = "Rainbow",
+		Time = 60,
+		Chance = "1/200,000,000"
+	},
+	["Waitress II"] = {
+		CPS = 30000,
+		Rarity = "Rainbow",
+		Time = 60,
+		Chance = "1/92,125,000"
+	},
+	["Yuna Gasara"] = {
+		CPS = 33333,
+		Rarity = "Rainbow",
+		Time = 60,
+		Chance = "1/175,000,000"
+	},
+	["Kyouka Hora"] = {
+		CPS = 32000,
+		Rarity = "Rainbow",
+		Time = 60,
+		Chance = "1/135,000,000",
+		CombinationPartner = { "Izuma Miyamira" }
+	},
+	["Izuma Miyamira"] = {
+		CPS = 32000,
+		Rarity = "Rainbow",
+		Time = 60,
+		Chance = "1/135,000,000",
+		CombinationPartner = { "Kyouka Hora" }
+	},
+	Kaneko = {
+		CPS = 33333,
+		Rarity = "Rainbow",
+		Time = 60,
+		Chance = "1/170,000,000",
+		CombinationPartner = { "Riza", "Touki", "Riza II" }
+	},
+	Rebekka = {
+		CPS = 30000,
+		Rarity = "Rainbow",
+		Time = 60,
+		Chance = "1/78,125,000",
+		CombinationPartner = { "Lucia", "Davida Martinez", "Ada Smasher" }
+	},
+	["Askira II"] = {
+		CPS = 228571,
+		Rarity = "Ascended",
+		Time = 60,
+		Chance = "1/540,225,000",
+		CombinationPartner = "Reia II"
+	},
+	["Reia II"] = {
+		CPS = 228571,
+		Rarity = "Ascended",
+		Time = 60,
+		Chance = "1/540,225,000",
+		CombinationPartner = "Askira II"
+	},
+	["2V"] = {
+		CPS = 285714,
+		Rarity = "Ascended",
+		Time = 60,
+		Chance = "1/1,000,000,000"
+	},
+	Tojima = {
+		CPS = 257143,
+		Rarity = "Ascended",
+		Time = 60,
+		Chance = "1/790,625,000"
+	},
+	["Sabera II"] = {
+		CPS = 240000,
+		Rarity = "Ascended",
+		Time = 60,
+		Chance = "1/600,000,000"
+	},
+	Lucia = {
+		CPS = 228571,
+		Rarity = "Ascended",
+		Time = 60,
+		Chance = "1/520,000,000",
+		CombinationPartner = { "Davida Martinez", "Rebekka" }
+	},
+	Bambienne = {
+		CPS = 200000,
+		Rarity = "Ascended",
+		Time = 60,
+		Chance = "1/390,625,000"
+	},
+	Albina = {
+		CPS = 211429,
+		Rarity = "Ascended",
+		Time = 60,
+		Chance = "1/440,000,000"
+	},
+	["Tenki Izuma"] = {
+		CPS = 211429,
+		Rarity = "Ascended",
+		Time = 60,
+		Chance = "1/400,000,000"
+	},
+	["Riza II"] = {
+		CPS = 880000,
+		Rarity = "Divine",
+		Time = 60,
+		Chance = "1/4,250,000,000",
+		CombinationPartner = { "Kaneko", "Kaneko II" }
+	},
+	["Makina II"] = {
+		CPS = 1080000,
+		Rarity = "Divine",
+		Time = 60,
+		Chance = "1/7,700,000,000"
+	},
+	Sasha = {
+		CPS = 1200000,
+		Rarity = "Divine",
+		Time = 60,
+		Chance = "1/8,404,404,404"
+	},
+	Akaria = {
+		CPS = 1040000,
+		Rarity = "Divine",
+		Time = 60,
+		Chance = "1/7,000,000,000"
+	},
+	["Ayaki Kamisora"] = {
+		CPS = 900000,
+		Rarity = "Divine",
+		Time = 60,
+		Chance = "1/5,000,000,000"
+	},
+	Selene = {
+		CPS = 840000,
+		Rarity = "Divine",
+		Time = 60,
+		Chance = "1/3,500,000,000"
+	},
+	["Ria Gramera II"] = {
+		CPS = 1120000,
+		Rarity = "Divine",
+		Time = 60,
+		Chance = "1/7,765,225,000"
+	},
+	Deltia = {
+		CPS = 1070000,
+		Rarity = "Divine",
+		Time = 60,
+		Chance = "1/7,500,000,000"
+	},
+	Hestira = {
+		CPS = 980000,
+		Rarity = "Divine",
+		Time = 60,
+		Chance = "1/6,200,000,000"
+	},
+	Remi = {
+		CPS = 1280000,
+		Rarity = "Divine",
+		Time = 60,
+		Chance = "1/10,000,000,000",
+		CombinationPartner = "Rami",
+		"Subara"
+	},
+	Subara = {
+		CPS = 1240000,
+		Rarity = "Divine",
+		Time = 60,
+		Chance = "1/9,000,000,000",
+		CombinationPartner = "Emeliara",
+		"Remi"
+	},
+	Suigintra = {
+		CPS = 7500000,
+		Rarity = "Supreme",
+		Time = 60,
+		Chance = "1/22,765,000,000"
+	},
+	["C.C"] = {
+		CPS = 8000000,
+		Rarity = "Supreme",
+		Time = 60,
+		Chance = "1/30,000,000,000"
+	},
+	["Kurumia Tokisora"] = {
+		CPS = 7000000,
+		Rarity = "Supreme",
+		Time = 60,
+		Chance = "1/17,765,225,000"
+	},
+	["Davida Martinez"] = {
+		CPS = 10000000,
+		Rarity = "Supreme",
+		Time = 60,
+		Chance = "1/70,000,000,000",
+		CombinationPartner = { "Lucia", "Rebekka" }
+	},
+	Tatsa = {
+		CPS = 8500000,
+		Rarity = "Supreme",
+		Time = 60,
+		Chance = "1/40,000,000,000"
+	},
+	["Rena Yamashira"] = {
+		CPS = 8500000,
+		Rarity = "Supreme",
+		Time = 60,
+		Chance = "1/50,000,000,000"
+	},
+	["Nazira II"] = {
+		CPS = 20000000,
+		Rarity = "Celestial",
+		Time = 60,
+		Chance = "1/152,000,000,000"
+	},
+	Esdrea = {
+		CPS = 20000000,
+		Rarity = "Celestial",
+		Time = 60,
+		Chance = "1/170,000,000,000"
+	},
+	["Summer Mika II"] = {
+		CPS = 16800000,
+		Rarity = "Celestial",
+		Time = 60,
+		Chance = "1/130,250,000,000",
+		CombinationPartner = "Teto"
+	},
+	["Madoki Kaneme"] = {
+		CPS = 17600000,
+		Rarity = "Celestial",
+		Time = 60,
+		Chance = "1/140,000,000,000",
+		CombinationPartner = "Homara Akeni"
+	},
+	["Homara Akeni"] = {
+		CPS = 17600000,
+		Rarity = "Celestial",
+		Time = 60,
+		Chance = "1/140,000,000,000",
+		CombinationPartner = "Madoki Kaneme"
+	},
+	Blayra = {
+		CPS = 24000000,
+		Rarity = "Celestial",
+		Time = 60,
+		Chance = "1/220,000,000,000"
+	},
+	Alucardia = {
+		CPS = 18000000,
+		Rarity = "Celestial",
+		Time = 60,
+		Chance = "1/144,120,625,000",
+		CombinationPartner = "Serah Victoire"
+	},
+	["Kaneko II"] = {
+		CPS = 175000000,
+		Rarity = "Ancient",
+		Time = 60,
+		Chance = "1/744,140,625,000",
+		CombinationPartner = { "Riza", "Touki", "Riza II" }
+	},
+	["Limitless Goja"] = {
+		CPS = 140000000,
+		Rarity = "Ancient",
+		Time = 60,
+		Chance = "1/374,200,000,000"
+	},
+	Elfaria = {
+		CPS = 125000000,
+		Rarity = "Ancient",
+		Time = 60,
+		Chance = "1/244,120,625,000"
+	},
+	["Almira Eye"] = {
+		CPS = 125000000,
+		Rarity = "Ancient",
+		Time = 60,
+		Chance = "1/250,000,000,000"
+	},
+	Changlia = {
+		CPS = 125000000,
+		Rarity = "Ancient",
+		Time = 60,
+		Chance = "1/320,000,000,000"
+	},
+	Astra = {
+		CPS = 145000000,
+		Rarity = "Ancient",
+		Time = 60,
+		Chance = "1/420,000,000,000"
+	},
+	Froza = {
+		CPS = 840000000,
+		Rarity = "God",
+		Time = 60,
+		Chance = "1/1,220,703,125,000",
+		CombinationPartner = "Ferna",
+		CustomEvent = "S U B  Z E R O"
+	},
+	Emeliara = {
+		CPS = 1200000000,
+		Rarity = "God",
+		Time = 60,
+		Chance = "1/2,520,000,000,000",
+		CustomEvent = "S U B  Z E R O"
+	},
+	Aemira = {
+		CPS = 1800000000,
+		Rarity = "God",
+		Time = 60,
+		Chance = "1/3,250,000,000,000",
+		CustomEvent = "Dreamspace"
+	},
+	["Nekopura II"] = {
+		CPS = 1000000000,
+		Rarity = "God",
+		Time = 60,
+		Chance = "1/2,000,000,000,000"
+	},
+	["Riyo Reaper"] = {
+		CPS = 900000000,
+		Rarity = "God",
+		Time = 60,
+		Chance = "1/1,500,000,000,000"
+	},
+	Ronova = {
+		CPS = 1200000000,
+		Rarity = "God",
+		Time = 60,
+		Chance = "1/2,200,000,000,000"
+	},
+	Angelia = {
+		CPS = 1600000000,
+		Rarity = "God",
+		Time = 60,
+		Chance = "1/3,000,000,000,000"
+	},
+	["Rimura Tempesta"] = {
+		CPS = 2000000000,
+		Rarity = "God",
+		Time = 60,
+		Chance = "1/4,000,000,000,000"
+	},
+	Girlyfang = {
+		CPS = 3500000000,
+		Rarity = "Omniscient",
+		Time = 60,
+		Chance = "1/70,000,000,000,000",
+		CombinationPartner = "Serah Victoire"
+	},
+	Exalia = {
+		CPS = 3500000000,
+		Rarity = "Omniscient",
+		Time = 60,
+		Chance = "1/66,666,666,666,666"
+	},
+	["Ada Smasher"] = {
+		CPS = 2850000000,
+		Rarity = "Omniscient",
+		Time = 60,
+		Chance = "1/50,000,000,000,000",
+		CombinationPartner = "Rebekka"
+	},
+	["Rora Mercuri"] = {
+		CPS = 3500000000,
+		Rarity = "Omniscient",
+		Time = 60,
+		Chance = "1/70,000,000,000,000"
+	},
+	Guthia = {
+		CPS = 3800000000,
+		Rarity = "Omniscient",
+		Time = 60,
+		Chance = "1/80,000,000,000,000"
+	},
+	Griffina = {
+		CPS = 3800000000,
+		Rarity = "Omniscient",
+		Time = 60,
+		Chance = "1/80,000,000,000,000"
+	},
+	Darkfire = {
+		CPS = 1250,
+		Rarity = "Exclusive",
+		Time = 60,
+		Chance = "Exclusive",
+		InfoChanceoveride = "Could be obtained during ALPHA phase!",
+		Exclusive = true,
+		OnlyDefaultType = true,
+		OverrideGemsIndexWorld = 100,
+		NotSellable = true,
+		UnlockTrueCps = true,
+		UnlockTrueCpsLockedValue = 100,
+		UnlockTrueCpsRebirth = 10
+	},
+	["Kira Ho"] = {
+		CPS = 7500,
+		Rarity = "Exclusive",
+		Time = 60,
+		Chance = "Exclusive",
+		InfoChanceoveride = "Could be obtained from Medal Rewards!",
+		Exclusive = true,
+		OnlyDefaultType = true,
+		OverrideGemsIndexWorld = 100,
+		NotSellable = true
+	},
+	Yin = {
+		CPS = 17500000,
+		Rarity = "Exclusive",
+		Time = 60,
+		Chance = "Exclusive",
+		InfoChanceoveride = "Could be obtained from LIMITED Yin Yang Box!",
+		Exclusive = true,
+		OnlyDefaultType = true,
+		OverrideGemsIndexWorld = 2000,
+		NotSellable = true,
+		CombinationPartner = "Yang"
+	},
+	Yang = {
+		CPS = 12500,
+		Rarity = "Exclusive",
+		Time = 60,
+		Chance = "Exclusive",
+		InfoChanceoveride = "Could be obtained from LIMITED Yin Yang Box!",
+		Exclusive = true,
+		OnlyDefaultType = true,
+		OverrideGemsIndexWorld = 0,
+		NotSellable = true,
+		CombinationPartner = "Yin"
+	}
+}
+t.CpsNerfDivisor = 1
+
+local t2 = {
+	["01f9d0a8"] = "Askira",
+	["02855250"] = "Sasha",
+	["034712bc"] = "Bokira",
+	["05a28062"] = "Sailor Luna",
+	["0ad3e745"] = "Froza",
+	["11f0722c"] = "Jolina",
+	["120b28fd"] = "Zera Two",
+	["13782184"] = "Nazira",
+	["15419789"] = "Elfaria",
+	["18b34f99"] = "Makina",
+	["1b89191a"] = "C.C",
+	["23aefd51"] = "Elfaria",
+	["2a89abe1"] = "Rimura Tempesta",
+	["2aa75b4e"] = "Misara",
+	["2bf89049"] = "Senka San",
+	["2fe43ca7"] = "Elena Joh",
+	["30e50530"] = "Emeliara",
+	["33f53ae5"] = "Blayra",
+	["37bda9bf"] = "Yuna Gasara",
+	["3858c3bb"] = "Touki",
+	["3cfbfec1"] = "Deltia",
+	["410c90aa"] = "Reia II",
+	["491dc27f"] = "Nezara",
+	["497be84d"] = "Ria Gramera II",
+	["4c6bf41b"] = "Makia",
+	["4f461474"] = "Ferna",
+	["4faf3f36"] = "Izuma Miyamira",
+	["527cf228"] = "Darkfire",
+	["6480b51b"] = "Misa Amara",
+	["65a896b0"] = "Natsuka",
+	["66d3ad33"] = "Echidra",
+	["693c2986"] = "Lucia",
+	["69f5c069"] = "Almira Eye",
+	["6a1b248e"] = "Nekopura II",
+	["6bf8c537"] = "Lyra Crofte",
+	["6caacee2"] = "Homara Akeni",
+	["6d62d118"] = "Nekopura",
+	["70e29958"] = "Albina",
+	["70ee3d68"] = "Sylphette",
+	["73e368b9"] = "Riza II",
+	["7502f9ce"] = "Alyra",
+	["791d4fdc"] = "Histora Reissa",
+	["7969359d"] = "Riza",
+	["7b530464"] = "Riyo Reaper",
+	["7d5fce14"] = "Shizura",
+	["802cf8f9"] = "Nefera",
+	["80af4bc1"] = "Changlia",
+	["82e97164"] = "Chiya",
+	["86d7260b"] = "Yuura",
+	["8956ac65"] = "Harla Quinne",
+	["8c5f2351"] = "Runia",
+	["8dd43efd"] = "Kyouka Hora",
+	["8f16f3e9"] = "Alucardia",
+	["920f7b87"] = "Yumeka",
+	["95ad90fb"] = "Kurumia Tokisora",
+	["96319db9"] = "Ria Gramera",
+	["98a3a613"] = "Ashlyn Grave",
+	["98b25914"] = "Amora",
+	["99ca912e"] = "Suigintra",
+	["9a01b8b7"] = "Celestria Ludenbera",
+	a0877aa0 = "Bambienne",
+	a0e56901 = "Jayne Doe",
+	a114cf1e = "Serah Victoire",
+	a2959ef6 = "Pomna",
+	a45d3a81 = "Roxia",
+	a5c4dbac = "2V",
+	a610768e = "Astra",
+	a7264d8b = "Askira II",
+	a87f205b = "Reia",
+	abde3be9 = "Megumia",
+	ac7f26a7 = "Remi",
+	ac89b403 = "Rami",
+	b2abad7b = "Fisher Bokira",
+	b4ea6c50 = "Summer Mika II",
+	baf93dfe = "Neliera",
+	bb4dcaba = "Sabera",
+	bca279b7 = "Rena Yamashira",
+	c03ab85d = "Exalia",
+	c40f527c = "Guthia",
+	c4de04b5 = "Aquella",
+	c749a5e6 = "Powera",
+	c8ed7d81 = "Akina Asari",
+	c9078b65 = "Neona",
+	c98be8e2 = "Tojima",
+	c9a16b26 = "Griffina",
+	ca38f943 = "Dantessa",
+	cded035e = "Rora Mercuri",
+	d2929e59 = "Akaria",
+	d29c5582 = "Nazira II",
+	d31fbc44 = "Sabera II",
+	d32a38cd = "Yoruika",
+	d45d2a4b = "Rukira",
+	d7c543d3 = "Toxic Ivy",
+	de2c564b = "Hatsuna Mika",
+	de8f82a8 = "Yora Forge",
+	dfbb56d2 = "Tenki Izuma",
+	e3133c5d = "Kirara",
+	e6a2a509 = "Etoa",
+	ed007cc0 = "Junka Enoshira",
+	efe5386e = "Summer Mika",
+	f01eccac = "Tatsa",
+	f0524a69 = "Madoki Kaneme",
+	f0677852 = "Rebekka",
+	f300f92b = "Hestira",
+	f4686dd3 = "Limitless Goja",
+	f5353ddd = "Chosa",
+	f65d68a2 = "Akara",
+	f75a52e1 = "Esdrea",
+	fa3cfb51 = "Ayaki Kamisora",
+	fd42c01c = "Girlyfang",
+	ff04ac2d = "Makina II",
+	ff69bfb0 = "Aemira",
+	ffeaa81e = "Selene"
+}
+
+local function aliasHash(p1) --[[ aliasHash | Line: 2763 ]]
+	local v1 = 2166136261
+
+	for i = 1, #p1 do
+		local v2 = bit32.bxor(v1, string.byte(p1, i))
+		local v3 = v2 % 65536
+
+		v1 = (v3 * 16777619 + (v2 - v3) / 65536 * 16777619 % 65536 * 65536) % 4294967296
+	end
+
+	return string.format("%08x", v1)
+end
+
+local v32 = nil
+local t3 = {
+	__index = function(p1, p2) --[[ __index | Line: 2777 | Upvalues: v32 (ref), t2 (copy), aliasHash (copy) ]]
+		if type(p2) ~= "string" then
+			return nil
+		end
+
+		if v32 == nil then
+			v32 = false
+
+			if game:GetService("RunService"):IsServer() then
+				local v1 = game:FindService("ServerStorage")
+				local v2 = if v1 then v1:FindFirstChild("CharacterAliasMap") else v1
+
+				if v2 and v2:IsA("ModuleScript") then
+					local ok, result = pcall(require, v2)
+
+					if ok and type(result) == "table" then
+						v32 = result
+					end
+				end
+			end
+		end
+
+		if v32 then
+			local v3 = v32[p2]
+
+			if v3 ~= nil then
+				return v3
+			end
+		end
+
+		return t2[aliasHash(p2)]
+	end
+}
+
+t.CharacterAliases = setmetatable({}, t3)
+
+local v33 = nil
+
+function t.CanonicalCharacterName(p1) --[[ CanonicalCharacterName | Line: 2813 | Upvalues: t (copy), v33 (ref) ]]
+	local v1 = tostring(p1 or "")
+	local v2 = t.Characters or {}
+
+	if v2[v1] then
+		return v1
+	end
+
+	local v3 = t.CharacterAliases[v1]
+
+	if v3 and v2[v3] then
+		return v3
+	end
+
+	if not v33 then
+		v33 = {}
+
+		for k in pairs(v2) do
+			local v4 = string.lower((string.gsub(k, "%W", "")))
+
+			v33[v4] = if v33[v4] == nil and k then k else false
+		end
+	end
+
+	local v7 = v33[string.lower((string.gsub(v1, "%W", "")))]
+
+	return if type(v7) == "string" then if v7 then v7 else v1 else v1
+end
+t.CharacterReplacements = t.CharacterReplacements or {}
+t.CharacterExchangeVersion = 1
+t.CharacterExchanges = {
+	{
+		v = 1,
+		from = "Remi",
+		to = "Esdrea"
+	},
+	{
+		v = 1,
+		from = "Subara",
+		to = "Alucardia"
+	}
+}
+t.CharacterGuiOffsets = {
+	["Hatsuna Mika"] = Vector3.new(0, 2.5, 0),
+	["Zera Two"] = Vector3.new(0, 2.5, 0)
+}
+t.PickupPromptHeights = {
+	["Hatsuna Mika"] = 3,
+	["Zera Two"] = 3
+}
+t.Spawn = {
+	SpawnCount = 8,
+	RespawnDelay = 4,
+	PickupHoldDuration = 1,
+	PersistSpawnedCharacters = true
+}
+t.Fishing = t.Fishing or {}
+t.Fishing.Animations = t.Fishing.Animations or {
+	Cast = {
+		R6 = "rbxassetid://108589273907745",
+		R15 = "rbxassetid://135133446699532"
+	},
+	FishingLoop = {
+		R6 = "rbxassetid://91112970851911",
+		R15 = "rbxassetid://77081785498337"
+	},
+	Catch = {
+		R6 = "rbxassetid://74598021111854",
+		R15 = "rbxassetid://116909389112155"
+	},
+	Uncatch = {
+		R6 = "rbxassetid://74598021111854",
+		R15 = "rbxassetid://73733281285718"
+	},
+	Idle = {
+		R6 = "rbxassetid://120826094172041",
+		R15 = "rbxassetid://70931232174504"
+	},
+	IdleLoop = {
+		R6 = "rbxassetid://82544721256610",
+		R15 = "rbxassetid://105920632312785"
+	}
+}
+t.Fishing.AutoFish = t.Fishing.AutoFish or {
+	AutoClickInterval = 0.72,
+	RestartDelay = 0.2,
+	MoveDisableDistance = 3,
+	GemCost = 500
+}
+t.Fishing.Distances = t.Fishing.Distances or {
+	MaxStartDistance = 50
+}
+t.Fishing.SelectVisual = t.Fishing.SelectVisual or {
+	MaxDistance = 100
+}
+t.TypeSystem = {
+	ChanceDenom = 3,
+	Multipliers = {
+		Gold = 1.25,
+		Honey = 1.25,
+		Diamond = 1.5,
+		Party = 1.5,
+		Frozen = 1.5,
+		Zombie = 2,
+		Electric = 2,
+		Blood = 2,
+		Slime = 2,
+		Lava = 2,
+		Ghost = 2.5,
+		Toxic = 4,
+		Lunar = 4,
+		Solar = 4,
+		Sinister = 5,
+		Void = 6,
+		Mars = 6,
+		Angelic = 6,
+		Nightmare = 7,
+		Dracula = 8,
+		Demonic = 10
+	}
+}
+
+local TypeEvents = t.TypeEvents
+
+if not TypeEvents then
+	TypeEvents = {
+		Enabled = true,
+		ColorableTag = "ColorAbleEvent",
+		TypeChanceGamepassAttribute = "GP_TypeChanceBoost",
+		TypeChanceGamepassMultiplier = 2,
+		MissingTypeBasePercentPerX = 5,
+		ApplyMissingTypeIfBoosted = true,
+		AssetsFolderPath = { "Assets", "TypeEvents" },
+		Schedule = {
+			RollEverySeconds = 300,
+			RollChanceNumerator = 1,
+			RollChanceDenominator = 1,
+			ForceEventAfterNoEventSeconds = 1000000000
+		},
+		Visuals = {
+			StartSlideSeconds = 0.28,
+			StartHoldSeconds = 0.4,
+			StartReadMoveSeconds = 4,
+			WaitAfterStartSeconds = 1.5,
+			LightingTweenSeconds = 1,
+			SkyTransitionSeconds = 0.45,
+			AssetFadeSeconds = 1,
+			SoundFadeSeconds = 1,
+			ColorTagTweenSeconds = 0.8
+		}
+	}
+
+	local t4 = {
+		Night = {
+			Enabled = true,
+			SelectionWeight = 20,
+			Durations = { 120, 150, 180 },
+			Boosts = {
+				Void = 1.25,
+				Blood = 2,
+				Lunar = 1.5,
+				Electric = 2,
+				Sinister = 1.5,
+				Nightmare = 1.125
+			},
+			Ui = {
+				StartTitle = "Mutation Event Started!",
+				StartDesc = v15,
+				StartTimePrefix = "Event Duration: ",
+				EventTitle = "Sweet Dreams",
+				EventDesc = v15,
+				EventTimePrefix = "Event Duration: "
+			},
+			Lighting = {
+				ClockTime = 7.7,
+				GeographicLatitude = 170,
+				FogEnd = 1000,
+				FogStart = 200,
+				Ambient = Color3.fromRGB(127, 127, 127),
+				FogColor = Color3.fromRGB(0, 0, 0)
+			},
+			ChatMessage = {
+				Text = "Sweet dreams... something wicked stirs in the shadows tonight.",
+				Color = Color3.fromRGB(100, 80, 200)
+			}
+		},
+		Blizzard = {
+			Enabled = true,
+			SelectionWeight = 20,
+			Durations = { 60, 90 },
+			Boosts = {
+				Frozen = 8,
+				Electric = 4,
+				Slime = 2
+			},
+			Ui = {
+				StartTitle = "Mutation Event Started!",
+				StartDesc = v21,
+				StartTimePrefix = "Event Duration: ",
+				EventTitle = "Blizzard",
+				EventDesc = v21,
+				EventTimePrefix = "Event Duration: "
+			},
+			Freeze = {
+				RollEverySeconds = 1,
+				RollDenominator = 100,
+				GrowSecondsMin = 1,
+				GrowSecondsMax = 2.5,
+				PartsPerLimbMin = 1,
+				PartsPerLimbMax = 2,
+				WaitAfterFrozenSeconds = 1,
+				ExplosionLifetimeSeconds = 2,
+				SoundDistance = 75,
+				IceTransparency = 0.55,
+				ConvertType = "Frozen",
+				IceColor = Color3.fromRGB(9, 137, 207)
+			},
+			TagColor = Color3.fromRGB(202, 203, 209),
+			ChatMessage = {
+				Text = "You feel a chill down your spine... a Blizzard has struck!",
+				Color = Color3.fromRGB(150, 210, 255)
+			}
+		},
+		Solar = {
+			Enabled = true,
+			SelectionWeight = 20,
+			Durations = { 90, 120, 180 },
+			Boosts = {
+				Mars = 1.25,
+				Blood = 3,
+				Lava = 4,
+				Honey = 2,
+				Gold = 3,
+				Solar = 3
+			},
+			Meteorites = {
+				SecondsPerMeteorite = 5,
+				SoundDistance = 100,
+				ImpactRadius = 50,
+				SpawnRadius = 200,
+				SpawnHeight = 150,
+				FallSpeed = 50,
+				ExplosionSeconds = 1.5
+			},
+			Ui = {
+				StartTitle = "Mutation Event Started!",
+				StartDesc = v1,
+				StartTimePrefix = "Event Duration: ",
+				EventTitle = "Solar",
+				EventDesc = v1,
+				EventTimePrefix = "Event Duration: "
+			},
+			Lighting = {
+				Brightness = 0.83,
+				FogEnd = 1000,
+				FogStart = 1,
+				Ambient = Color3.fromRGB(255, 255, 255),
+				ColorShift_Bottom = Color3.fromRGB(255, 128, 0),
+				ColorShift_Top = Color3.fromRGB(255, 128, 0),
+				OutdoorAmbient = Color3.fromRGB(255, 119, 0),
+				FogColor = Color3.fromRGB(255, 115, 0)
+			},
+			TagColor = Color3.fromRGB(255, 128, 0),
+			ChatMessage = {
+				Text = "The sun blazes with fury... Solar meteors are raining from the sky!",
+				Color = Color3.fromRGB(255, 165, 50)
+			}
+		},
+		Lunar = {
+			Enabled = true,
+			SelectionWeight = 20,
+			Durations = { 120, 180, 210 },
+			Boosts = {
+				Diamond = 1.5,
+				Lunar = 3,
+				Frozen = 2,
+				Electric = 2,
+				Party = 1.5,
+				Void = 2
+			},
+			Ui = {
+				StartTitle = "Mutation Event Started!",
+				StartDesc = v10,
+				StartTimePrefix = "Event Duration: ",
+				EventTitle = "Lunar",
+				EventDesc = v10,
+				EventTimePrefix = "Event Duration: "
+			},
+			Lighting = {
+				FogEnd = 1000,
+				Ambient = Color3.fromRGB(228, 215, 255),
+				OutdoorAmbient = Color3.fromRGB(74, 0, 177),
+				FogColor = Color3.fromRGB(136, 0, 255)
+			},
+			TagColor = Color3.fromRGB(136, 0, 255),
+			ChatMessage = {
+				Text = "A Lunar Star of the Grail descends from the sky... ancient cosmic power fills the air!",
+				Color = Color3.fromRGB(190, 150, 255)
+			}
+		},
+		SlimeRain = {
+			Enabled = true,
+			SelectionWeight = 20,
+			TagReflectance = 0.35,
+			TagGroundReflectance = 0,
+			Durations = { 120, 60, 180 },
+			Boosts = {
+				Slime = 5,
+				Electric = 2,
+				Honey = 2,
+				Toxic = 2
+			},
+			SlimeRain = {
+				BlobSpawnPerSecondPerPlayer = 7,
+				BlobSpawnRadius = 200,
+				BlobSpawnHeight = 150,
+				BlobFallSpeed = 70,
+				BlobSinkDelay = 1.5,
+				BlobSinkSeconds = 2,
+				BlobSinkDistance = 8,
+				BlobSoundDistance = 20,
+				BlobMinSize = Vector3.new(2, 2, 2),
+				BlobMaxSize = Vector3.new(6, 6, 6),
+				RainSpawnPerSecondPerPlayer = 30,
+				RainSpawnRadius = 150,
+				RainSpawnHeight = 150,
+				RainFallSpeed = 120,
+				RainSize = Vector3.new(0.5, 2.5, 0.5),
+				Colors = {
+					Color3.fromRGB(0, 255, 255),
+					Color3.fromRGB(170, 0, 255),
+					Color3.fromRGB(0, 255, 8),
+					Color3.fromRGB(85, 255, 127),
+					Color3.fromRGB(13, 105, 172),
+					Color3.fromRGB(98, 37, 209)
+				}
+			},
+			Ui = {
+				StartTitle = "Mutation Event Started!",
+				StartDesc = v14,
+				StartTimePrefix = "Event Duration: ",
+				EventTitle = "Slime Rain",
+				EventDesc = v14,
+				EventTimePrefix = "Event Duration: "
+			},
+			Lighting = {
+				Ambient = Color3.fromRGB(22, 200, 220)
+			},
+			TagColor = Color3.fromRGB(36, 151, 126),
+			TagGroundColor = Color3.fromRGB(0, 184, 74),
+			ChatMessage = {
+				Text = "Something slimy drips from the sky... the Slime Rain has arrived!",
+				Color = Color3.fromRGB(80, 230, 160)
+			}
+		},
+		Thunder = {
+			Enabled = true,
+			SelectionWeight = 20,
+			Durations = { 90, 120, 180 },
+			Boosts = {
+				Electric = 8,
+				Frozen = 4,
+				Diamond = 2
+			},
+			Lightning = {
+				SecondsPerStrike = 4,
+				SpawnRadius = 200,
+				MutateRadius = 30,
+				SoundDistance = 100,
+				FadeInSeconds = 0.25,
+				FadeOutAfterSeconds = 0.75,
+				FadeOutSeconds = 0.25,
+				MutateType = "Electric",
+				StrikeTargetRadius = 200,
+				StrikeTargetDenominator = 100,
+				RumbleMinSeconds = 8,
+				RumbleMaxSeconds = 18
+			},
+			Ui = {
+				StartTitle = "Mutation Event Started!",
+				StartDesc = v0,
+				StartTimePrefix = "Event Duration: ",
+				EventTitle = "Thunder",
+				EventDesc = v0,
+				EventTimePrefix = "Event Duration: "
+			},
+			Lighting = {
+				Brightness = 1,
+				FogEnd = 700,
+				FogStart = 100,
+				Ambient = Color3.fromRGB(120, 125, 140),
+				OutdoorAmbient = Color3.fromRGB(70, 75, 95),
+				FogColor = Color3.fromRGB(25, 28, 38)
+			},
+			TagColor = Color3.fromRGB(90, 140, 255),
+			ChatMessage = {
+				Text = "The sky splits open with lightning... a Thunderstorm rages overhead!",
+				Color = Color3.fromRGB(140, 180, 255)
+			}
+		}
+	}
+	local t5 = {
+		Enabled = true,
+		SelectionWeight = 0,
+		LuckMultiplier = 2,
+		TagReflectance = 0.75,
+		Durations = { 300 }
+	}
+	local t6 = {}
+	local v40 = pairs
+
+	for v42, v43 in v40(t.TypeSystem and t.TypeSystem.Multipliers or {}) do
+		t6[tostring(v42)] = 2
+	end
+
+	t5.Boosts = t6
+	t5.Ui = {
+		StartTitle = "Event Started!",
+		StartDesc = v11,
+		StartTimePrefix = "Event Duration: ",
+		EventTitle = "Heaven\'s Collide",
+		EventDesc = v11,
+		EventTimePrefix = "Event Duration: "
+	}
+	t5.Lighting = {
+		Ambient = Color3.fromRGB(194, 213, 255)
+	}
+	t5.TagColor = Color3.fromRGB(9, 137, 207)
+	t5.Stars = {
+		SpawnEverySeconds = 10,
+		SpawnRadius = 200,
+		SpawnHeight = 150,
+		FallSpeed = 190
+	}
+	t5.Impact = {
+		SpawnRadius = 35,
+		ActiveSeconds = 7,
+		SummonEverySeconds = 7.5,
+		CleanupBufferSeconds = 10
+	}
+	t5.Summoned = {
+		LifetimeSeconds = 60,
+		MaxRarity = "Mythical"
+	}
+	t5.Gem = {
+		SpawnEverySeconds = 3,
+		MaxAlive = 100,
+		SpawnRadius = 200,
+		SpawnHeight = 150,
+		FallSpeed = 170,
+		LifetimeSeconds = 420,
+		RewardGems = 100
+	}
+	t5.Sounds = {
+		ImpactDistance = 150,
+		AuraDistance = 100,
+		Impact2Distance = 100,
+		SummonDistance = 30
+	}
+	t5.ChatMessage = {
+		Text = "Divine light pierces the heavens... witness a celestial miracle!",
+		Color = Color3.fromRGB(255, 240, 120)
+	}
+	t4.Heaven = t5
+	t4["Hell\'s Gates"] = {
+		Enabled = true,
+		SelectionWeight = 0,
+		LuckMultiplier = 4,

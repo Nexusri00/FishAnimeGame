@@ -1,0 +1,1500 @@
+		DevProductId = 3542052630,
+		CashAmount = 12500000,
+		LabelText = "+12.5M Cash"
+	},
+	Robux3 = {
+		DevProductId = 3542052818,
+		CashAmount = 250000000000,
+		LabelText = "+250B Cash"
+	},
+	Robux4 = {
+		DevProductId = 3542053306,
+		CashAmount = 75000000000000,
+		LabelText = "+75T Cash"
+	}
+}
+t.Fishing = t.Fishing or {}
+t.Fishing.Distances = t.Fishing.Distances or {
+	MaxStartDistance = 50,
+	BreakDistanceFromStart = 20
+}
+t.Fishing.Ball = t.Fishing.Ball or {
+	CastDelay = 0.5,
+	ThrowTime = 0.45,
+	SinkDownOffset = 0.65,
+	SinkDownTime = 0.22,
+	SinkUpOffset = 0.22,
+	SinkUpTime = 0.2,
+	SettleOffset = 0.45,
+	SettleTime = 0.2,
+	ReturnArcHeight = 7.5,
+	ReturnDuration = 0.45
+}
+t.Fishing.Progress = t.Fishing.Progress or {
+	ServerTick = 0.1,
+	BarDrainTick = 0.08,
+	LoopPitchReturnSeconds = 5
+}
+t.Fishing.AutoFish = t.Fishing.AutoFish or {
+	GemCost = 500,
+	MoveDisableDistance = 3,
+	AutoClickInterval = 0.72,
+	RestartDelay = 0.2,
+	DevProductId = t.DevProducts.AUTO_FISH
+}
+t.Fishing.HighSpeedPresentation = t.Fishing.HighSpeedPresentation or {
+	NoViewportsAboveSpeed = 10,
+	HideBelowRarity = "Supreme",
+	ClumpNotificationsAboveSpeed = 20,
+	ClumpWindowSeconds = 0.5
+}
+t.Fishing.Hooks = t.Fishing.Hooks or {
+	Base = 1,
+	TripleHookBonus = 2,
+	QuintupleHookBonus = 2,
+	FirstSacrificeBonus = 1,
+	RebornBonus = 2,
+	Max = 100,
+	Spacing = 2.2,
+	BackOffset = 0.5,
+	MaxBobberLines = 8,
+	MaxSpectatorBobbers = 12,
+	NoViewportsAtHooks = 4,
+	ClumpNotificationsAtHooks = 9,
+	NamedNotificationsFromRarity = "Divine",
+	MaxIndividualNotifications = 5
+}
+t.Fishing.QuickFish = t.Fishing.QuickFish or {
+	GemCost = 30000,
+	CatchTimeMultiplier = 2,
+	DevProductId = t.DevProducts.QUICK_FISH
+}
+t.Fishing.SelectVisual = t.Fishing.SelectVisual or {
+	MaxDistance = 100,
+	PulseSeconds = 1,
+	YOffset = 0.06,
+	InvalidColorA = Color3.fromRGB(165, 0, 0),
+	InvalidColorB = Color3.fromRGB(255, 0, 0),
+	ValidColorA = Color3.fromRGB(17, 165, 0),
+	ValidColorB = Color3.fromRGB(30, 255, 0),
+	ValidMaterial = Enum.Material.Neon,
+	InvalidMaterial = Enum.Material.SmoothPlastic
+}
+t.Fishing.OrbGuide = t.Fishing.OrbGuide or {
+	HoldRodSeconds = 60,
+	RepeatHoldSeconds = 120,
+	ResetDelayNearPondSeconds = 60,
+	TriggerMinDistance = 40,
+	CooldownSeconds = 120,
+	SpawnCount = 8,
+	SpawnIntervalMin = 0.25,
+	SpawnIntervalMax = 0.5,
+	ParticleTransparencyMin = 0.25,
+	ParticleTransparencyMax = 0.35,
+	ParticleScaleMin = 0.125,
+	ParticleScaleMax = 0.25,
+	OrbitPlayerSeconds = 2,
+	MoveSpeed = 0.5,
+	OrbitTargetSeconds = 2,
+	PondHeightOffset = 5,
+	NotificationText = "The Orbs seem to guide you to something...",
+	NotificationColor = Color3.fromRGB(255, 255, 0)
+}
+t.Fishing.LevelChances = t.Fishing.LevelChances or {
+	Defaults = {
+		{
+			Weight = 80,
+			LevelMin = 0,
+			LevelMax = 0
+		},
+		{
+			Weight = 10,
+			LevelMin = 1,
+			LevelMax = 5
+		},
+		{
+			Weight = 10,
+			LevelMin = 6,
+			LevelMax = 10
+		}
+	},
+	Groups = {
+		Low = {
+			RodNames = { "Fishing Rod", "Steel Rod", "Iron Rod", "Ice Rod" },
+			Chances = {
+				{
+					Weight = 80,
+					LevelMin = 0,
+					LevelMax = 0
+				},
+				{
+					Weight = 10,
+					LevelMin = 1,
+					LevelMax = 5
+				},
+				{
+					Weight = 10,
+					LevelMin = 6,
+					LevelMax = 10
+				}
+			}
+		},
+		Mid = {
+			RodNames = { "Amethyst Rod", "Gold Rod", "Ruby Rod" },
+			Chances = {
+				{
+					Weight = 80,
+					LevelMin = 0,
+					LevelMax = 0
+				},
+				{
+					Weight = 10,
+					LevelMin = 1,
+					LevelMax = 5
+				},
+				{
+					Weight = 7.5,
+					LevelMin = 6,
+					LevelMax = 10
+				},
+				{
+					Weight = 2.5,
+					LevelMin = 11,
+					LevelMax = 15
+				}
+			}
+		},
+		High = {
+			RodNames = { "Astral Rod", "Void Rod", "Rod of Hell", "Complexity Rod", "Rod of the Heavens", "Forgotten Rod", "Admin Rod" },
+			Chances = {
+				{
+					Weight = 70,
+					LevelMin = 0,
+					LevelMax = 0
+				},
+				{
+					Weight = 10,
+					LevelMin = 1,
+					LevelMax = 5
+				},
+				{
+					Weight = 10,
+					LevelMin = 6,
+					LevelMax = 10
+				},
+				{
+					Weight = 5,
+					LevelMin = 11,
+					LevelMax = 15
+				},
+				{
+					Weight = 5,
+					LevelMin = 16,
+					LevelMax = 20
+				}
+			}
+		}
+	}
+}
+function t.GetFishingRodLevelChances(p1) --[[ GetFishingRodLevelChances | Line: 8769 | Upvalues: t (copy) ]]
+	local v1 = t.Fishing and t.Fishing.LevelChances or {}
+	local v2 = pairs
+
+	for v4, v5 in v2(v1.Groups or {}) do
+		local v6 = ipairs
+
+		for v8, v9 in v6(v5.RodNames or {}) do
+			if tostring(v9) == tostring(p1 or "") then
+				return v5.Chances or (v1.Defaults or {})
+			end
+		end
+	end
+
+	return v1.Defaults or {}
+end
+t.Fishing.Rods = t.Fishing.Rods or {
+	["Fishing Rod"] = {
+		Rarity = "Common",
+		Strength = 5,
+		Speed = 1,
+		Luck = 1,
+		BaseClicks = 11,
+		ClickDecayPerSecond = 1,
+		PondCatchTime = {
+			Min = 5,
+			Max = 10
+		},
+		RarityChances = {
+			Common = 44.99999888889,
+			Uncommon = 30,
+			Rare = 15,
+			Epic = 7,
+			Legendary = 2,
+			Mythical = 0.9,
+			Cosmic = 0.009,
+			Secret = 0.0001,
+			Rainbow = 1e-6,
+			Ascended = 1e-7,
+			Divine = 1e-8,
+			Supreme = 1e-9,
+			Celestial = 3.33333e-11,
+			Ancient = 1e-11,
+			God = 1e-16,
+			Omniscient = 8.69565e-23
+		},
+		TypeChances = {
+			Gold = 11.3,
+			Honey = 11.4,
+			Diamond = 9.1,
+			Frozen = 9.1,
+			Party = 9.1,
+			Blood = 6.4,
+			Electric = 6.4,
+			Slime = 6.4,
+			Zombie = 6.4,
+			Ghost = 4.8,
+			Lava = 3.8,
+			Toxic = 3.8,
+			Lunar = 2.7,
+			Sinister = 2,
+			Solar = 1.6,
+			Nightmare = 1.3,
+			Void = 1,
+			Mars = 1,
+			Angelic = 1,
+			Dracula = 0.8,
+			Demonic = 0.6
+		},
+		MultiPullChances = {
+			95,
+			3,
+			2,
+			0
+		}
+	},
+	["Steel Rod"] = {
+		Rarity = "Common",
+		Strength = 15,
+		Speed = 1.25,
+		Luck = 8,
+		BaseClicks = 9,
+		ClickDecayPerSecond = 1,
+		PondCatchTime = {
+			Min = 4,
+			Max = 25
+		},
+		RarityChances = {
+			Common = 10.3999978889,
+			Uncommon = 30,
+			Rare = 25,
+			Epic = 11.8,
+			Legendary = 2.5,
+			Mythical = 0.2,
+			Cosmic = 0.09,
+			Secret = 0.001,
+			Rainbow = 1e-6,
+			Ascended = 1e-6,
+			Divine = 1e-7,
+			Supreme = 1e-8,
+			Celestial = 3.33333e-10,
+			Ancient = 1e-10,
+			God = 1e-15,
+			Omniscient = 8.69565e-22
+		},
+		TypeChances = {
+			Gold = 11.3,
+			Honey = 11.4,
+			Diamond = 9.1,
+			Frozen = 9.1,
+			Party = 9.1,
+			Blood = 6.4,
+			Electric = 6.4,
+			Slime = 6.4,
+			Zombie = 6.4,
+			Ghost = 4.8,
+			Lava = 3.8,
+			Toxic = 3.8,
+			Lunar = 2.7,
+			Sinister = 2,
+			Solar = 1.6,
+			Nightmare = 1.3,
+			Void = 1,
+			Mars = 1,
+			Angelic = 1,
+			Dracula = 0.8,
+			Demonic = 0.6
+		},
+		MultiPullChances = {
+			95,
+			3,
+			2,
+			0
+		}
+	},
+	["Iron Rod"] = {
+		Rarity = "Uncommon",
+		Strength = 75,
+		Speed = 2.5,
+		Luck = 30,
+		BaseClicks = 8,
+		ClickDecayPerSecond = 1.5,
+		PondCatchTime = {
+			Min = 4,
+			Max = 20
+		},
+		RarityChances = {
+			Common = 19.999978889,
+			Uncommon = 20,
+			Rare = 25,
+			Epic = 21,
+			Legendary = 11.3,
+			Mythical = 2,
+			Cosmic = 0.5,
+			Secret = 0.2,
+			Rainbow = 0.00001,
+			Ascended = 0.00001,
+			Divine = 1e-6,
+			Supreme = 1e-7,
+			Celestial = 3.33333e-9,
+			Ancient = 1e-9,
+			God = 1e-14,
+			Omniscient = 8.69565e-22
+		},
+		TypeChances = {
+			Gold = 11.3,
+			Honey = 11.4,
+			Diamond = 9.1,
+			Frozen = 9.1,
+			Party = 9.1,
+			Blood = 6.4,
+			Electric = 6.4,
+			Slime = 6.4,
+			Zombie = 6.4,
+			Ghost = 4.8,
+			Lava = 3.8,
+			Toxic = 3.8,
+			Lunar = 2.7,
+			Sinister = 2,
+			Solar = 1.6,
+			Nightmare = 1.3,
+			Void = 1,
+			Mars = 1,
+			Angelic = 1,
+			Dracula = 0.8,
+			Demonic = 0.6
+		},
+		MultiPullChances = {
+			95,
+			3,
+			2,
+			0
+		}
+	},
+	["Ice Rod"] = {
+		Rarity = "Rare",
+		Strength = 180,
+		Speed = 3.75,
+		Luck = 80,
+		BaseClicks = 7,
+		ClickDecayPerSecond = 1.5,
+		PondCatchTime = {
+			Min = 3,
+			Max = 17
+		},
+		RarityChances = {
+			Common = 5.0009,
+			Uncommon = 10,
+			Rare = 19,
+			Epic = 31.09888889,
+			Legendary = 30.4,
+			Mythical = 3.6,
+			Cosmic = 0.8,
+			Secret = 0.1,
+			Rainbow = 0.0001,
+			Ascended = 0.0001,
+			Divine = 0.00001,
+			Supreme = 1e-6,
+			Celestial = 3.33333e-8,
+			Ancient = 1e-8,
+			God = 1e-13,
+			Omniscient = 8.69565e-21
+		},
+		TypeChances = {
+			Gold = 11.3,
+			Honey = 11.4,
+			Diamond = 9.1,
+			Frozen = 9.1,
+			Party = 9.1,
+			Blood = 6.4,
+			Electric = 6.4,
+			Slime = 6.4,
+			Zombie = 6.4,
+			Ghost = 4.8,
+			Lava = 3.8,
+			Toxic = 3.8,
+			Lunar = 2.7,
+			Sinister = 2,
+			Solar = 1.6,
+			Nightmare = 1.3,
+			Void = 1,
+			Mars = 1,
+			Angelic = 1,
+			Dracula = 0.8,
+			Demonic = 0.6
+		},
+		MultiPullChances = {
+			95,
+			2.8,
+			2,
+			0.2
+		}
+	},
+	["Amethyst Rod"] = {
+		Rarity = "Epic",
+		Strength = 300,
+		Speed = 5.5,
+		Luck = 210,
+		BaseClicks = 6,
+		ClickDecayPerSecond = 1.5,
+		PondCatchTime = {
+			Min = 2,
+			Max = 14
+		},
+		RarityChances = {
+			Common = 2.4988889,
+			Uncommon = 5,
+			Rare = 8,
+			Epic = 35.5,
+			Legendary = 36.6,
+			Mythical = 7.96,
+			Cosmic = 2,
+			Secret = 0.4,
+			Rainbow = 0.04,
+			Ascended = 0.0005,
+			Divine = 0.000025,
+			Supreme = 1.25e-6,
+			Celestial = 1.22223333e-7,
+			Ancient = 1e-7,
+			God = 1e-12,
+			Omniscient = 6.52174e-18
+		},
+		TypeChances = {
+			Gold = 10.1,
+			Honey = 10.1,
+			Diamond = 8.4,
+			Frozen = 8.4,
+			Party = 8.4,
+			Blood = 6.3,
+			Electric = 6.3,
+			Slime = 6.3,
+			Zombie = 6.3,
+			Ghost = 5,
+			Lava = 4.2,
+			Toxic = 4.2,
+			Lunar = 3.1,
+			Sinister = 2.5,
+			Solar = 2.1,
+			Nightmare = 1.8,
+			Void = 1.5,
+			Mars = 1.5,
+			Angelic = 1.5,
+			Dracula = 1.1,
+			Demonic = 0.9
+		},
+		MultiPullChances = {
+			95,
+			2.8,
+			2,
+			0.2
+		}
+	},
+	["Gold Rod"] = {
+		Rarity = "Legendary",
+		Strength = 550,
+		Speed = 7.5,
+		Luck = 410,
+		BaseClicks = 5,
+		ClickDecayPerSecond = 2,
+		PondCatchTime = {
+			Min = 1,
+			Max = 10
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 19.89888899999,
+			Legendary = 39.75,
+			Mythical = 30.29,
+			Cosmic = 8,
+			Secret = 1.8,
+			Rainbow = 0.25,
+			Ascended = 0.005,
+			Divine = 0.00125,
+			Supreme = 0.000075,
+			Celestial = 5.5555667e-6,
+			Ancient = 5e-6,
+			God = 1e-11,
+			Omniscient = 6.52174e-16
+		},
+		TypeChances = {
+			Gold = 10.1,
+			Honey = 10.1,
+			Diamond = 8.4,
+			Frozen = 8.4,
+			Party = 8.4,
+			Blood = 6.3,
+			Electric = 6.3,
+			Slime = 6.3,
+			Zombie = 6.3,
+			Ghost = 5,
+			Lava = 4.2,
+			Toxic = 4.2,
+			Lunar = 3.1,
+			Sinister = 2.5,
+			Solar = 2.1,
+			Nightmare = 1.8,
+			Void = 1.5,
+			Mars = 1.5,
+			Angelic = 1.5,
+			Dracula = 1.1,
+			Demonic = 0.9
+		},
+		MultiPullChances = {
+			95,
+			2.8,
+			2,
+			0.2
+		}
+	},
+	["Ruby Rod"] = {
+		Rarity = "Mythical",
+		Strength = 920,
+		Speed = 10.5,
+		Luck = 720,
+		BaseClicks = 9,
+		ClickDecayPerSecond = 3,
+		PondCatchTime = {
+			Min = 1,
+			Max = 9.5
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 3.4888899999,
+			Legendary = 20,
+			Mythical = 48,
+			Cosmic = 20.5,
+			Secret = 6.9,
+			Rainbow = 1,
+			Ascended = 0.05,
+			Divine = 0.00237875,
+			Supreme = 0.00040925,
+			Celestial = 0.0000647616667,
+			Ancient = 0.0000255,
+			God = 4.927247e-9,
+			Omniscient = 4.284562609e-9
+		},
+		TypeChances = {
+			Gold = 10.1,
+			Honey = 10.1,
+			Diamond = 8.4,
+			Frozen = 8.4,
+			Party = 8.4,
+			Blood = 6.3,
+			Electric = 6.3,
+			Slime = 6.3,
+			Zombie = 6.3,
+			Ghost = 5,
+			Lava = 4.2,
+			Toxic = 4.2,
+			Lunar = 3.1,
+			Sinister = 2.5,
+			Solar = 2.1,
+			Nightmare = 1.8,
+			Void = 1.5,
+			Mars = 1.5,
+			Angelic = 1.5,
+			Dracula = 1.1,
+			Demonic = 0.9
+		},
+		MultiPullChances = {
+			95,
+			2.8,
+			2,
+			0.2
+		}
+	},
+	["Astral Rod"] = {
+		Rarity = "Cosmic",
+		Strength = 1700,
+		Speed = 15,
+		Luck = 1150,
+		BaseClicks = 9,
+		ClickDecayPerSecond = 4,
+		PondCatchTime = {
+			Min = 1,
+			Max = 7
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 2.748989898998999,
+			Legendary = 10,
+			Mythical = 30,
+			Cosmic = 37.25,
+			Secret = 39.0689,
+			Rainbow = 4.68826,
+			Ascended = 0.781375,
+			Divine = 0.0091975,
+			Supreme = 0.0022,
+			Celestial = 0.000172222333,
+			Ancient = 0.0000345,
+			God = 4.332498e-8,
+			Omniscient = 3.767389565e-8
+		},
+		TypeChances = {
+			Gold = 9.4,
+			Honey = 9.3,
+			Diamond = 7.9,
+			Frozen = 7.9,
+			Party = 7.9,
+			Blood = 6.2,
+			Electric = 6.2,
+			Slime = 6.2,
+			Zombie = 6.2,
+			Ghost = 5.1,
+			Lava = 4.4,
+			Toxic = 4.4,
+			Lunar = 3.4,
+			Sinister = 2.8,
+			Solar = 2.4,
+			Nightmare = 2.1,
+			Void = 1.8,
+			Mars = 1.8,
+			Angelic = 1.8,
+			Dracula = 1.5,
+			Demonic = 1.3
+		},
+		MultiPullChances = {
+			95,
+			2.8,
+			2,
+			0.2
+		}
+	},
+	["Void Rod"] = {
+		Rarity = "Secret",
+		Strength = 7850,
+		Speed = 22.5,
+		Luck = 4700,
+		BaseClicks = 8,
+		ClickDecayPerSecond = 3.5,
+		PondCatchTime = {
+			Min = 1,
+			Max = 7
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0.6489998999999,
+			Mythical = 5,
+			Cosmic = 46.991,
+			Secret = 36,
+			Rainbow = 5.81233,
+			Ascended = 1.0962,
+			Divine = 0.0292175,
+			Supreme = 0.0033,
+			Celestial = 0.00054,
+			Ancient = 0.00006,
+			God = 7.750009999e-8,
+			Omniscient = 6.73913913e-8
+		},
+		TypeChances = {
+			Gold = 9.4,
+			Honey = 9.3,
+			Diamond = 7.9,
+			Frozen = 7.9,
+			Party = 7.9,
+			Blood = 6.2,
+			Electric = 6.2,
+			Slime = 6.2,
+			Zombie = 6.2,
+			Ghost = 5.1,
+			Lava = 4.4,
+			Toxic = 4.4,
+			Lunar = 3.4,
+			Sinister = 2.8,
+			Solar = 2.4,
+			Nightmare = 2.1,
+			Void = 1.8,
+			Mars = 1.8,
+			Angelic = 1.8,
+			Dracula = 1.5,
+			Demonic = 1.3
+		},
+		MultiPullChances = {
+			90,
+			5.8,
+			4,
+			0.2
+		}
+	},
+	["Rod of the Heavens"] = {
+		Rarity = "Divine",
+		Strength = 27500,
+		Speed = 35.25,
+		Luck = 22500,
+		BaseClicks = 8,
+		ClickDecayPerSecond = 3.5,
+		PondCatchTime = {
+			Min = 1,
+			Max = 7
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0,
+			Mythical = 0,
+			Cosmic = 8.24999899998999,
+			Secret = 46,
+			Rainbow = 37,
+			Ascended = 3.70355,
+			Divine = 0.3779,
+			Supreme = 0.006,
+			Celestial = 0.0009,
+			Ancient = 0.0001,
+			God = 9.499998499e-8,
+			Omniscient = 8.26086826e-8
+		},
+		TypeChances = {
+			Gold = 9.4,
+			Honey = 9.3,
+			Diamond = 7.9,
+			Frozen = 7.9,
+			Party = 7.9,
+			Blood = 6.2,
+			Electric = 6.2,
+			Slime = 6.2,
+			Zombie = 6.2,
+			Ghost = 5.1,
+			Lava = 4.4,
+			Toxic = 4.4,
+			Lunar = 3.4,
+			Sinister = 2.8,
+			Solar = 2.4,
+			Nightmare = 2.1,
+			Void = 1.8,
+			Mars = 1.8,
+			Angelic = 1.8,
+			Dracula = 1.5,
+			Demonic = 1.3
+		},
+		MultiPullChances = {
+			90,
+			5.8,
+			4,
+			0.2
+		}
+	},
+	["Rod of Hell"] = {
+		Rarity = "Rainbow",
+		Unreleased = true,
+		Strength = 10000,
+		Speed = 25,
+		Luck = 6400,
+		BaseClicks = 8,
+		ClickDecayPerSecond = 3.5,
+		PondCatchTime = {
+			Min = 1,
+			Max = 7
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0,
+			Mythical = 0,
+			Cosmic = 44.5,
+			Secret = 41.212,
+			Rainbow = 8.4166,
+			Ascended = 1.39847,
+			Divine = 0.04875,
+			Supreme = 0.0037194,
+			Celestial = 0.00059816,
+			Ancient = 0.000066462,
+			God = 8.0724104e-8,
+			Omniscient = 7.0194833e-8
+		},
+		TypeChances = {
+			Gold = 9.4,
+			Honey = 9.3,
+			Diamond = 7.9,
+			Frozen = 7.9,
+			Party = 7.9,
+			Blood = 6.2,
+			Electric = 6.2,
+			Slime = 6.2,
+			Zombie = 6.2,
+			Ghost = 5.1,
+			Lava = 4.4,
+			Toxic = 4.4,
+			Lunar = 3.4,
+			Sinister = 2.8,
+			Solar = 2.4,
+			Nightmare = 2.1,
+			Void = 1.8,
+			Mars = 1.8,
+			Angelic = 1.8,
+			Dracula = 1.5,
+			Demonic = 1.3
+		},
+		MultiPullChances = {
+			90,
+			5.8,
+			4,
+			0.2
+		}
+	},
+	["Complexity Rod"] = {
+		Rarity = "Ascended",
+		Unreleased = true,
+		Strength = 13000,
+		Speed = 27.5,
+		Luck = 8800,
+		BaseClicks = 8,
+		ClickDecayPerSecond = 3.5,
+		PondCatchTime = {
+			Min = 1,
+			Max = 7
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0,
+			Mythical = 0,
+			Cosmic = 42,
+			Secret = 39.521,
+			Rainbow = 12.1885,
+			Ascended = 1.78395,
+			Divine = 0.08135,
+			Supreme = 0.00419199,
+			Celestial = 0.00066258,
+			Ancient = 0.00007362,
+			God = 8.4083983e-8,
+			Omniscient = 7.31129e-8
+		},
+		TypeChances = {
+			Gold = 9.4,
+			Honey = 9.3,
+			Diamond = 7.9,
+			Frozen = 7.9,
+			Party = 7.9,
+			Blood = 6.2,
+			Electric = 6.2,
+			Slime = 6.2,
+			Zombie = 6.2,
+			Ghost = 5.1,
+			Lava = 4.4,
+			Toxic = 4.4,
+			Lunar = 3.4,
+			Sinister = 2.8,
+			Solar = 2.4,
+			Nightmare = 2.1,
+			Void = 1.8,
+			Mars = 1.8,
+			Angelic = 1.8,
+			Dracula = 1.5,
+			Demonic = 1.3
+		},
+		MultiPullChances = {
+			90,
+			5.8,
+			4,
+			0.2
+		}
+	},
+	["Forgotten Rod"] = {
+		Rarity = "Supreme",
+		Unreleased = true,
+		Strength = 32500,
+		Speed = 38,
+		Luck = 25000,
+		BaseClicks = 8,
+		ClickDecayPerSecond = 3.5,
+		PondCatchTime = {
+			Min = 1,
+			Max = 7
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0,
+			Mythical = 0,
+			Cosmic = 30.2532,
+			Secret = 30.2532,
+			Rainbow = 30.2532,
+			Ascended = 4.147976,
+			Divine = 0.423248,
+			Supreme = 0.00672,
+			Celestial = 0.001008,
+			Ancient = 0.000112,
+			God = 1.06399983e-7,
+			Omniscient = 9.2521724e-8
+		},
+		TypeChances = {
+			Gold = 9.4,
+			Honey = 9.3,
+			Diamond = 7.9,
+			Frozen = 7.9,
+			Party = 7.9,
+			Blood = 6.2,
+			Electric = 6.2,
+			Slime = 6.2,
+			Zombie = 6.2,
+			Ghost = 5.1,
+			Lava = 4.4,
+			Toxic = 4.4,
+			Lunar = 3.4,
+			Sinister = 2.8,
+			Solar = 2.4,
+			Nightmare = 2.1,
+			Void = 1.8,
+			Mars = 1.8,
+			Angelic = 1.8,
+			Dracula = 1.5,
+			Demonic = 1.3
+		},
+		MultiPullChances = {
+			90,
+			5.8,
+			4,
+			0.2
+		}
+	},
+	["Admin Rod"] = {
+		Rarity = "Exclusive",
+		Strength = (1 / 0),
+		Speed = 1,
+		Luck = 1
+	}
+}
+
+local function _isotonicNonIncreasing(p1) --[[ _isotonicNonIncreasing | Line: 9906 ]]
+	local list = {}
+
+	for i, v in ipairs(p1) do
+		list[i] = -(tonumber(v) or 0)
+	end
+
+	local list2 = {}
+
+	for i, v in ipairs(list) do
+		table.insert(list2, {
+			w = 1,
+			s = i,
+			e = i,
+			sum = v,
+			avg = v
+		})
+
+		while #list2 >= 2 do
+			local v1 = list2[#list2]
+			local v2 = list2[#list2 - 1]
+
+			if v2.avg <= v1.avg then
+				break
+			end
+
+			local t = {
+				s = v2.s,
+				e = v1.e,
+				sum = v2.sum + v1.sum,
+				w = v2.w + v1.w
+			}
+
+			t.avg = t.sum / t.w
+			list2[#list2 - 1] = t
+			table.remove(list2, #list2)
+		end
+	end
+
+	local t = {}
+
+	for i, v in ipairs(list2) do
+		for i2 = v.s, v.e do
+			t[i2] = -v.avg
+		end
+	end
+
+	return t
+end
+
+local function _formatFishingStatValue(p1) --[[ _formatFishingStatValue | Line: 9975 ]]
+	local v1 = tonumber(p1)
+
+	if not v1 then
+		return tostring(p1)
+	end
+
+	if math.abs(v1 - math.floor(v1)) < 1e-9 then
+		return tostring((math.floor(v1)))
+	end
+
+	return string.format("%.3f", v1):gsub("0+$", ""):gsub("%.$", "")
+end
+
+local function _normalizeAndFixRodTypeChances() --[[ _normalizeAndFixRodTypeChances | Line: 10002 | Upvalues: t (copy) ]]
+	local v1 = if t.Fishing then t.Fishing.Rods or {} else {}
+	local v2 = t.TypeSystem and t.TypeSystem.Multipliers or {}
+	local t2 = {}
+
+	for k, v in pairs(v2) do
+		table.insert(t2, k)
+	end
+
+	table.sort(t2, function(p1, p2) --[[ Line: 10017 | Upvalues: v2 (copy) ]]
+		local v22 = tonumber(v2[p1]) or 1
+		local v4 = tonumber(v2[p2]) or 1
+
+		if v22 == v4 then
+			return tostring(p1) < tostring(p2)
+		end
+
+		return v22 < v4
+	end)
+
+	if #t2 == 0 then
+		return
+	end
+
+	local function _getTierSettings(p1) --[[ _getTierSettings | Line: 10041 ]]
+		if p1 == "Fishing Rod" or (p1 == "Steel Rod" or (p1 == "Iron Rod" or p1 == "Ice Rod")) then
+			return 10, 1.25
+		end
+
+		if p1 == "Amethyst Rod" or (p1 == "Gold Rod" or p1 == "Ruby Rod") then
+			return 12.5, 1
+		end
+
+		return 15, 0.85
+	end
+
+	local function _applyWeightedTable(p1, p2, p3, p4) --[[ _applyWeightedTable | Line: 10060 | Upvalues: t2 (copy), v2 (copy) ]]
+		local t = {}
+
+		for i, v in ipairs(t2) do
+			local v22 = tonumber(v2[v]) or 1
+
+			if v22 <= 0 then
+				v22 = 1
+			end
+
+			t[v] = 1 / v22 ^ p3
+		end
+
+		local sum = 0
+		local t3 = {}
+
+		repeat
+			local v3 = math.max(0, p2 - sum)
+			local sum2 = 0
+
+			for i, v in ipairs(t2) do
+				if not t3[v] then
+					sum2 = sum2 + (t[v] or 0)
+				end
+			end
+
+			local v4 = false
+
+			for i, v in ipairs(t2) do
+				if not t3[v] and (if sum2 > 0 then v3 * ((t[v] or 0) / sum2) else 0) < p4 then
+					t3[v] = p4
+					sum = sum + p4
+					v4 = true
+				end
+			end
+		until not v4
+
+		local v6 = math.max(0, p2 - sum)
+		local sum2 = 0
+
+		for i, v in ipairs(t2) do
+			if not t3[v] then
+				sum2 = sum2 + (t[v] or 0)
+			end
+		end
+
+		local t4 = {}
+
+		for i, v in ipairs(t2) do
+			if t3[v] then
+				t4[v] = t3[v]
+
+				continue
+			end
+
+			if sum2 > 0 then
+				t4[v] = v6 * ((t[v] or 0) / sum2)
+
+				continue
+			end
+
+			t4[v] = p4
+		end
+
+		local v8 = math.max(0, (math.floor(p4 * 1000 + 0.5)))
+		local v10 = math.max(0, (math.floor(p2 * 1000 + 0.5)))
+		local t5 = {}
+		local sum3 = 0
+
+		for i, v in ipairs(t2) do
+			local v13 = math.max(v8, (math.floor(t4[v] * 1000 + 0.5)))
+
+			t5[v] = v13
+			sum3 = sum3 + v13
+		end
+
+		local count = v10 - sum3
+
+		if count > 0 then
+			local count2 = 1
+
+			while count > 0 do
+				local v14 = t2[count2]
+
+				t5[v14] = t5[v14] + 1
+				count = count - 1
+				count2 = count2 + 1
+
+				if #t2 < count2 then
+					count2 = 1
+				end
+			end
+		elseif count < 0 then
+			local count2 = #t2
+
+			while count < 0 do
+				local v15 = t2[count2]
+
+				if v8 < t5[v15] then
+					t5[v15] = t5[v15] - 1
+					count = count + 1
+				end
+
+				count2 = count2 - 1
+
+				if count2 < 1 then
+					count2 = #t2
+				end
+			end
+		end
+
+		for k in pairs(p1) do
+			p1[k] = nil
+		end
+
+		for i, v in ipairs(t2) do
+			p1[v] = t5[v] / 1000
+		end
+	end
+
+	for k, v in pairs(v1) do
+		local v3, v4
+
+		if type(v) == "table" and k ~= "Admin Rod" then
+			if type(v.TypeChances) ~= "table" then
+				v.TypeChances = {}
+			end
+
+			if k == "Fishing Rod" or (k == "Steel Rod" or (k == "Iron Rod" or k == "Ice Rod")) then
+				v3 = 10
+				v4 = 1.25
+			elseif k == "Amethyst Rod" or (k == "Gold Rod" or k == "Ruby Rod") then
+				v3 = 12.5
+				v4 = 1
+			else
+				v3 = 15
+				v4 = 0.85
+			end
+
+			_applyWeightedTable(v.TypeChances, v3, v4, 0.05)
+		end
+	end
+end
+
+local function _normalizeAndFixRodRarityChances() --[[ _normalizeAndFixRodRarityChances | Line: 10283 | Upvalues: t (copy), _isotonicNonIncreasing (copy) ]]
+	local v1 = if t.Fishing then t.Fishing.Rods or {} else {}
+	local v2 = t.RarityOrder or {}
+
+	for k, v in pairs(v1) do
+		local v3 = if v then v.RarityChances else v
+
+		if type(v3) == "table" then
+			local v4 = nil
+
+			for i, v5 in ipairs(v2) do
+				if (tonumber(v3[v5]) or 0) > 0 then
+					v4 = i
+
+					break
+				end
+			end
+
+			if v4 then
+				local list = {}
+				local t2 = {}
+
+				for i = v4, #v2 do
+					local v6 = v2[i]
+
+					table.insert(list, v6)
+					table.insert(t2, tonumber(v3[v6]) or 0)
+				end
+
+				local v9 = _isotonicNonIncreasing(t2)
+
+				for i, v5 in ipairs(list) do
+					v3[v5] = math.max(0, v9[i] or 0)
+				end
+
+				local sum = 0
+
+				for k2, v5 in pairs(v3) do
+					sum = sum + (tonumber(v5) or 0)
+				end
+
+				if sum > 0 and math.abs(sum - 100) > 1e-12 then
+					local v11 = 100 / sum
+
+					for i, v5 in ipairs(list) do
+						v3[v5] = math.max(0, (tonumber(v3[v5]) or 0) * v11)
+					end
+				end
+			end
+		end
+	end
+end
+
+local function _syncFishingStoreOfferStats() --[[ _syncFishingStoreOfferStats | Line: 10368 | Upvalues: t (copy), _formatFishingStatValue (copy) ]]
+	local v1 = t.FishingStore and t.FishingStore.Offers
+	local v2 = t.Fishing and t.Fishing.Rods
+
+	if type(v1) ~= "table" or type(v2) ~= "table" then
+		return
+	end
+
+	for k, v in pairs(v1) do
+		if type(v) == "table" then
+			local v4 = v2[tostring(v.RodName or "")]
+
+			if type(v4) == "table" then
+				v.Luck = "- Luck +" .. _formatFishingStatValue(v4.Luck or 0) .. "x"
+				v.Speed = "- Speed +" .. _formatFishingStatValue(v4.Speed or 0) .. "x"
+				v.Strength = "- Total Strength +" .. _formatFishingStatValue(v4.Strength or 0)
+			end
+		end
+	end
+end
+
+local function _typedRate(p1) --[[ _typedRate | Line: 10420 ]]
+	return 2.5
+end
+
+for k, v in pairs(t.Fishing and t.Fishing.Rods or {}) do
+	if type(v) == "table" and k ~= "Admin Rod" and type(v.TypeChances) == "table" then
+		local sum = 0
+
+		for k2, v8 in pairs(v.TypeChances) do
+			sum = sum + math.max(0, tonumber(v8) or 0)
+		end
+
+		if sum > 0 then
+			local v68 = 2.5 / sum
+
+			for k2, v8 in pairs(v.TypeChances) do
+				v.TypeChances[k2] = math.max(0, tonumber(v8) or 0) * v68
+			end
+		end
+	end
+end
+
+_normalizeAndFixRodRarityChances()
+
+local v70 = t.Fishing and t.Fishing.Rods or {}
+local v71 = v70["Gold Rod"]
+local t11 = {
+	["Ruby Rod"] = 0,
+	["Astral Rod"] = 0.25,
+	["Void Rod"] = 0.5,
+	["Rod of Hell"] = 0.75
+}
+
+if type(v71) == "table" then
+	local v72 = tonumber(v71.Speed) or 7.5
+
+	for k, v in pairs(v70) do
+		if type(v) == "table" and k ~= "Admin Rod" and v72 < (tonumber(v.Speed) or 0) then
+			v.Speed = v72
+			v.BaseClicks = v71.BaseClicks
+			v.ClickDecayPerSecond = v71.ClickDecayPerSecond
+
+			if type(v71.PondCatchTime) == "table" then
+				v.PondCatchTime = {
+					Min = v71.PondCatchTime.Min,
+					Max = v71.PondCatchTime.Max
+				}
+			end
+
+			local v73 = t11[k]
+
+			if v73 then
+				local v74 = 1 - v73
+
+				v.ClickDecayPerSecond = (tonumber(v.ClickDecayPerSecond) or 2) * (1 + 0.35 * v74)
+
+				if type(v.PondCatchTime) == "table" then
+					v.PondCatchTime.Max = (tonumber(v.PondCatchTime.Max) or 10) * (1 + 0.2 * v74)
+				end
+			end
+		end
+	end
+end
+
+for k, v in pairs(t.Fishing and t.Fishing.Rods or {}) do
+	local v76 = if type(v) == "table" then v.PondCatchTime or nil else nil
+
+	if type(v76) == "table" then
+		if (tonumber(v76.Max) or 0) > 12 then
+			v76.Max = 12
+		end
+
+		if (tonumber(v76.Min) or 0) > 12 then
+			v76.Min = 12
+		end
+	end
+end
+
+_syncFishingStoreOfferStats()
+t.Fishing.Ponds = t.Fishing.Ponds or {
+	PONDAREA1 = {
+		RequiredStrength = 0,
+		BaseClicksMultiplier = 0,
+		PondCatchTimeMultiMINIMUM = 0,
+		PondCatchTimeMultiMAXIMUM = 0,
+		ClicksDecayPerSecondMultiplier = 0,
+		RarityChancesMultiplier = {},
+		TypeChancesMultiplier = {},
+		MultiPullChancesMultiplier = {}
+	},
+	PONDAREA2 = {
+		RequiredStrength = 2000,
+		BaseClicksMultiplier = 1.5,
+		PondCatchTimeMultiMAXIMUM = 0.8,
+		ClicksDecayPerSecondMultiplier = 1.3,
+		TypeChancesMultiplier = {
+			Lava = 4,
+			Solar = 1.1,
+			Mars = 1.2
+		},
+		RarityChancesMultiplier = {},
+		MultiPullChancesMultiplier = {
+			[3] = 1.5,
+			[4] = 2
+		}
+	},
+	PONDAREA7 = {
+		RequiredStrength = 1,
+		BaseClicks = 10,
+		ClickDecayPerSecond = 2,
+		PondCatchTime = {
+			Min = 1,
+			Max = 5
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0,
+			Mythical = 0,
+			Cosmic = 0,
+			Secret = 0,
+			Rainbow = 0,
+			God = 100
+		},
+		TypeChances = {},
+		MultiPullChances = { 100 }
+	},
+	PONDAREA8 = {
+		RequiredStrength = 1,
+		BaseClicks = 10,
+		ClickDecayPerSecond = 2,
+		PondCatchTime = {
+			Min = 1,
+			Max = 5
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0,
+			Mythical = 0,
+			Cosmic = 0,
+			Secret = 0,
+			Rainbow = 100,
+			God = 0
+		},
+		TypeChances = {},
+		MultiPullChances = { 100 }
+	},
+	PONDAREA9 = {
+		RequiredStrength = 1,
+		BaseClicks = 10,
+		ClickDecayPerSecond = 2,
+		PondCatchTime = {
+			Min = 1,
+			Max = 5
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0,
+			Mythical = 0,
+			Cosmic = 0,
+			Secret = 100,
+			Rainbow = 0,
+			God = 0
+		},
+		TypeChances = {},
+		MultiPullChances = { 100 }
+	},
+	PONDAREA10 = {
+		RequiredStrength = 1,
+		BaseClicks = 10,
+		ClickDecayPerSecond = 2,
+		PondCatchTime = {
+			Min = 1,
+			Max = 5
+		},
+		RarityChances = {
+			Common = 0,
+			Uncommon = 0,
+			Rare = 0,
+			Epic = 0,
+			Legendary = 0,

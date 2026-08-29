@@ -1,0 +1,1500 @@
+
+local v0 = "<font color=\"rgb(255,255,0)\">Characters</font> have a Higher Chance to become <font color=\"rgb(128,230,255)\">Electric</font>/<font color=\"rgb(115,220,255)\">Frozen</font>/<font color=\"rgb(153,240,255)\">Diamond</font> Mutated! <font color=\"rgb(255,255,0)\">Lightning</font> turns Characters <font color=\"rgb(128,230,255)\">Electric</font>!"
+local v1 = "<font color=\"rgb(255,255,0)\">Characters</font> have a Higher Chance to become <font color=\"rgb(255,0,0)\">Blood</font>/<font color=\"rgb(255,255,0)\">Mars</font>/<font color=\"rgb(255,90,0)\">Lava</font>/<font color=\"rgb(255,205,85)\">Honey</font>/<font color=\"rgb(255,255,0)\">Gold</font>/<font color=\"rgb(255,140,0)\">Solar</font> Mutated!"
+local v2 = "<font color=\"rgb(255,255,255)\">You have realized what you are... </font><font color=\"rgb(255,255,0)\">5x Catch Speed Boosted!</font><font color=\"rgb(255,255,255)\"> You can become </font><font color=\"rgb(0,167,170)\">REALIZED</font><font color=\"rgb(255,255,255)\"> for another </font><font color=\"rgb(255,255,0)\">+5x Catch Speed</font><font color=\"rgb(255,255,255)\">!</font>"
+local v3 = "<font color=\"rgb(255,255,255)\">It is a </font><font color=\"rgb(255,70,190)\">PARTY</font><font color=\"rgb(255,255,255)\">! </font><font color=\"rgb(255,255,0)\">2x Catch Speed Boosted!</font><font color=\"rgb(255,255,255)\"> Your held Characters can turn </font><font color=\"rgb(255,70,190)\">Party</font><font color=\"rgb(255,255,255)\">!</font>"
+local v4 = "<font color=\"rgb(255,255,255)\">Characters have a Higher Chance to become </font><font color=\"rgb(115,220,255)\">Frozen</font><font color=\"rgb(255,255,255)\">/</font><font color=\"rgb(128,230,255)\">Electric</font><font color=\"rgb(255,255,255)\">/</font><font color=\"rgb(153,240,255)\">Diamond</font><font color=\"rgb(255,255,255)\"> Mutated! </font><font color=\"rgb(0,255,0)\">2x Luck Boosted!</font><font color=\"rgb(255,255,255)\"> Held Characters can get </font><font color=\"rgb(115,220,255)\">FROZEN</font><font color=\"rgb(255,255,255)\">!</font>"
+local v9 = "<font color=\"rgb(255,255,255)\">A soul has been sold. Every Character is </font><font color=\"rgb(255,0,0)\">CORRUPTED</font><font color=\"rgb(255,255,255)\"> and earns </font><font color=\"rgb(255,0,0)\">NOTHING</font><font color=\"rgb(255,255,255)\">. You can become </font><font color=\"rgb(0,167,170)\">REALIZED</font><font color=\"rgb(255,255,255)\"> or </font><font color=\"rgb(170,0,3)\">SACRIFICED</font><font color=\"rgb(255,255,255)\">!</font>"
+local v10 = "<font color=\"rgb(255,255,0)\">Characters</font> have a Higher Chance to become <font color=\"rgb(183,84,255)\">Void</font>/<font color=\"rgb(128,230,255)\">Electric</font>/<font color=\"rgb(255,128,185)\">Lunar</font>/<font color=\"rgb(255,70,190)\">Party</font>/<font color=\"rgb(115,220,255)\">Frozen</font>/<font color=\"rgb(153,240,255)\">Diamond</font> Mutated!"
+local v11 = "<font color=\"rgb(255,255,0)\">All Types</font> are <font color=\"rgb(255,255,255)\">2x</font> more likely to Mutate! <font color=\"rgb(0,255,0)\">2x Luck Boosted!</font> <font color=\"rgb(0,170,255)\">Gems</font> fall from the sky and Falling Stars can turn Held Characters <font color=\"rgb(255,245,131)\">ANGELIC</font> or <font color=\"rgb(255,200,0)\">GOLD</font>!"
+local v12 = "<font color=\"rgb(255,255,0)\">Characters</font> have a Higher Chance to become <font color=\"rgb(210,0,5)\">Demonic</font>/<font color=\"rgb(220,40,40)\">Dracula</font>/<font color=\"rgb(35,35,35)\">Nightmare</font>/<font color=\"rgb(130,0,0)\">Blood</font> Mutated! <font color=\"rgb(0,255,0)\">4x Luck Boosted!</font> <font color=\"rgb(0,170,255)\">Gems</font> fall from the sky and Falling Stars can turn Held Characters <font color=\"rgb(255,0,4)\">BLOOD</font>!"
+local v13 = "<font color=\"rgb(255,255,255)\">Something long buried remembers you... </font><font color=\"rgb(0,255,0)\">5x Luck Boosted!</font><font color=\"rgb(255,255,255)\"> </font><font color=\"rgb(0,185,65)\">2x Cash Boosted!</font><font color=\"rgb(255,255,255)\"> Falling stars can turn a held Character </font><font color=\"rgb(183,0,255)\">SINISTER</font><font color=\"rgb(255,255,255)\">!</font>"
+local v14 = "<font color=\"rgb(255,255,0)\">Characters</font> have a Higher Chance to become <font color=\"rgb(130,240,255)\">Slime</font>/<font color=\"rgb(128,230,255)\">Electric</font>/<font color=\"rgb(255,205,85)\">Honey</font>/<font color=\"rgb(65,255,95)\">Toxic</font> Mutated!"
+local v15 = "<font color=\"rgb(255,255,0)\">Characters</font> have a Higher Chance to become <font color=\"rgb(255,0,0)\">Blood</font>/<font color=\"rgb(255,255,0)\"> </font><font color=\"rgb(183,84,255)\">Void</font>/<font color=\"rgb(255,255,0)\"> </font><font color=\"rgb(255,105,180)\">Lunar</font>/<font color=\"rgb(255,255,0)\"> </font><font color=\"rgb(128,230,255)\">Electric</font>/<font color=\"rgb(65,200,110)\">Sinister</font>/<font color=\"rgb(40,40,40)\">Nightmare</font> Mutated!"
+local v16 = "<font color=\"rgb(255,255,0)\">Characters</font> have a Higher Chance to become <font color=\"rgb(220,40,40)\">Dracula</font>/<font color=\"rgb(210,0,5)\">Demonic</font>/<font color=\"rgb(80,220,110)\">Sinister</font>/<font color=\"rgb(130,0,0)\">Blood</font>/<font color=\"rgb(35,35,35)\">Nightmare</font>/<font color=\"rgb(128,230,255)\">Electric</font>/<font color=\"rgb(35,100,35)\">Zombie</font>/<font color=\"rgb(150,150,150)\">Ghost</font> Mutated! Held Characters can be Turned into a <font color=\"rgb(220,40,40)\">DRACULA</font>!"
+local v17 = "<font color=\"rgb(0,255,0)\">4x Luck Boosted!</font><font color=\"rgb(255,255,255)\"> You can become a </font><font color=\"rgb(193,39,232)\">DREAMER</font><font color=\"rgb(255,255,255)\"> - while you are, EVERY catch is Mutated: </font><font color=\"rgb(255,0,242)\">Party</font><font color=\"rgb(255,255,255)\">/</font><font color=\"rgb(64,0,255)\">Void</font><font color=\"rgb(255,255,255)\">/</font><font color=\"rgb(193,39,232)\">Lunar</font><font color=\"rgb(255,255,255)\">!</font>"
+local v18 = "<font color=\"rgb(255,255,255)\">The whole world is in full </font><font color=\"rgb(255,152,220)\">BLOOM</font><font color=\"rgb(255,255,255)\"> - petals drift on every breeze! </font><font color=\"rgb(0,255,0)\">2x Luck Boosted!</font><font color=\"rgb(255,255,255)\"> </font><font color=\"rgb(0,185,65)\">2x Cash Boosted!</font><font color=\"rgb(255,255,255)\"> </font><font color=\"rgb(255,150,0)\">1.25x Food Boosted!</font>"
+local v19 = "<font color=\"rgb(255,255,255)\">Wan\'t to commit a </font><font color=\"rgb(255,0,0)\">sin?</font>"
+local v20 = "<font color=\"rgb(255,255,255)\">An entity has commited a sin... Every Character is </font><font color=\"rgb(255,0,0)\">CORRUPTED</font><font color=\"rgb(255,255,255)\"> and earns </font><font color=\"rgb(255,0,0)\">NOTHING</font><font color=\"rgb(255,255,255)\">. You can become </font><font color=\"rgb(0,167,170)\">REALIZED</font><font color=\"rgb(255,255,255)\"> or </font><font color=\"rgb(170,0,3)\">SACRIFICED</font><font color=\"rgb(255,255,255)\">!</font>"
+local v21 = "<font color=\"rgb(255,255,0)\">Characters</font> have a Higher Chance to become <font color=\"rgb(115,220,255)\">Frozen</font>/<font color=\"rgb(255,255,0)\"> </font><font color=\"rgb(70,170,255)\">Electric</font>/<font color=\"rgb(120,235,255)\">Slime</font> Mutated! A Character you are <font color=\"rgb(255,255,0)\">Holding</font> can get <font color=\"rgb(115,220,255)\">FROZEN</font>!"
+local v22 = "<font color=\"rgb(35,70,200)\">Everything glitches around you...</font><font color=\"rgb(255,255,255)\"> </font><font color=\"rgb(0,255,0)\">10x Luck Boosted!</font>"
+local t = {}
+
+t.Inventory = t.Inventory or {}
+t.Inventory.HotbarSlots = t.Inventory.HotbarSlots or 3
+t.Inventory.DefaultBackpackCapacity = t.Inventory.DefaultBackpackCapacity or 1050
+t.Inventory.BackpackCapacityPerRebirth = t.Inventory.BackpackCapacityPerRebirth or 50
+t.Viewports = t.Viewports or {}
+t.Viewports.BackgroundColor = t.Viewports.BackgroundColor or Color3.fromRGB(0, 0, 0)
+t.Viewports.LazyLoadEnabled = true
+t.Viewports.LazyLoadMarginPixels = t.Viewports.LazyLoadMarginPixels or 64
+t.Viewports.BuildIntervalSeconds = t.Viewports.BuildIntervalSeconds or 0.05
+t.Viewports.MaxBuildsPerInterval = t.Viewports.MaxBuildsPerInterval or 3
+t.Viewports.DefaultPriority = t.Viewports.DefaultPriority or 10
+t.Viewports.HotbarPriority = t.Viewports.HotbarPriority or 100
+t.Viewports.BackpackCharacter = t.Viewports.BackpackCharacter or {
+	DefaultOriginPosition = Vector3.new(-21.852, 2.617, 118.041),
+	DefaultCharacterPosition = Vector3.new(-21.852, 1.517, 123),
+	CameraOffset = Vector3.new(0, 0.15, 10),
+	AnimationOriginOverrides = {
+		["rbxassetid://71151065158562"] = {
+			WorldModelPosition = Vector3.new(-21.852, 2.617, 118.041),
+			CharacterPosition = Vector3.new(-21.452, -1, 122)
+		},
+		["rbxassetid://132435776520563"] = {
+			WorldModelPosition = Vector3.new(-21.852, 5.143, 118.041),
+			CharacterPosition = Vector3.new(-21.852, 1.517, 123)
+		}
+	}
+}
+t.GeneralConfig = {
+	Version = "1.7.0",
+	GroupName = "-\227\131\129\227\131\188\227\131\136-",
+	GameName = "Fish an Anime RNG",
+	AssetAmount = 3419
+}
+t.GeneralConfig.VersionBase = t.GeneralConfig.Version
+
+local v5, v6 = string.match(t.GeneralConfig.Version, "^(%d+)%.(%d+)")
+local v7 = tonumber(game.PlaceVersion) or 0
+
+if v7 <= 0 then
+	v7 = tonumber(script:GetAttribute("EditPlaceVersion")) or 0
+end
+
+t.GeneralConfig.Version = (v5 or "0") .. "." .. (v6 or "0") .. "." .. tostring(v7)
+print("[Version] v" .. t.GeneralConfig.Version .. " (PlaceVersion " .. tostring(game.PlaceVersion) .. ")")
+t.Stats = {
+	StartCash = 0,
+	StartGems = 0,
+	StartRebirths = 0,
+	StartTimeMinutes = 0
+}
+t.NumberSuffixes = t.NumberSuffixes or {
+	"",
+	"K",
+	"M",
+	"B",
+	"T",
+	"Qa",
+	"Qi",
+	"Sx",
+	"Sp",
+	"Oc",
+	"No",
+	"De",
+	"Ud",
+	"Dd",
+	"Td",
+	"Qad",
+	"Qid",
+	"Sxd",
+	"Spd",
+	"Ocd",
+	"Nod",
+	"Vg",
+	"Uvg",
+	"Dvg",
+	"Tvg",
+	"Qavg",
+	"Qivg",
+	"Sxvg",
+	"Spvg",
+	"Ocvg",
+	"Novg",
+	"Tg",
+	"Utg",
+	"Dtg",
+	"Ttg",
+	"Qatg",
+	"Qitg",
+	"Sxtg",
+	"Sptg",
+	"Octg",
+	"Notg",
+	"Qag",
+	"Uqag",
+	"Dqag",
+	"Tqag",
+	"Qaqag",
+	"Qiqag",
+	"Sxqag",
+	"Spqag",
+	"Ocqag",
+	"Noqag",
+	"Qig",
+	"Uqig",
+	"Dqig",
+	"Tqig",
+	"Qaqig",
+	"Qiqig",
+	"Sxqig",
+	"Spqig",
+	"Ocqig",
+	"Noqig",
+	"Sxg",
+	"Usxg",
+	"Dsxg",
+	"Tsxg",
+	"Qasxg",
+	"Qisxg",
+	"Sxsxg",
+	"Spsxg",
+	"Ocsxg",
+	"Nosxg",
+	"Spg",
+	"Uspg",
+	"Dspg",
+	"Tspg",
+	"Qaspg",
+	"Qispg",
+	"Sxspg",
+	"Spspg",
+	"Ocspg",
+	"Nospg",
+	"Ogg",
+	"Uogg",
+	"Dogg",
+	"Togg",
+	"Qaogg",
+	"Qiogg",
+	"Sxogg",
+	"Spogg",
+	"Ocogg",
+	"Noogg",
+	"Nog",
+	"Unog",
+	"Dnog",
+	"Tnog",
+	"Qanog",
+	"Qinog",
+	"Sxnog",
+	"Spnog",
+	"Ocnog",
+	"Nonog",
+	"Ctg",
+	"Uctg",
+	"Dctg",
+	"Tctg",
+	"Qactg",
+	"Qictg",
+	"Sxctg",
+	"Spctg",
+	"Occtg",
+	"Noctg",
+	"Inf"
+}
+t.R6IdleAnimations = { "rbxassetid://180435571", "rbxassetid://180435792", "rbxassetid://507766388", "rbxassetid://507766666", "rbxassetid://507766951" }
+t.IntroTips = { "Did you know <font color=\"rgb(0,191,255)\">Rebirthing</font> grants you <font color=\"rgb(255,105,180)\">HUGE</font> boosts!", "Your <font color=\"#FFD84D\">Characters</font> earn <font color=\"#3DFF6B\">Cash</font> <font color=\"#00C853\">Offline</font> while you\'re Away!", "<font color=\"rgb(0,255,0)\">Like</font> the game to <font color=\"rgb(255,255,0)\">Support</font> us and push out more <font color=\"rgb(0,191,255)\">Updates!</font>", "<font color=\"rgb(255,105,180)\">Level Up</font> your <font color=\"rgb(255,255,0)\">Characters</font> to Increase their <font color=\"rgb(0,255,0)\">Earnings!</font>" }
+t.SettingsDefaults = t.SettingsDefaults or {
+	Music = true,
+	CharacterRenderAll = false,
+	StarsEnabled = true,
+	BoostsEnabled = true,
+	ForceStarsOnJoin = true,
+	CharViewports = true,
+	PerformanceMode = true
+}
+t.Trading = t.Trading or {
+	RequireRebirthUnlock = true,
+	UnlockRebirth = 0
+}
+t.StarDisplay = t.StarDisplay or {
+	EvolvedStars = 1,
+	EvolvedGradient = "Evolved",
+	GodRarity = "God",
+	GodStars = 5,
+	GodGradient = "God",
+	OmniscientRarity = "Omniscient",
+	OmniscientStars = 5,
+	OmniscientGradient = "Omniscient",
+	ExclusiveRarity = "Exclusive",
+	ExclusiveStars = 5,
+	ExclusiveGradient = "Exclusive",
+	BaseColor = Color3.fromRGB(255, 213, 0),
+	EvolvedColor = Color3.fromRGB(255, 255, 255),
+	BaseRarityStars = {
+		Common = 1,
+		Uncommon = 2,
+		Rare = 3,
+		Epic = 4,
+		Legendary = 5
+	},
+	EvolvedRarities = { "Mythical", "Cosmic", "Secret", "Rainbow", "Ascended" },
+	EvolvedStarsByRarity = {
+		Mythical = 1,
+		Cosmic = 2,
+		Secret = 3,
+		Rainbow = 4,
+		Ascended = 5
+	},
+	GodRarities = { "Divine", "Supreme", "Celestial", "Ancient", "God" },
+	GodStarsByRarity = {
+		Divine = 1,
+		Supreme = 2,
+		Celestial = 3,
+		Ancient = 4,
+		God = 5
+	},
+	RodStarsByName = {
+		["Fishing Rod"] = 1,
+		["Steel Rod"] = 2,
+		["Iron Rod"] = 3,
+		["Ice Rod"] = 4,
+		["Amethyst Rod"] = 5,
+		["Gold Rod"] = 1,
+		["Ruby Rod"] = 2,
+		["Astral Rod"] = 3,
+		["Void Rod"] = 4,
+		["Rod of the Heavens"] = 5,
+		["Rod of Hell"] = 1,
+		["Complexity Rod"] = 2,
+		["Forgotten Rod"] = 3,
+		["Admin Rod"] = 5
+	}
+}
+
+local function _rarityInList(p1, p2) --[[ _rarityInList | Line: 460 ]]
+	for v3, v4 in ipairs(if p1 then p1 else {}) do
+		if tostring(v4) == p2 then
+			return true
+		end
+	end
+
+	return false
+end
+
+function t.GetStarDisplayForRarity(p1) --[[ GetStarDisplayForRarity | Line: 477 | Upvalues: t (copy), _rarityInList (copy) ]]
+	local v1 = t.StarDisplay or {}
+	local v2 = tostring(p1 or "")
+	local v3 = v1.BaseRarityStars or {}
+	local v4 = v1.EvolvedStarsByRarity or {}
+	local v5 = v1.GodStarsByRarity or {}
+	local v7 = tostring(v1.GodRarity or "God")
+	local v9 = tostring(v1.OmniscientRarity or "Omniscient")
+
+	if v2 == tostring(v1.ExclusiveRarity or "Exclusive") then
+		return v1.ExclusiveStars or 5, v1.EvolvedColor or Color3.fromRGB(255, 255, 255), v1.ExclusiveGradient or "Omniscient"
+	end
+
+	if v2 == v9 then
+		return v1.OmniscientStars or 5, v1.EvolvedColor or Color3.fromRGB(255, 255, 255), v1.OmniscientGradient or "Omniscient"
+	end
+
+	if v2 == v7 or _rarityInList(v1.GodRarities, v2) then
+		return v5[v2] or (v1.GodStars or 5), v1.EvolvedColor or Color3.fromRGB(255, 255, 255), v1.GodGradient or "God"
+	end
+
+	if v3[v2] then
+		return v3[v2], v1.BaseColor or Color3.fromRGB(255, 213, 0), nil
+	end
+
+	if _rarityInList(v1.EvolvedRarities, v2) then
+		return v4[v2] or (v1.EvolvedStars or 1), v1.EvolvedColor or Color3.fromRGB(255, 255, 255), v1.EvolvedGradient
+	end
+
+	return v1.EvolvedStars or 1, v1.EvolvedColor or Color3.fromRGB(255, 255, 255), v1.EvolvedGradient
+end
+function t.GetRodStarDisplay(p1, p2) --[[ GetRodStarDisplay | Line: 531 | Upvalues: t (copy) ]]
+	local v1 = tostring(p1 or "")
+	local v2 = tostring(p2 or "")
+
+	if v1 == "Fishing Rod" then
+		return nil, nil, nil
+	end
+
+	return t.GetStarDisplayForRarity(v2)
+end
+t.GeneralConfig.CreatedBy = t.GeneralConfig.CreatedBy or "-\227\131\129\227\131\188\227\131\136-"
+t.TeleportTags = {
+	Shops = "ShopsTeleport",
+	Area = "AreaTeleport",
+	Plot = "PlotTeleport",
+	Sacrifice = "SacrificeTeleport"
+}
+t.CarryFollow = {
+	Enabled = true,
+	ClientEquippedFollowers = true,
+	R15WalkAnimationId = 119562911890721,
+	Formation = {
+		BaseOffset = Vector3.new(0, -0.55, 1.5),
+		Spacing2 = 2.8,
+		Spacing3 = 4.9,
+		BackRowZOffset = 4.8,
+		OrientDeg = Vector3.new(0, 0, 0)
+	},
+	RandomR6WalkAnimationIds = {
+		137449796531321,
+		113246730521919,
+		77678705626527,
+		104214061620321,
+		124658081902293,
+		103359117530192,
+		72297600117322,
+		82791579546231,
+		120369861392745
+	},
+	RandomR6IdleAnimationIds = { 139452204676727, 124781953836591, 123152108509752 },
+	RandomR6RunAnimationIds = { 96724057938527, 87254101373505, 105230558456876, 139329239346730 },
+	Follow = {
+		UpdateRate = 0.1,
+		StopRadius = 2.5,
+		DirectMoveMax = 70,
+		RepathCooldown = 1,
+		TargetRepathDelta = 4,
+		StuckSeconds = 3,
+		StuckMinDistance = 4,
+		GhostDistance = 15,
+		GhostExitDistance = 10,
+		TeleportCatchupDistance = 75,
+		TeleportCatchupSeconds = 2,
+		TeleportFailsafeDistance = 200,
+		Speed = {
+			Multiplier = 1.68,
+			Min = 8,
+			Max = 24
+		},
+		Animation = {
+			MovingSpeedThreshold = 0.5,
+			StopDelay = 0.25,
+			MinWalkAnimSpeed = 0.7,
+			MaxWalkAnimSpeed = 2.2,
+			RunDistanceThreshold = 17
+		}
+	}
+}
+t.DevProducts = {
+	STEAL_CHARACTER = 0,
+	CARRY_UPGRADE = 3538049427,
+	STAND_LEVEL_UP = 3541440297,
+	STAND_LEVEL_UP_10 = 3675623796,
+	STAND_LEVEL_UP_HIGH = 3675658152,
+	STAND_LEVEL_UP_10_HIGH = 3675664611,
+	WELCOME_OFFLINE_X3 = 3541886630,
+	AUTO_FISH = 3542266149,
+	QUICK_FISH = 3577627475,
+	REBIRTH_SKIP = 3543635803,
+	PAID_CHARACTER1 = 3544813379,
+	PAID_CHARACTER2 = 3544815216,
+	StealByRarity = {
+		Rare = 3544366273,
+		Epic = 3544366273,
+		Legendary = 3544366929,
+		Mythical = 3544367288,
+		Cosmic = 3544367785,
+		Secret = 3544368276,
+		Rainbow = 3544368276,
+		Ascended = 3544368276,
+		Divine = 3544368276,
+		Supreme = 3550166856,
+		Celestial = 3550166856,
+		Exclusive = 3550166856,
+		Ancient = 3544369594,
+		God = 3544369594,
+		Omniscient = 3550167293
+	},
+	REBIRTH_SKIP_TIERS = {
+		{
+			From = 200,
+			Id = 3612943342
+		},
+		{
+			From = 150,
+			Id = 3612191027
+		},
+		{
+			From = 0,
+			Id = 3543635803
+		}
+	},
+	PodiumUnlock = {
+		["Hatsuna Mika"] = 3,
+		["5PAID"] = 3531837281,
+		["10PAID"] = 3531837387,
+		["15PAID"] = 3541193564,
+		["20PAID"] = 3541194490,
+		["25PAID"] = 3543218517,
+		["30PAID"] = 3543219025,
+		["35PAID"] = 3544998584,
+		["40PAID"] = 3544998850,
+		["45PAID"] = 3544999934,
+		["50PAID"] = 3545000131,
+		["55PAID"] = 3545000373,
+		["60PAID"] = 3545000487,
+		["65PAID"] = 3545001138,
+		["70PAID"] = 3545001226,
+		["80PAID"] = 3545002168,
+		["85PAID"] = 3545002168
+	}
+}
+t.Potions = t.Potions or {}
+t.Potions.MaxStackSeconds = t.Potions.MaxStackSeconds or 86400
+t.Potions.Definitions = t.Potions.Definitions or {
+	Cash_L1 = {
+		ToolName = "Cash Potion Lvl. 1",
+		Type = "Cash",
+		Multiplier = 1.25,
+		DurationSeconds = 300,
+		UiIcon = "CashPotion"
+	},
+	Cash_L2 = {
+		ToolName = "Cash Potion Lvl. 2",
+		Type = "Cash",
+		Multiplier = 1.5,
+		DurationSeconds = 300,
+		UiIcon = "CashPotion"
+	},
+	Cash_L3 = {
+		ToolName = "Cash Potion Lvl. 3",
+		Type = "Cash",
+		Multiplier = 2,
+		DurationSeconds = 300,
+		UiIcon = "CashPotion"
+	},
+	Gems_L1 = {
+		ToolName = "Gems Potion Lvl. 1",
+		Type = "Gems",
+		Multiplier = 1.5,
+		DurationSeconds = 300,
+		UiIcon = "GemsPotion"
+	},
+	Gems_L2 = {
+		ToolName = "Gems Potion Lvl. 2",
+		Type = "Gems",
+		Multiplier = 2,
+		DurationSeconds = 300,
+		UiIcon = "GemsPotion"
+	},
+	Gems_L3 = {
+		ToolName = "Gems Potion Lvl. 3",
+		Type = "Gems",
+		Multiplier = 3,
+		DurationSeconds = 300,
+		UiIcon = "GemsPotion"
+	},
+	Mutation_L1 = {
+		ToolName = "Mutation Potion Lvl. 1",
+		Type = "Mutation",
+		Multiplier = 2,
+		DurationSeconds = 300,
+		UiIcon = "Offer7"
+	},
+	FastCatch_L1 = {
+		ToolName = "Fast Catch Potion Lvl. 1",
+		Type = "FastCatch",
+		Multiplier = 2,
+		DurationSeconds = 300,
+		UiIcon = "Offer8"
+	},
+	Luck_L1 = {
+		ToolName = "Luck Potion Lvl. 1",
+		Type = "Luck",
+		Multiplier = 2,
+		DurationSeconds = 300,
+		UiIcon = "Offer9"
+	},
+	HeavenCollide = {
+		ToolName = "Heaven\'s Collide Potion",
+		Type = "HeavenCollide",
+		Multiplier = 1,
+		DurationSeconds = 300,
+		UiIcon = "Offer2"
+	},
+	Luck_L2 = {
+		ToolName = "Luck Potion Lvl. 2",
+		Type = "Luck",
+		Multiplier = 4,
+		DurationSeconds = 300,
+		UiIcon = "Offer3"
+	},
+	Meteorite = {
+		ToolName = "Meteorite Potion",
+		Type = "Meteorite",
+		Multiplier = 4,
+		DurationSeconds = 300,
+		UiIcon = "Offer4"
+	},
+	Honey = {
+		ToolName = "Honey Potion",
+		Type = "Honey",
+		Multiplier = 8,
+		DurationSeconds = 300,
+		UiIcon = "Offer5"
+	},
+	Sinister = {
+		ToolName = "Sinister Potion",
+		Type = "Sinister",
+		Multiplier = 2,
+		DurationSeconds = 300,
+		UiIcon = "Offer6"
+	}
+}
+t.Potions.StarDisplay = t.Potions.StarDisplay or {
+	Cash_L1 = {
+		Count = 1
+	},
+	Cash_L2 = {
+		Count = 2
+	},
+	Cash_L3 = {
+		Count = 3
+	},
+	Gems_L1 = {
+		Count = 2
+	},
+	Gems_L2 = {
+		Count = 3
+	},
+	Gems_L3 = {
+		Count = 4
+	},
+	Mutation_L1 = {
+		Count = 2
+	},
+	FastCatch_L1 = {
+		Count = 3
+	},
+	Luck_L1 = {
+		Count = 3
+	},
+	HeavenCollide = {
+		Count = 4,
+		Gradient = "Evolved",
+		Color = Color3.fromRGB(255, 255, 255)
+	},
+	Luck_L2 = {
+		Count = 4
+	},
+	Luck_L3 = {
+		Count = 5
+	},
+	Meteorite = {
+		Count = 3
+	},
+	Honey = {
+		Count = 1
+	},
+	Sinister = {
+		Count = 3
+	},
+	EXE = {
+		Count = 1,
+		Gradient = "Evolved",
+		Color = Color3.fromRGB(255, 255, 255)
+	}
+}
+t.BoostsStore = t.BoostsStore or {}
+t.BoostsStore.RestockIntervalSeconds = t.BoostsStore.RestockIntervalSeconds or 300
+t.BoostsStore.Offers = t.BoostsStore.Offers or {
+	Offer1 = {
+		PotionKey = "Cash_L1",
+		Currency = "Cash",
+		CashCost = 250000,
+		GemsCost = 50,
+		DevProductId = 3540562816,
+		RestockChance = 1,
+		RestockChanceDenom = 1,
+		RestockMin = 2,
+		RestockMax = 8
+	},
+	Offer2 = {
+		PotionKey = "Cash_L2",
+		Currency = "Cash",
+		CashCost = 12500000000,
+		GemsCost = 250,
+		DevProductId = 3540563037,
+		RestockChance = 1,
+		RestockChanceDenom = 2,
+		RestockMin = 2,
+		RestockMax = 8
+	},
+	Offer3 = {
+		PotionKey = "Cash_L3",
+		Currency = "Cash",
+		CashCost = 2250000000000,
+		GemsCost = 2500,
+		DevProductId = 3540563165,
+		RestockChance = 1,
+		RestockChanceDenom = 4,
+		RestockMin = 2,
+		RestockMax = 8
+	},
+	Offer4 = {
+		PotionKey = "Gems_L1",
+		Currency = "Cash",
+		CashCost = 2500000,
+		GemsCost = 100,
+		DevProductId = 3540563378,
+		RestockChance = 1,
+		RestockChanceDenom = 2,
+		RestockMin = 2,
+		RestockMax = 8
+	},
+	Offer5 = {
+		PotionKey = "Gems_L2",
+		Currency = "Cash",
+		CashCost = 700000000000,
+		GemsCost = 500,
+		DevProductId = 3540563496,
+		RestockChance = 1,
+		RestockChanceDenom = 4,
+		RestockMin = 2,
+		RestockMax = 8
+	},
+	Offer6 = {
+		PotionKey = "Gems_L3",
+		Currency = "Cash",
+		CashCost = 2000000000000000,
+		GemsCost = 5000,
+		DevProductId = 3540563719,
+		RestockChance = 1,
+		RestockChanceDenom = 6,
+		RestockMin = 2,
+		RestockMax = 8
+	},
+	Offer7 = {
+		PotionKey = "Mutation_L1",
+		Currency = "Gems",
+		CashCost = 25000000000,
+		GemsCost = 50,
+		DevProductId = 3545568290,
+		RestockChance = 1,
+		RestockChanceDenom = 3,
+		RestockMin = 1,
+		RestockMax = 4
+	},
+	Offer8 = {
+		PotionKey = "FastCatch_L1",
+		Currency = "Gems",
+		CashCost = 2000000,
+		GemsCost = 20,
+		DevProductId = 3545569372,
+		RestockChance = 1,
+		RestockChanceDenom = 3,
+		RestockMin = 1,
+		RestockMax = 4
+	},
+	Offer9 = {
+		PotionKey = "Luck_L1",
+		Currency = "Gems",
+		CashCost = 12500000,
+		GemsCost = 50,
+		DevProductId = 3545573078,
+		RestockChance = 1,
+		RestockChanceDenom = 3,
+		RestockMin = 1,
+		RestockMax = 4
+	}
+}
+t.Stealing = t.Stealing or {
+	Enabled = false
+}
+t.SecretStore = t.SecretStore or {
+	CharacterRobuxProductId = 3545981879,
+	EventPotionRobuxProductId = 3545998336,
+	Selene = {
+		Enabled = true,
+		RollEverySeconds = 20,
+		SpawnDurationSeconds = 300,
+		FadeSeconds = 1,
+		SummonSeconds = 2,
+		SummonSoundRange = 300,
+		ChatMessage = "[Server] Selene has Arrived!",
+		NotificationText = "Selene has Arrived!",
+		SpawnChance = {
+			Numerator = 2,
+			Denominator = 100
+		},
+		Durations = { 180, 210, 240 },
+		NotificationColor = Color3.fromRGB(170, 85, 255),
+		Debug = {
+			Enabled = false,
+			SpawnAfterServerStartSeconds = 5
+		}
+	},
+	Offers = {
+		Offer1 = {
+			Kind = "Character",
+			GemsCost = 5000,
+			TypedGemsCost = 7500,
+			DevProductId = 3545981879,
+			PullChance = {
+				Numerator = 1,
+				Denominator = 2
+			},
+			Stock = {
+				Min = 1,
+				Max = 1
+			}
+		},
+		Offer2 = {
+			Kind = "Potion",
+			PotionKey = "Luck_L3",
+			GemsCost = 25000,
+			DevProductId = 3545000131,
+			StockTiers = {
+				{
+					Stock = 3,
+					Denominator = 500
+				},
+				{
+					Stock = 2,
+					Denominator = 150
+				},
+				{
+					Stock = 1,
+					Denominator = 50
+				}
+			}
+		},
+		Offer3 = {
+			Kind = "Potion",
+			PotionKey = "HeavenCollide",
+			GemsCost = 20000,
+			DevProductId = 3545998336,
+			PullChance = {
+				Numerator = 2,
+				Denominator = 5
+			},
+			Stock = {
+				Min = 1,
+				Max = 2
+			}
+		},
+		Offer4 = {
+			Kind = "Potion",
+			PotionKey = "Luck_L2",
+			CashCost = 2500000000000000,
+			DevProductId = 3546000168,
+			PullChance = {
+				Numerator = 2,
+				Denominator = 5
+			},
+			Stock = {
+				Min = 1,
+				Max = 2
+			}
+		},
+		Offer5 = {
+			Kind = "Potion",
+			PotionKey = "Meteorite",
+			CashCost = 11000000,
+			DevProductId = 3546004260,
+			PullChance = {
+				Numerator = 2,
+				Denominator = 3
+			},
+			Stock = {
+				Min = 1,
+				Max = 6
+			}
+		},
+		Offer6 = {
+			Kind = "Potion",
+			PotionKey = "Honey",
+			CashCost = 2000000,
+			DevProductId = 3546005877,
+			PullChance = {
+				Numerator = 4,
+				Denominator = 5
+			},
+			Stock = {
+				Min = 1,
+				Max = 6
+			}
+		},
+		Offer7 = {
+			Kind = "Potion",
+			PotionKey = "Sinister",
+			CashCost = 200000000,
+			DevProductId = 3546010403,
+			PullChance = {
+				Numerator = 4,
+				Denominator = 5
+			},
+			SeasonalPullChance = {
+				Numerator = 20,
+				Denominator = 21,
+				StartMonth = 10,
+				StartDay = 1,
+				EndMonth = 11,
+				EndDay = 7
+			},
+			Stock = {
+				Min = 1,
+				Max = 6
+			}
+		}
+	}
+}
+t.SecretStore2 = t.SecretStore2 or {
+	Angelia = {
+		Enabled = true,
+		SlotSeconds = 900,
+		RollEverySeconds = 20,
+		SpawnDurationSeconds = 300,
+		FadeSeconds = 1,
+		SummonSeconds = 2,
+		ChatMessage = "[Server] Angelia has fallen from the Heavens!",
+		NotificationText = "Angelia has fallen from the Heavens!",
+		SummonSoundRange = 300,
+		SpawnChance = {
+			Numerator = 10,
+			Denominator = 100
+		},
+		SlotSpawnChance = {
+			Numerator = 1,
+			Denominator = 60
+		},
+		NotificationColor = Color3.fromRGB(255, 255, 0),
+		Debug = {
+			Enabled = false,
+			SpawnAfterServerStartSeconds = 5
+		}
+	},
+	Offers = {
+		Offer1 = {
+			Kind = "Potion",
+			PotionKey = "Forgotten",
+			GemsCost = 5000000,
+			DevProductId = 3703396399,
+			RebirthRequirement = 75,
+			PullChance = {
+				Numerator = 1,
+				Denominator = 4
+			},
+			Stock = {
+				Min = 1,
+				Max = 1
+			}
+		},
+		Offer2 = {
+			Kind = "BackpackStorage",
+			BackpackStorage = 500,
+			GemsCost = 75000,
+			DevProductId = 3538460733,
+			AlwaysInStock = true,
+			HideStockLabel = true,
+			GemsOneTime = true,
+			PullChance = {
+				Numerator = 1,
+				Denominator = 1
+			},
+			Stock = {
+				Min = 1,
+				Max = 1
+			}
+		},
+		Offer3 = {
+			Kind = "Potion",
+			PotionKey = "CyberneticGlitch",
+			GemsCost = 750000,
+			DevProductId = 3703438639,
+			PullChance = {
+				Numerator = 1,
+				Denominator = 4
+			},
+			Stock = {
+				Min = 1,
+				Max = 1
+			}
+		},
+		Offer4 = {
+			Kind = "Potion",
+			PotionKey = "Dreamer",
+			GemsCost = 200000,
+			DevProductId = 3703412283,
+			StockTiers = {
+				{
+					Stock = 3,
+					Numerator = 1,
+					Denominator = 100
+				},
+				{
+					Stock = 2,
+					Numerator = 10,
+					Denominator = 100
+				},
+				{
+					Stock = 1,
+					Numerator = 80,
+					Denominator = 100
+				}
+			}
+		},
+		Offer5 = {
+			Kind = "Potion",
+			PotionKey = "PartyPotion",
+			GemsCost = 50000,
+			DevProductId = 3708175218,
+			StockTiers = {
+				{
+					Stock = 2,
+					Numerator = 15,
+					Denominator = 100
+				},
+				{
+					Stock = 1,
+					Numerator = 80,
+					Denominator = 100
+				}
+			}
+		},
+		Offer6 = {
+			Kind = "Potion",
+			PotionKey = "FastCatch_L2",
+			CashCost = 100000000000000,
+			DevProductId = 3703536909,
+			StockTiers = {
+				{
+					Stock = 5,
+					Numerator = 10,
+					Denominator = 100
+				},
+				{
+					Stock = 3,
+					Numerator = 40,
+					Denominator = 100
+				},
+				{
+					Stock = 2,
+					Numerator = 70,
+					Denominator = 100
+				},
+				{
+					Stock = 1,
+					Numerator = 90,
+					Denominator = 100
+				}
+			}
+		},
+		Offer7 = {
+			Kind = "Potion",
+			PotionKey = "Luck_L3",
+			GemsCost = 25000,
+			DevProductId = 3545000131,
+			StockTiers = {
+				{
+					Stock = 3,
+					Numerator = 5,
+					Denominator = 1000
+				},
+				{
+					Stock = 2,
+					Numerator = 15,
+					Denominator = 1000
+				},
+				{
+					Stock = 1,
+					Numerator = 35,
+					Denominator = 1000
+				}
+			}
+		},
+		Offer8 = {
+			Kind = "Potion",
+			PotionKey = "EXE",
+			GemsCost = 10000,
+			DevProductId = 3703523163,
+			StockTiers = {
+				{
+					Stock = 14,
+					Numerator = 1,
+					Denominator = 100
+				},
+				{
+					Stock = 12,
+					Numerator = 5,
+					Denominator = 100
+				},
+				{
+					Stock = 7,
+					Numerator = 30,
+					Denominator = 100
+				},
+				{
+					Stock = 5,
+					Numerator = 50,
+					Denominator = 100
+				},
+				{
+					Stock = 4,
+					Numerator = 70,
+					Denominator = 100
+				},
+				{
+					Stock = 2,
+					Numerator = 100,
+					Denominator = 100
+				}
+			}
+		},
+		Offer9 = {
+			Kind = "Crate",
+			CrateKey = "CosmicCase",
+			CrateCount = 1,
+			CashCost = 100000000000,
+			DevProductId = 3544365819,
+			StockTiers = {
+				{
+					Stock = 22,
+					Numerator = 5,
+					Denominator = 100
+				},
+				{
+					Stock = 15,
+					Numerator = 20,
+					Denominator = 100
+				},
+				{
+					Stock = 12,
+					Numerator = 40,
+					Denominator = 100
+				},
+				{
+					Stock = 10,
+					Numerator = 50,
+					Denominator = 100
+				},
+				{
+					Stock = 7,
+					Numerator = 80,
+					Denominator = 100
+				},
+				{
+					Stock = 5,
+					Numerator = 90,
+					Denominator = 100
+				},
+				{
+					Stock = 3,
+					Numerator = 100,
+					Denominator = 100
+				}
+			}
+		}
+	}
+}
+t.Gamepasses = t.Gamepasses or {}
+t.Gamepasses.Effects = t.Gamepasses.Effects or {
+	DoubleCash = {
+		Id = 1713787788,
+		CashMultiplier = 2,
+		AppliesTo = {
+			Stands = true
+		}
+	},
+	TwoXLuck = {
+		Id = 1729307579,
+		ServerAttribute = "GP_TwoXLuck",
+		LuckMultiplier = 2
+	},
+	FourXLuck = {
+		Id = 1728413731,
+		ServerAttribute = "GP_FourXLuck",
+		LuckMultiplier = 4
+	},
+	VIP = {
+		Id = 1721272526,
+		ServerAttribute = "GP_VIP",
+		CashMultiplier = 1.5,
+		LuckMultiplier = 1.5,
+		AppliesTo = {
+			Stands = true
+		}
+	},
+	AutoCollect = {
+		Id = 1713789806,
+		AutoCollect = true,
+		AppliesTo = {
+			Stands = true
+		}
+	},
+	EquipPlusOne = {
+		Id = 1721434625,
+		ServerAttribute = "GP_EquipPlusOne"
+	},
+	SellAll = {
+		Id = 1724125317,
+		ServerAttribute = "GP_SellAll"
+	},
+	TypeChanceBoost = {
+		Id = 1723753275,
+		ServerAttribute = "GP_TypeChanceBoost"
+	},
+	StealProtection = {
+		Id = 1729159195,
+		ServerAttribute = "GP_StealProtection"
+	},
+	FasterCatch = {
+		Id = 3546734946,
+		ServerAttribute = "GP_FasterCatch"
+	},
+	RainbowCatch = {
+		Id = 3546770093,
+		ServerAttribute = "GP_RainbowCatch"
+	},
+	DoubleOfflineEarnings = {
+		Id = 3546772915,
+		ServerAttribute = "GP_DoubleOfflineEarnings"
+	},
+	CheaperLevelUp = {
+		Id = 3546741272,
+		ServerAttribute = "GP_CheaperLevelUp"
+	},
+	GodCatch = {
+		Id = 3546747395,
+		ServerAttribute = "GP_GodCatch"
+	},
+	TripleHook = {
+		Id = 1865930991,
+		ServerAttribute = "TripleHookOwned"
+	},
+	PotionTimeBoost = {
+		Id = 1722602868,
+		ServerAttribute = "GP_PotionTimeBoost"
+	},
+	DoubleFood = {
+		Id = 1862748809,
+		ServerAttribute = "GP_DoubleFood"
+	}
+}
+t.BoostUI = t.BoostUI or {}
+t.BoostUI.GamepassBoosts = t.BoostUI.GamepassBoosts or {
+	DoubleCash = {
+		Enabled = true,
+		GuiPath = { "Boosts", "2x Cash" }
+	},
+	TwoXLuck = {
+		Enabled = false,
+		GuiPath = { "Boosts", "2x Luck" }
+	},
+	FourXLuck = {
+		Enabled = false,
+		GuiPath = { "Boosts", "4x Luck" }
+	},
+	FasterCatch = {
+		Enabled = true,
+		GuiPath = { "Boosts", "1.5x Catch" }
+	},
+	RainbowCatch = {
+		Enabled = false,
+		GuiPath = { "Boosts", "RainbowCatch" }
+	},
+	GodCatch = {
+		Enabled = true,
+		GuiPath = { "Boosts", "GodCatch" }
+	},
+	StealProtection = {
+		Enabled = false,
+		GuiPath = { "Boosts", "StealProtection" }
+	},
+	TypeChanceBoost = {
+		Enabled = true,
+		GuiPath = { "Boosts", "2x Mutations" }
+	},
+	TripleHook = {
+		Enabled = false,
+		GuiPath = { "Boosts", "Fishing Hook" }
+	}
+}
+t.Rarities = {
+	Common = {
+		ColorGradient = false,
+		Color = Color3.fromRGB(255, 255, 255)
+	},
+	Uncommon = {
+		ColorGradient = false,
+		Color = Color3.fromRGB(105, 255, 153)
+	},
+	Rare = {
+		ColorGradient = false,
+		Color = Color3.fromRGB(0, 229, 255)
+	},
+	Epic = {
+		ColorGradient = false,
+		Color = Color3.fromRGB(215, 17, 255)
+	},
+	Legendary = {
+		ColorGradient = false,
+		Color = Color3.fromRGB(255, 255, 0)
+	},
+	Mythical = {
+		ColorGradient = true,
+		Color = Color3.fromRGB(0, 0, 0)
+	},
+	Cosmic = {
+		ColorGradient = true,
+		Color = Color3.fromRGB(0, 0, 0)
+	},
+	Secret = {
+		ColorGradient = true,
+		Color = Color3.fromRGB(0, 0, 0)
+	},
+	Rainbow = {
+		ColorGradient = true,
+		Color = Color3.fromRGB(0, 0, 0)
+	},
+	Ascended = {
+		ColorGradient = true,
+		Color = Color3.fromRGB(0, 0, 0)
+	},
+	Divine = {
+		ColorGradient = true,
+		Color = Color3.fromRGB(0, 0, 0)
+	},
+	Supreme = {
+		ColorGradient = true,
+		Color = Color3.fromRGB(0, 0, 0)
+	},
+	Celestial = {
+		ColorGradient = true,
+		Color = Color3.fromRGB(0, 0, 0)
+	},
+	Ancient = {
+		ColorGradient = true,
+		Color = Color3.fromRGB(0, 0, 0)
+	},
+	God = {
+		ColorGradient = true,
+		Color = Color3.fromRGB(0, 0, 0)
+	},
+	Omniscient = {
+		ColorGradient = true,
+		Color = Color3.fromRGB(255, 255, 255)
+	},
+	Exclusive = {
+		ColorGradient = true,
+		Color = Color3.fromRGB(255, 255, 255)
+	}
+}
+t.RarityOrder = {
+	"Common",
+	"Uncommon",
+	"Rare",
+	"Epic",
+	"Legendary",
+	"Mythical",
+	"Cosmic",
+	"Secret",
+	"Rainbow",
+	"Ascended",
+	"Divine",
+	"Supreme",
+	"Celestial",
+	"Ancient",
+	"God",
+	"Omniscient",
+	"Exclusive"
+}
+t.CutsceneSkipRarities = t.CutsceneSkipRarities or {
+	"Legendary",
+	"Mythical",
+	"Cosmic",
+	"Secret",
+	"Rainbow",
+	"Ascended",
+	"Divine",
+	"Supreme",
+	"Celestial"
+}
+function t.IsCutsceneSkippableRarity(p1) --[[ IsCutsceneSkippableRarity | Line: 2125 | Upvalues: t (copy) ]]
+	local v1 = tostring(p1 or "")
+
+	if v1 == "" then
+		return false
+	end
+
+	for i, v in ipairs(t.CutsceneSkipRarities) do
+		if v == v1 then
+			return true
+		end
+	end
+
+	return false
+end
+t.IndexRewards = t.IndexRewards or {}
+t.IndexRewards.RarityOrder = t.IndexRewards.RarityOrder or t.RarityOrder
+t.IndexRewards.GemRewards = t.IndexRewards.GemRewards or {
+	Common = {
+		Base = 5,
+		Typed = 7
+	},
+	Uncommon = {
+		Base = 12,
+		Typed = 15
+	},
+	Rare = {
+		Base = 20,
+		Typed = 25
+	},
+	Epic = {
+		Base = 27,
+		Typed = 35
+	},
+	Legendary = {
+		Base = 50,
+		Typed = 60
+	},
+	Mythical = {
+		Base = 75,
+		Typed = 82
+	},
+	Cosmic = {
+		Base = 100,
+		Typed = 120
+	},
+	Secret = {
+		Base = 175,
+		Typed = 210
+	},
+	Rainbow = {
+		Base = 290,
+		Typed = 350
+	},
+	Ascended = {
+		Base = 320,
+		Typed = 400
+	},
+	Divine = {
+		Base = 350,
+		Typed = 440
+	},
+	Supreme = {
+		Base = 385,
+		Typed = 480
+	},
+	Celestial = {
+		Base = 420,
+		Typed = 525
+	},
+	Ancient = {
+		Base = 460,
+		Typed = 580
+	},
+	God = {
+		Base = 500,
+		Typed = 750
+	},
+	Omniscient = {
+		Base = 750,
+		Typed = 1000
+	},
+	Exclusive = {
+		Base = 100,
+		Typed = 110
+	}
+}
+t.Characters = {
+	Kokushiba = {
+		CPS = 1,
+		Rarity = "Common",
+		Time = 60,
+		Chance = "1/150"
+	},
+	Touki = {
+		CPS = 1,
+		Rarity = "Common",
+		Time = 60,
+		Chance = "1/150"
+	},
+	["Celestria Ludenbera"] = {
+		CPS = 2,
+		Rarity = "Common",
+		Time = 60,
+		Chance = "1/200"
+	},
+	["Frog Baddie"] = {
+		CPS = 1,
+		Rarity = "Common",
+		Time = 60,
+		Chance = "1/150"
+	},
+	["Histora Reissa"] = {
+		CPS = 1,
+		Rarity = "Common",
+		Time = 60,
+		Chance = "1/150"
+	},
+	["Hatsuna Mika"] = {
+		CPS = 2,
+		Rarity = "Common",
+		Time = 60,
+		Chance = "1/200",
+		CombinationPartner = "Teto"
+	},
+	Makia = {
+		CPS = 4,
+		Rarity = "Uncommon",
+		Time = 60,
+		Chance = "1/2,000"
+	},
+	["Furry Baddie"] = {
+		CPS = 4,
+		Rarity = "Uncommon",
+		Time = 60,
+		Chance = "1/1,700"
+	},
+	Waitress = {
+		CPS = 3,
+		Rarity = "Uncommon",
+		Time = 60,
+		Chance = "1/1,200"
+	},
+	Misara = {
+		CPS = 3,
+		Rarity = "Uncommon",
+		Time = 60,
+		Chance = "1/1,000"
+	},
+	["Senka San"] = {
+		CPS = 4,
+		Rarity = "Uncommon",
+		Time = 60,
+		Chance = "1/2,000"
+	},
+	["Lyra Crofte"] = {
+		CPS = 3,
+		Rarity = "Uncommon",
+		Time = 60,
+		Chance = "1/1,000"
+	},
+	["Junka Enoshira"] = {
+		CPS = 3,
+		Rarity = "Uncommon",
+		Time = 60,
+		Chance = "1/750"
+	},
+	Yoruika = {
+		CPS = 4,
+		Rarity = "Uncommon",
+		Time = 60,
+		Chance = "1/1,500"
+	},
+	Jolina = {
+		CPS = 5,
+		Rarity = "Rare",
+		Time = 60,
+		Chance = "1/5,250"
+	},
+	Nezara = {
+		CPS = 5,
+		Rarity = "Rare",
+		Time = 60,
+		Chance = "1/10,000"
+	},
+	Natsuka = {
+		CPS = 5,
+		Rarity = "Rare",
+		Time = 60,
+		Chance = "1/7,100"
+	},
+	Nekopura = {
+		CPS = 6,
+		Rarity = "Rare",
+		Time = 60,
+		Chance = "1/17,000"
+	},
+	["Sailor Luna"] = {
+		CPS = 6,
+		Rarity = "Rare",

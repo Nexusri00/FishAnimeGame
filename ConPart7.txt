@@ -1,0 +1,683 @@
+					Kind = "potion",
+					Potion = "luck_2x",
+					Chance = 5,
+					Amount = 1,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "cash_2x",
+					Chance = 5,
+					Amount = 1,
+					Rarity = "Common"
+				},
+				{
+					Kind = "potion",
+					Potion = "cash_4x",
+					Chance = 5,
+					Amount = 1,
+					Rarity = "Uncommon"
+				}
+			}
+		},
+		SecretCase = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Secret Box",
+			Rarity = "Secret",
+			Rewards = {
+				{
+					Kind = "cash",
+					Amount = 25000000,
+					Chance = 25,
+					Template = "Cash",
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "gems",
+					Amount = 750,
+					Chance = 14,
+					Template = "Gems",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "food",
+					Amount = 1000000,
+					Chance = 20,
+					Template = "Food",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Cosmic",
+					Chance = 15
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Secret",
+					Chance = 15
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Rainbow",
+					Chance = 1
+				},
+				{
+					Kind = "potion",
+					Potion = "luck_2x",
+					Chance = 5,
+					Amount = 1,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Chance = 4,
+					Amount = 1,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Chance = 1,
+					Amount = 1,
+					Rarity = "Mythical"
+				}
+			}
+		},
+		AscendedCase = {
+			DisplayName = "Ascended Box",
+			Rarity = "Ascended",
+			Rewards = {
+				{
+					Kind = "cash",
+					Amount = 50000000,
+					Chance = 25,
+					Template = "Cash",
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "gems",
+					Amount = 1250,
+					Chance = 15,
+					Template = "Gems",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "food",
+					Amount = 5000000,
+					Chance = 20,
+					Template = "Food",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Cosmic",
+					Chance = 15
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Secret",
+					Chance = 10
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Rainbow",
+					Chance = 5
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Ascended",
+					Chance = 1
+				},
+				{
+					Kind = "potion",
+					Potion = "luck_2x",
+					Chance = 5,
+					Amount = 1,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Chance = 4,
+					Amount = 1,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Chance = 1,
+					Amount = 1,
+					Rarity = "Mythical"
+				}
+			}
+		},
+		AncientCase = {
+			DisplayName = "Ancient Box",
+			Rarity = "Ancient",
+			Rewards = {
+				{
+					Kind = "cash",
+					Amount = 100000000,
+					Chance = 25,
+					Template = "Cash",
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "gems",
+					Amount = 2000,
+					Chance = 15,
+					Template = "Gems",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "food",
+					Amount = 100000000,
+					Chance = 19,
+					Template = "Food",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Secret",
+					Chance = 25
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Rainbow",
+					Chance = 2
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Ascended",
+					Chance = 1
+				},
+				{
+					Kind = "potion",
+					Potion = "luck_2x",
+					Chance = 5,
+					Amount = 3,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Chance = 4,
+					Amount = 2,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L3",
+					Chance = 2,
+					Amount = 1,
+					Rarity = "Legendary"
+				},
+				{
+					Kind = "potion",
+					Potion = "HeavenCollide",
+					Chance = 1,
+					Amount = 2,
+					Rarity = "Rainbow"
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Chance = 1,
+					Amount = 5,
+					Rarity = "Mythical"
+				}
+			}
+		},
+		YinYangCase = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Yin Yang Box",
+			Rarity = "Exclusive",
+			Rewards = {
+				{
+					Kind = "character",
+					Character = "Yang",
+					Chance = 30
+				},
+				{
+					Kind = "potion",
+					Potion = "luck_2x",
+					Amount = 5,
+					Chance = 26,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "fastcatch_2x",
+					Amount = 5,
+					Chance = 15,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Amount = 3,
+					Chance = 11,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L3",
+					Amount = 2,
+					Chance = 10,
+					Rarity = "Legendary"
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Amount = 10,
+					Chance = 5,
+					Rarity = "Mythical"
+				},
+				{
+					Kind = "base",
+					Skin = "Yin Yang",
+					Chance = 2,
+					Rarity = "Exclusive",
+					Template = "CharacterTemplate",
+					Image = "rbxassetid://102149189884304"
+				},
+				{
+					Kind = "character",
+					Character = "Yin",
+					Chance = 1
+				}
+			}
+		},
+		PotionPackI = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Potion Pack I",
+			Rarity = "Epic",
+			Rewards = {
+				{
+					Kind = "potion",
+					Potion = "luck_2x",
+					Amount = 7,
+					Chance = 30,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "gems_2x",
+					Amount = 7,
+					Chance = 20,
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "potion",
+					Potion = "gems_4x",
+					Amount = 5,
+					Chance = 15,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "cash_4x",
+					Amount = 5,
+					Chance = 15,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Amount = 2,
+					Chance = 10,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "cash_8x",
+					Amount = 2,
+					Chance = 7,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "gems_8x",
+					Amount = 3,
+					Chance = 2,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Amount = 10,
+					Chance = 1,
+					Rarity = "Mythical"
+				}
+			}
+		},
+		PotionPackII = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Potion Pack II",
+			Rarity = "Legendary",
+			Rewards = {
+				{
+					Kind = "potion",
+					Potion = "gems_4x",
+					Amount = 5,
+					Chance = 30,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Amount = 3,
+					Chance = 20,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "gems_4x",
+					Amount = 7,
+					Chance = 15,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "cash_4x",
+					Amount = 7,
+					Chance = 15,
+					Rarity = "Rare"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Amount = 4,
+					Chance = 10,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "gems_8x",
+					Amount = 3,
+					Chance = 5,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Amount = 7,
+					Chance = 2,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Amount = 40,
+					Chance = 1,
+					Rarity = "Mythical"
+				},
+				{
+					Kind = "potion",
+					Potion = "Dreamer",
+					Amount = 1,
+					Chance = 1,
+					Rarity = "Ascended"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L3",
+					Amount = 1,
+					Chance = 1,
+					Rarity = "Legendary"
+				}
+			}
+		},
+		PotionPackIII = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Potion Pack III",
+			Rarity = "Mythical",
+			Rewards = {
+				{
+					Kind = "potion",
+					Potion = "Luck_L2",
+					Amount = 7,
+					Chance = 20,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Amount = 50,
+					Chance = 20,
+					Rarity = "Mythical"
+				},
+				{
+					Kind = "potion",
+					Potion = "Dreamer",
+					Amount = 2,
+					Chance = 20,
+					Rarity = "Ascended"
+				},
+				{
+					Kind = "potion",
+					Potion = "CyberneticGlitch",
+					Amount = 1,
+					Chance = 20,
+					Rarity = "Celestial"
+				},
+				{
+					Kind = "potion",
+					Potion = "gems_8x",
+					Amount = 15,
+					Chance = 10,
+					Rarity = "Epic"
+				},
+				{
+					Kind = "potion",
+					Potion = "Luck_L3",
+					Amount = 3,
+					Chance = 9,
+					Rarity = "Legendary"
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Amount = 1000,
+					Chance = 1,
+					Rarity = "Mythical"
+				}
+			}
+		}
+	}
+}
+t.LimitedOffers = {
+	YinYangBox = {
+		CrateKey = "YinYangCase",
+		DiscountAttribute = "YinYangDiscountEndsAt",
+		EndsUtc = {
+			year = 2026,
+			month = 9,
+			day = 7,
+			hour = 0,
+			min = 0,
+			sec = 0
+		},
+		Products = {
+			{
+				ProductId = 3631572404,
+				Boxes = 3,
+				DiscountProductId = 3544367288
+			},
+			{
+				ProductId = 3631575689,
+				Boxes = 15,
+				DiscountProductId = 3544366929
+			}
+		},
+		Guarantee = {
+			Goal = 100,
+			Character = "Yin",
+			Attribute = "YinYangGuarantee"
+		}
+	}
+}
+t.PotionPackOffer = {
+	ProductId = 3701182648,
+	DiscountProductId = 3544366273,
+	DiscountAttribute = "PotionPackDiscountEndsAt",
+	PreviewCrateKey = "PotionPackIII",
+	Packs = {
+		{
+			Key = "PotionPackI",
+			Amount = 15
+		},
+		{
+			Key = "PotionPackII",
+			Amount = 10
+		},
+		{
+			Key = "PotionPackIII",
+			Amount = 5
+		}
+	}
+}
+function t.PotionPackDiscountEndsAt() --[[ PotionPackDiscountEndsAt | Line: 15050 | Upvalues: t (copy) ]]
+	local PotionPackOffer = t.PotionPackOffer
+
+	if type(PotionPackOffer) ~= "table" then
+		return 0
+	end
+
+	local ok, result = pcall(function() --[[ Line: 15060 | Upvalues: PotionPackOffer (copy) ]]
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+		return ReplicatedStorage:GetAttribute((tostring(PotionPackOffer.DiscountAttribute or "")))
+	end)
+
+	return if ok then tonumber(result) or 0 else 0
+end
+function t.PotionPackDiscountActive() --[[ PotionPackDiscountActive | Line: 15071 | Upvalues: t (copy) ]]
+	local PotionPackOffer = t.PotionPackOffer
+
+	if type(PotionPackOffer) ~= "table" then
+		return false
+	end
+
+	if (tonumber(PotionPackOffer.DiscountProductId) or 0) <= 0 then
+		return false
+	end
+
+	return t.PotionPackDiscountEndsAt() > os.time()
+end
+function t.PotionPackActiveProductId() --[[ PotionPackActiveProductId | Line: 15086 | Upvalues: t (copy) ]]
+	local PotionPackOffer = t.PotionPackOffer
+
+	if type(PotionPackOffer) ~= "table" then
+		return 0
+	end
+
+	local v1 = tonumber(PotionPackOffer.ProductId) or 0
+
+	if v1 <= 0 then
+		return 0
+	end
+
+	if t.PotionPackDiscountActive() then
+		return tonumber(PotionPackOffer.DiscountProductId) or v1
+	end
+
+	return v1
+end
+function t.YinYangDiscountEndsAt() --[[ YinYangDiscountEndsAt | Line: 15131 | Upvalues: t (copy) ]]
+	local YinYangBox = (t.LimitedOffers or {}).YinYangBox
+
+	if type(YinYangBox) ~= "table" then
+		return 0
+	end
+
+	local ok, result = pcall(function() --[[ Line: 15141 | Upvalues: YinYangBox (copy) ]]
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+		return ReplicatedStorage:GetAttribute((tostring(YinYangBox.DiscountAttribute or "")))
+	end)
+
+	return if ok then tonumber(result) or 0 else 0
+end
+function t.YinYangDiscountActive() --[[ YinYangDiscountActive | Line: 15152 | Upvalues: t (copy) ]]
+	if type((t.LimitedOffers or {}).YinYangBox) ~= "table" then
+		return false
+	end
+
+	return t.YinYangDiscountEndsAt() > os.time()
+end
+function t.YinYangActiveProductId(p1) --[[ YinYangActiveProductId | Line: 15179 | Upvalues: t (copy) ]]
+	local YinYangBox = (t.LimitedOffers or {}).YinYangBox
+
+	if type(YinYangBox) ~= "table" then
+		return 0, false
+	end
+
+	local v3 = (YinYangBox.Products or {})[tonumber(p1) or 0]
+
+	if type(v3) ~= "table" then
+		return 0, false
+	end
+
+	local v4 = tonumber(v3.ProductId) or 0
+
+	if v4 <= 0 then
+		return 0, false
+	end
+
+	local v5 = tonumber(v3.DiscountProductId) or 0
+
+	if v5 > 0 and t.YinYangDiscountActive() then
+		return v5, true
+	end
+
+	return v4, false
+end
+function t.GetFishingRodSellRefund(p1) --[[ GetFishingRodSellRefund | Line: 15286 | Upvalues: t (copy) ]]
+	local v1 = tostring(p1 or "")
+
+	if v1 == "" then
+		return 0, false
+	end
+
+	local v4 = ((t.Fishing or {}).Rods or {})[v1]
+
+	if type(v4) ~= "table" then
+		return 0, false
+	end
+
+	if tostring(v4.Rarity or "") == "Exclusive" then
+		return 0, false
+	end
+
+	local v9 = v1
+
+	for v10, v11 in pairs((t.FishingStore or {}).Offers or {}) do
+		if type(v11) == "table" and tostring(v11.RodName or "") == v9 then
+			local v13 = tonumber(v11.CashCost) or 0
+
+			if v13 <= 0 then
+				break
+			end
+
+			return math.floor(v13 / 100), true
+		end
+	end
+
+	return 0, false
+end
+function t.IsFishingRodSellable(p1) --[[ IsFishingRodSellable | Line: 15323 | Upvalues: t (copy) ]]
+	local _, v1 = t.GetFishingRodSellRefund(p1)
+
+	return v1 == true
+end
+t.RodAbilities = {
+	["Forgotten Rod"] = {
+		Name = "Forgotten Call",
+		CooldownSeconds = 600,
+		DurationSeconds = 15
+	}
+}
+
+return t

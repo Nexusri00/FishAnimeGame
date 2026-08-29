@@ -1,0 +1,1500 @@
+	1750,
+	2000,
+	2250,
+	2500,
+	3000,
+	3250,
+	3500,
+	3750,
+	4000,
+	4500,
+	4750,
+	5000,
+	5250,
+	5500,
+	6000,
+	6250,
+	6500,
+	6750,
+	7000,
+	7250,
+	7500,
+	7750,
+	8000,
+	8500,
+	10000
+}
+t.ClanMemberCaps = {
+	{
+		level = 0,
+		cap = 10
+	},
+	{
+		level = 5,
+		cap = 15
+	},
+	{
+		level = 10,
+		cap = 20
+	},
+	{
+		level = 15,
+		cap = 30
+	},
+	{
+		level = 20,
+		cap = 40
+	},
+	{
+		level = 25,
+		cap = 50
+	},
+	{
+		level = 30,
+		cap = 55
+	},
+	{
+		level = 35,
+		cap = 60
+	},
+	{
+		level = 40,
+		cap = 65
+	},
+	{
+		level = 50,
+		cap = 70
+	}
+}
+
+local function cqC(p1, p2) --[[ cqC | Line: 12948 ]]
+	return "<font color=\"" .. p2 .. "\">" .. tostring(p1) .. "</font>"
+end
+
+local t12 = { "rgb(255,0,0)", "rgb(255,127,0)", "rgb(255,255,0)", "rgb(0,200,0)", "rgb(0,127,255)", "rgb(75,0,200)", "rgb(148,0,211)" }
+
+local function cqRainbow(p1) --[[ cqRainbow | Line: 12965 | Upvalues: t12 (copy) ]]
+	local t = {}
+	local count = 0
+
+	for v1, v2 in utf8.codes(p1) do
+		local v3 = utf8.char(v2)
+
+		if v3 == " " then
+			t[#t + 1] = " "
+
+			continue
+		end
+
+		t[#t + 1] = "<font color=\"" .. t12[count % #t12 + 1] .. "\">" .. tostring(v3) .. "</font>"
+		count = count + 1
+	end
+
+	return table.concat(t)
+end
+
+local t13 = {
+	{ 1000000000000, "T" },
+	{ 1000000000, "B" },
+	{ 1000000, "M" },
+	{ 1000, "K" }
+}
+
+local function cqFood(p1) --[[ cqFood | Line: 12994 | Upvalues: t13 (copy) ]]
+	local v1 = tonumber(p1) or 0
+
+	for i, v in ipairs(t13) do
+		if v[1] <= v1 then
+			local v2 = v1 / v[1]
+
+			if v2 == math.floor(v2) then
+				return string.format("%d%s", v2, v[2])
+			end
+
+			return string.format("%.1f%s", v2, v[2])
+		end
+	end
+
+	return tostring((math.floor(v1)))
+end
+
+local function cqComma(p1) --[[ cqComma | Line: 13017 ]]
+	return tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "")
+end
+
+local t14 = {
+	luck_2x = "2x Luck Potion",
+	Luck_L2 = "4x Luck Potion",
+	fastcatch_2x = "Fast Catch Potion Lvl. 1"
+}
+
+local function cqCharText(p1) --[[ cqCharText | Line: 13039 ]]
+	local v2 = tostring(p1.Rarity or "")
+
+	if p1.Type and p1.Type ~= "" then
+		return v2 .. " " .. tostring(p1.Type) .. " Character"
+	end
+
+	return v2 .. " Character"
+end
+
+local function cqReward(p1) --[[ cqReward | Line: 13056 | Upvalues: cqFood (copy), t14 (copy) ]]
+	local t = {}
+
+	if p1.Gems and p1.Gems > 0 then
+		t[#t + 1] = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("+" .. tostring((math.floor(tonumber(p1.Gems) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Gems") .. "</font>"
+	end
+
+	if p1.Exp and p1.Exp > 0 then
+		t[#t + 1] = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("+" .. p1.Exp .. " EXP") .. "</font>"
+	end
+
+	if p1.Food and p1.Food > 0 then
+		t[#t + 1] = "<font color=\"" .. "rgb(255,170,0)" .. "\">" .. tostring("+" .. cqFood(p1.Food) .. " Food") .. "</font>"
+	end
+
+	if p1.Potion then
+		t[#t + 1] = "<font color=\"" .. "rgb(255,105,180)" .. "\">" .. tostring("+" .. p1.Potion.Count .. " " .. (t14[p1.Potion.Id] or "Potion")) .. "</font>"
+	end
+
+	if p1.Char then
+		local Char = p1.Char
+		local v9 = tostring(Char.Rarity or "")
+
+		t[#t + 1] = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(if Char.Type and Char.Type ~= "" then v9 .. " " .. tostring(Char.Type) .. " Character" else v9 .. " Character") .. "</font>"
+	end
+
+	return table.concat(t, "<font color=\"" .. "rgb(255,255,255)" .. "\">" .. tostring(" / ") .. "</font>")
+end
+
+local function dFishing(p1) --[[ dFishing | Line: 13077 ]]
+	local v1 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Character") .. "</font>"
+	local v2 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Any Pond") .. "</font>"
+
+	return "Catch any " .. v1 .. " from " .. v2 .. " " .. tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. "x Times"
+end
+
+local function dIced(p1) --[[ dIced | Line: 13079 ]]
+	local v1 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Ice!") .. "</font>"
+	local v2 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>"
+
+	return "There is never enough " .. v1 .. " " .. v2 .. " " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("+" .. tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Gems") .. "</font>"
+end
+
+local function dFarmer(p1) --[[ dFarmer | Line: 13081 ]]
+	return "Collect total " .. ("<font color=\"" .. "rgb(255,170,0)" .. "\">" .. tostring(p1) .. "</font>") .. " of Food!"
+end
+
+local function dPlaytime(p1) --[[ dPlaytime | Line: 13083 ]]
+	return "Play the Game for " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring(p1) .. "</font>") .. "!"
+end
+
+local function dThirsty(p1) --[[ dThirsty | Line: 13085 ]]
+	return "Drink total of " .. "<font color=\"" .. "rgb(255,105,180)" .. "\">" .. tostring(tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Potions!") .. "</font>"
+end
+
+local function dLevelUp(p1) --[[ dLevelUp | Line: 13087 ]]
+	local v1 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Level Up") .. "</font>"
+
+	return v1 .. " any Character " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Times!") .. "</font>"
+end
+
+local function dBusiness(p1) --[[ dBusiness | Line: 13089 ]]
+	return "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring(p1) .. "</font>") .. " total Cash!"
+end
+
+local function dRainbow(p1) --[[ dRainbow | Line: 13091 | Upvalues: cqRainbow (copy) ]]
+	return "Catch total of " .. cqRainbow(tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Rainbow Characters!")
+end
+
+local function dCelestial(p1) --[[ dCelestial | Line: 13093 ]]
+	return "Catch total of " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring(tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Celestial Characters!") .. "</font>"
+end
+
+local function dAncient(p1) --[[ dAncient | Line: 13095 ]]
+	return "Catch total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Ancient Characters!") .. "</font>"
+end
+
+local function dHunt(p1) --[[ dHunt | Line: 13097 ]]
+	return "Pick up and collect total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters!") .. "</font>"
+end
+
+local function dLunar(p1) --[[ dLunar | Line: 13099 ]]
+	local v3 = tostring((math.floor(tonumber(p1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters"
+
+	return "Catch " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(v3) .. "</font>") .. " with the type " .. "<font color=\"" .. "rgb(200,120,255)" .. "\">" .. tostring("[Lunar]") .. "</font>"
+end
+
+local t15 = {}
+local t16 = {
+	Title = "Fishing",
+	Order = 1,
+	Stat = "fishCatch",
+	Fmt = "count"
+}
+local t17 = {}
+local t18 = {
+	W = 25,
+	Goal = 50000,
+	Exp = 50,
+	Gems = 100
+}
+local v83 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Character") .. "</font>"
+local v84 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Any Pond") .. "</font>"
+
+t18.Desc = "Catch any " .. v83 .. " from " .. v84 .. " " .. tostring((math.floor(tonumber(50000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. "x Times"
+
+local t19 = {
+	W = 25,
+	Goal = 100000,
+	Exp = 100,
+	Gems = 250
+}
+local v87 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Character") .. "</font>"
+local v88 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Any Pond") .. "</font>"
+
+t19.Desc = "Catch any " .. v87 .. " from " .. v88 .. " " .. tostring((math.floor(tonumber(100000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. "x Times"
+t19.Char = {
+	Rarity = "Legendary"
+}
+
+local t20 = {
+	W = 25,
+	Goal = 200000,
+	Exp = 125,
+	Gems = 300
+}
+local v91 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Character") .. "</font>"
+local v92 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Any Pond") .. "</font>"
+
+t20.Desc = "Catch any " .. v91 .. " from " .. v92 .. " " .. tostring((math.floor(tonumber(200000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. "x Times"
+t20.Potion = {
+	Id = "luck_2x",
+	Count = 1
+}
+
+local t21 = {
+	W = 25,
+	Goal = 500000,
+	Exp = 150,
+	Gems = 350
+}
+local v95 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Character") .. "</font>"
+local v96 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Any Pond") .. "</font>"
+
+t21.Desc = "Catch any " .. v95 .. " from " .. v96 .. " " .. tostring((math.floor(tonumber(500000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. "x Times"
+t21.Potion = {
+	Id = "Luck_L2",
+	Count = 1
+}
+t17[1] = t18
+t17[2] = t19
+t17[3] = t20
+t17[4] = t21
+t16.Variants = t17
+t15.Fishing = t16
+
+local t22 = {
+	Title = "Iced Out",
+	Order = 2,
+	Stat = "gemsCollect",
+	Fmt = "count"
+}
+local t23 = {}
+local t24 = {
+	W = 25,
+	Goal = 100000,
+	Exp = 50,
+	Food = 1000000
+}
+local v99 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Ice!") .. "</font>"
+local v100 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>"
+
+t24.Desc = "There is never enough " .. v99 .. " " .. v100 .. " " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("+" .. tostring((math.floor(tonumber(100000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Gems") .. "</font>"
+
+local t25 = {
+	W = 25,
+	Goal = 500000,
+	Exp = 100,
+	Food = 5000000
+}
+local v104 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Ice!") .. "</font>"
+local v105 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>"
+
+t25.Desc = "There is never enough " .. v104 .. " " .. v105 .. " " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("+" .. tostring((math.floor(tonumber(500000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Gems") .. "</font>"
+
+local t26 = {
+	W = 25,
+	Goal = 1000000,
+	Exp = 125,
+	Food = 10000000
+}
+local v109 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Ice!") .. "</font>"
+local v110 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>"
+
+t26.Desc = "There is never enough " .. v109 .. " " .. v110 .. " " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("+" .. tostring((math.floor(tonumber(1000000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Gems") .. "</font>"
+
+local t27 = {
+	W = 25,
+	Goal = 10000000,
+	Exp = 200,
+	Food = 25000000
+}
+local v114 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Ice!") .. "</font>"
+local v115 = "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>"
+
+t27.Desc = "There is never enough " .. v114 .. " " .. v115 .. " " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("+" .. tostring((math.floor(tonumber(10000000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Gems") .. "</font>"
+t27.Char = {
+	Rarity = "Secret"
+}
+t23[1] = t24
+t23[2] = t25
+t23[3] = t26
+t23[4] = t27
+t22.Variants = t23
+t15.IcedOut = t22
+t15.RebornClan = {
+	Title = "Reborn",
+	Order = 3,
+	Stat = "rebirth",
+	Fmt = "count",
+	Variants = {
+		{
+			W = 100,
+			Goal = 25,
+			Exp = 25,
+			Gems = 50,
+			Desc = ("<font color=\"" .. "rgb(200,120,255)" .. "\">" .. tostring("Rebirthing") .. "</font>") .. " is always a great way to Restart!"
+		}
+	}
+}
+t15.Farmer = {
+	Title = "Farmer",
+	Order = 4,
+	Stat = "foodCollect",
+	Fmt = "food",
+	Variants = {
+		{
+			W = 25,
+			Goal = 25000000,
+			Exp = 25,
+			Gems = 50,
+			Desc = "Collect total " .. ("<font color=\"" .. "rgb(255,170,0)" .. "\">" .. tostring("25M") .. "</font>") .. " of Food!"
+		},
+		{
+			W = 25,
+			Goal = 100000000,
+			Exp = 50,
+			Gems = 100,
+			Desc = "Collect total " .. ("<font color=\"" .. "rgb(255,170,0)" .. "\">" .. tostring("100M") .. "</font>") .. " of Food!"
+		},
+		{
+			W = 25,
+			Goal = 500000000,
+			Exp = 75,
+			Gems = 200,
+			Desc = "Collect total " .. ("<font color=\"" .. "rgb(255,170,0)" .. "\">" .. tostring("500M") .. "</font>") .. " of Food!"
+		},
+		{
+			W = 12.5,
+			Goal = 1000000000,
+			Exp = 125,
+			Gems = 300,
+			Desc = "Collect total " .. ("<font color=\"" .. "rgb(255,170,0)" .. "\">" .. tostring("1B") .. "</font>") .. " of Food!"
+		},
+		{
+			W = 12.5,
+			Goal = 100000000000,
+			Exp = 250,
+			Gems = 1000,
+			Desc = "Collect total " .. ("<font color=\"" .. "rgb(255,170,0)" .. "\">" .. tostring("100B") .. "</font>") .. " of Food!",
+			Char = {
+				Rarity = "Rainbow"
+			}
+		}
+	}
+}
+t15.Login = {
+	Title = "Login",
+	Order = 5,
+	Stat = "login",
+	Fmt = "count",
+	Variants = {
+		{
+			W = 100,
+			Goal = 0.75,
+			Exp = 50,
+			Gems = 100,
+			Desc = "Make " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("75%") .. "</font>") .. " of your clan " .. ("<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Login") .. "</font>") .. " atleast once!"
+		}
+	}
+}
+t15.Playtime = {
+	Title = "Playtime",
+	Order = 6,
+	Stat = "playtime",
+	Fmt = "hours",
+	Variants = {
+		{
+			W = 50,
+			Goal = 15000,
+			Exp = 25,
+			Gems = 100,
+			Desc = "Play the Game for " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("250 Hours") .. "</font>") .. "!"
+		},
+		{
+			W = 50,
+			Goal = 30000,
+			Exp = 75,
+			Gems = 200,
+			Desc = "Play the Game for " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("500 Hours") .. "</font>") .. "!"
+		}
+	}
+}
+
+local t28 = {
+	Title = "Thirsty",
+	Order = 7,
+	Stat = "potion",
+	Fmt = "count"
+}
+local t29 = {}
+local t30 = {
+	W = 25,
+	Goal = 100,
+	Exp = 10,
+	Gems = 20
+}
+
+t30.Desc = "Drink total of " .. "<font color=\"" .. "rgb(255,105,180)" .. "\">" .. tostring(tostring((math.floor(tonumber(100) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Potions!") .. "</font>"
+
+local t31 = {
+	W = 25,
+	Goal = 250,
+	Exp = 30,
+	Gems = 50
+}
+
+t31.Desc = "Drink total of " .. "<font color=\"" .. "rgb(255,105,180)" .. "\">" .. tostring(tostring((math.floor(tonumber(250) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Potions!") .. "</font>"
+
+local t32 = {
+	W = 25,
+	Goal = 500,
+	Exp = 50,
+	Gems = 100
+}
+
+t32.Desc = "Drink total of " .. "<font color=\"" .. "rgb(255,105,180)" .. "\">" .. tostring(tostring((math.floor(tonumber(500) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Potions!") .. "</font>"
+
+local t33 = {
+	W = 12.5,
+	Goal = 1000,
+	Exp = 75,
+	Gems = 150
+}
+
+t33.Desc = "Drink total of " .. "<font color=\"" .. "rgb(255,105,180)" .. "\">" .. tostring(tostring((math.floor(tonumber(1000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Potions!") .. "</font>"
+
+local t34 = {
+	W = 10,
+	Goal = 2500,
+	Exp = 150,
+	Gems = 500
+}
+
+t34.Desc = "Drink total of " .. "<font color=\"" .. "rgb(255,105,180)" .. "\">" .. tostring(tostring((math.floor(tonumber(2500) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Potions!") .. "</font>"
+
+local t35 = {
+	W = 2.5,
+	Goal = 10000,
+	Exp = 300,
+	Gems = 2500
+}
+
+t35.Desc = "Drink total of " .. "<font color=\"" .. "rgb(255,105,180)" .. "\">" .. tostring(tostring((math.floor(tonumber(10000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Potions!") .. "</font>"
+t35.Char = {
+	Rarity = "Rainbow"
+}
+t29[1] = t30
+t29[2] = t31
+t29[3] = t32
+t29[4] = t33
+t29[5] = t34
+t29[6] = t35
+t28.Variants = t29
+t15.Thirsty = t28
+
+local t36 = {
+	Title = "Level Up!",
+	Order = 8,
+	Stat = "levelup",
+	Fmt = "count"
+}
+local t37 = {}
+local t38 = {
+	W = 25,
+	Goal = 1000,
+	Exp = 20,
+	Gems = 50
+}
+local v137 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Level Up") .. "</font>"
+
+t38.Desc = v137 .. " any Character " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(1000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Times!") .. "</font>"
+
+local t39 = {
+	W = 25,
+	Goal = 12500,
+	Exp = 40,
+	Gems = 100
+}
+local v141 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Level Up") .. "</font>"
+
+t39.Desc = v141 .. " any Character " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(12500) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Times!") .. "</font>"
+
+local t40 = {
+	W = 25,
+	Goal = 25000,
+	Exp = 75,
+	Gems = 125,
+	Food = 1000000
+}
+local v145 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Level Up") .. "</font>"
+
+t40.Desc = v145 .. " any Character " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(25000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Times!") .. "</font>"
+
+local t41 = {
+	W = 20,
+	Goal = 50000,
+	Exp = 150,
+	Gems = 200,
+	Food = 5000000
+}
+local v149 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Level Up") .. "</font>"
+
+t41.Desc = v149 .. " any Character " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(50000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Times!") .. "</font>"
+
+local t42 = {
+	W = 5,
+	Goal = 100000,
+	Exp = 200,
+	Gems = 500,
+	Food = 10000000
+}
+local v153 = "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring("Level Up") .. "</font>"
+
+t42.Desc = v153 .. " any Character " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(100000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Times!") .. "</font>"
+t37[1] = t38
+t37[2] = t39
+t37[3] = t40
+t37[4] = t41
+t37[5] = t42
+t36.Variants = t37
+t15.LevelUp = t36
+t15.Business = {
+	Title = "Business",
+	Order = 9,
+	Stat = "cash",
+	Fmt = "cash",
+	Variants = {
+		{
+			W = 25,
+			Goal = 1000000000000,
+			Exp = 10,
+			Gems = 10,
+			Desc = "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("1T") .. "</font>") .. " total Cash!"
+		},
+		{
+			W = 25,
+			Goal = 100000000000000,
+			Exp = 20,
+			Gems = 50,
+			Desc = "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("100T") .. "</font>") .. " total Cash!"
+		},
+		{
+			W = 20,
+			Goal = 1000000000000000,
+			Exp = 25,
+			Gems = 75,
+			Desc = "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("1Qa") .. "</font>") .. " total Cash!"
+		},
+		{
+			W = 12.5,
+			Goal = 2.5e17,
+			Exp = 75,
+			Gems = 200,
+			Desc = "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("250Qa") .. "</font>") .. " total Cash!"
+		},
+		{
+			W = 10,
+			Goal = 1e18,
+			Exp = 100,
+			Gems = 300,
+			Desc = "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("1Qi") .. "</font>") .. " total Cash!"
+		},
+		{
+			W = 5,
+			Goal = 1e20,
+			Exp = 125,
+			Gems = 400,
+			Desc = "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("100Qi") .. "</font>") .. " total Cash!"
+		},
+		{
+			W = 2,
+			Goal = 1e21,
+			Exp = 200,
+			Gems = 1000,
+			Food = 20000000,
+			Desc = "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("1Sx") .. "</font>") .. " total Cash!"
+		},
+		{
+			W = 0.5,
+			Goal = 1e23,
+			Exp = 500,
+			Gems = 2500,
+			Food = 50000000,
+			Desc = "Who says you can\'t get Richer! " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring("Collect") .. "</font>") .. " " .. ("<font color=\"" .. "rgb(0,255,0)" .. "\">" .. tostring("100Sx") .. "</font>") .. " total Cash!"
+		}
+	}
+}
+
+local t43 = {
+	Title = "Rainbow and Sunshine",
+	Order = 10,
+	Stat = "rainbowCatch",
+	Fmt = "count"
+}
+local t44 = {}
+local t45 = {
+	W = 25,
+	Goal = 10,
+	Exp = 10,
+	Gems = 50
+}
+
+t45.Desc = "Catch total of " .. cqRainbow(tostring((math.floor(tonumber(10) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Rainbow Characters!")
+
+local t46 = {
+	W = 25,
+	Goal = 100,
+	Exp = 25,
+	Gems = 100
+}
+
+t46.Desc = "Catch total of " .. cqRainbow(tostring((math.floor(tonumber(100) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Rainbow Characters!")
+
+local t47 = {
+	W = 25,
+	Goal = 500,
+	Exp = 50,
+	Gems = 200
+}
+
+t47.Desc = "Catch total of " .. cqRainbow(tostring((math.floor(tonumber(500) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Rainbow Characters!")
+
+local t48 = {
+	W = 12.5,
+	Goal = 1000,
+	Exp = 75,
+	Gems = 300
+}
+
+t48.Desc = "Catch total of " .. cqRainbow(tostring((math.floor(tonumber(1000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Rainbow Characters!")
+
+local t49 = {
+	W = 10,
+	Goal = 2500,
+	Exp = 100,
+	Gems = 400
+}
+
+t49.Desc = "Catch total of " .. cqRainbow(tostring((math.floor(tonumber(2500) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Rainbow Characters!")
+
+local t50 = {
+	W = 2.5,
+	Goal = 10000,
+	Exp = 150,
+	Gems = 500
+}
+
+t50.Desc = "Catch total of " .. cqRainbow(tostring((math.floor(tonumber(10000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Rainbow Characters!")
+t50.Potion = {
+	Id = "fastcatch_2x",
+	Count = 10
+}
+t44[1] = t45
+t44[2] = t46
+t44[3] = t47
+t44[4] = t48
+t44[5] = t49
+t44[6] = t50
+t43.Variants = t44
+t15.RainbowSunshine = t43
+
+local t51 = {
+	Title = "Celestial Dream",
+	Order = 11,
+	Stat = "celestialCatch",
+	Fmt = "count"
+}
+local t52 = {}
+local t53 = {
+	W = 50,
+	Goal = 10,
+	Exp = 50,
+	Gems = 100
+}
+
+t53.Desc = "Catch total of " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring(tostring((math.floor(tonumber(10) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Celestial Characters!") .. "</font>"
+
+local t54 = {
+	W = 25,
+	Goal = 25,
+	Exp = 75,
+	Gems = 200
+}
+
+t54.Desc = "Catch total of " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring(tostring((math.floor(tonumber(25) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Celestial Characters!") .. "</font>"
+
+local t55 = {
+	W = 25,
+	Goal = 100,
+	Exp = 125,
+	Gems = 300
+}
+
+t55.Desc = "Catch total of " .. "<font color=\"" .. "rgb(127,219,255)" .. "\">" .. tostring(tostring((math.floor(tonumber(100) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Celestial Characters!") .. "</font>"
+t52[1] = t53
+t52[2] = t54
+t52[3] = t55
+t51.Variants = t52
+t15.CelestialDream = t51
+
+local t56 = {
+	Title = "Ancient Tales",
+	Order = 12,
+	Stat = "ancientCatch",
+	Fmt = "count"
+}
+local t57 = {}
+local t58 = {
+	W = 50,
+	Goal = 1,
+	Exp = 50,
+	Gems = 200
+}
+
+t58.Desc = "Catch total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(1) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Ancient Characters!") .. "</font>"
+
+local t59 = {
+	W = 25,
+	Goal = 3,
+	Exp = 75,
+	Gems = 300
+}
+
+t59.Desc = "Catch total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(3) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Ancient Characters!") .. "</font>"
+
+local t60 = {
+	W = 25,
+	Goal = 5,
+	Exp = 100,
+	Gems = 500
+}
+
+t60.Desc = "Catch total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(5) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Ancient Characters!") .. "</font>"
+t57[1] = t58
+t57[2] = t59
+t57[3] = t60
+t56.Variants = t57
+t15.AncientTales = t56
+
+local t61 = {
+	Title = "The Hunt!",
+	Order = 13,
+	Stat = "carryPickup",
+	Fmt = "count"
+}
+local t62 = {}
+local t63 = {
+	W = 25,
+	Goal = 100,
+	Exp = 20,
+	Gems = 50
+}
+
+t63.Desc = "Pick up and collect total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(100) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters!") .. "</font>"
+
+local t64 = {
+	W = 25,
+	Goal = 250,
+	Exp = 30,
+	Gems = 100
+}
+
+t64.Desc = "Pick up and collect total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(250) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters!") .. "</font>"
+
+local t65 = {
+	W = 25,
+	Goal = 500,
+	Exp = 40,
+	Food = 200000
+}
+
+t65.Desc = "Pick up and collect total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(500) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters!") .. "</font>"
+
+local t66 = {
+	W = 12.5,
+	Goal = 1000,
+	Exp = 50,
+	Food = 500000
+}
+
+t66.Desc = "Pick up and collect total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(1000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters!") .. "</font>"
+
+local t67 = {
+	W = 12.5,
+	Goal = 5000,
+	Exp = 75,
+	Food = 1000000
+}
+
+t67.Desc = "Pick up and collect total of " .. "<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(tostring((math.floor(tonumber(5000) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters!") .. "</font>"
+t62[1] = t63
+t62[2] = t64
+t62[3] = t65
+t62[4] = t66
+t62[5] = t67
+t61.Variants = t62
+t15.TheHunt = t61
+
+local t68 = {
+	Title = "Lunar Star",
+	Order = 14,
+	Stat = "lunarCatch",
+	Fmt = "count"
+}
+local t69 = {}
+local t70 = {
+	W = 25,
+	Goal = 25,
+	Exp = 20,
+	Gems = 100
+}
+local v204 = tostring((math.floor(tonumber(25) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters"
+
+t70.Desc = "Catch " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(v204) .. "</font>") .. " with the type " .. "<font color=\"" .. "rgb(200,120,255)" .. "\">" .. tostring("[Lunar]") .. "</font>"
+
+local t71 = {
+	W = 25,
+	Goal = 100,
+	Exp = 40
+}
+local v207 = tostring((math.floor(tonumber(100) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters"
+
+t71.Desc = "Catch " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(v207) .. "</font>") .. " with the type " .. "<font color=\"" .. "rgb(200,120,255)" .. "\">" .. tostring("[Lunar]") .. "</font>"
+t71.Char = {
+	Rarity = "Legendary",
+	Type = "Lunar"
+}
+
+local t72 = {
+	W = 25,
+	Goal = 200,
+	Exp = 50
+}
+local v210 = tostring((math.floor(tonumber(200) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters"
+
+t72.Desc = "Catch " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(v210) .. "</font>") .. " with the type " .. "<font color=\"" .. "rgb(200,120,255)" .. "\">" .. tostring("[Lunar]") .. "</font>"
+t72.Char = {
+	Rarity = "Mythical",
+	Type = "Lunar"
+}
+
+local t73 = {
+	W = 25,
+	Goal = 500,
+	Exp = 75
+}
+local v213 = tostring((math.floor(tonumber(500) or 0))):reverse():gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", "") .. " Characters"
+
+t73.Desc = "Catch " .. ("<font color=\"" .. "rgb(255,255,0)" .. "\">" .. tostring(v213) .. "</font>") .. " with the type " .. "<font color=\"" .. "rgb(200,120,255)" .. "\">" .. tostring("[Lunar]") .. "</font>"
+t73.Char = {
+	Rarity = "Cosmic",
+	Type = "Lunar"
+}
+t69[1] = t70
+t69[2] = t71
+t69[3] = t72
+t69[4] = t73
+t68.Variants = t69
+t15.LunarStar = t68
+t.ClanQuests = t15
+
+for k, v in pairs(t.ClanQuests) do
+	for i, v8 in ipairs(v.Variants) do
+		v8.RewardText = cqReward(v8)
+	end
+end
+
+t.ClanStarThresholds = {
+	{
+		rarity = "Common",
+		minCPS = 640
+	},
+	{
+		rarity = "Uncommon",
+		minCPS = 3440
+	},
+	{
+		rarity = "Rare",
+		minCPS = 15600
+	},
+	{
+		rarity = "Epic",
+		minCPS = 62000
+	},
+	{
+		rarity = "Legendary",
+		minCPS = 302000
+	},
+	{
+		rarity = "Mythical",
+		minCPS = 2660000
+	},
+	{
+		rarity = "Cosmic",
+		minCPS = 21200000
+	},
+	{
+		rarity = "Secret",
+		minCPS = 100000000
+	},
+	{
+		rarity = "Rainbow",
+		minCPS = 800000000
+	},
+	{
+		rarity = "Ascended",
+		minCPS = 6400000000
+	},
+	{
+		rarity = "Divine",
+		minCPS = 54000000000
+	},
+	{
+		rarity = "Supreme",
+		minCPS = 640000000000
+	},
+	{
+		rarity = "Celestial",
+		minCPS = 2000000000000
+	},
+	{
+		rarity = "Ancient",
+		minCPS = 11200000000000
+	},
+	{
+		rarity = "God",
+		minCPS = 70000000000000
+	},
+	{
+		rarity = "Omniscient",
+		minCPS = 120000000000000
+	}
+}
+t.ClanGradientBuckets = {
+	{
+		maxRank = 1,
+		name = "#1"
+	},
+	{
+		maxRank = 2,
+		name = "#2"
+	},
+	{
+		maxRank = 3,
+		name = "#3"
+	},
+	{
+		maxRank = 10,
+		name = "#4-10"
+	},
+	{
+		maxRank = 25,
+		name = "#11-25"
+	},
+	{
+		maxRank = 100,
+		name = "#26-100"
+	},
+	{
+		maxRank = 250,
+		name = "#101-250"
+	}
+}
+function t.GetClanLevelCost(p1) --[[ GetClanLevelCost | Line: 13449 | Upvalues: t (copy) ]]
+	local v3 = math.max(0, (math.floor(tonumber(p1) or 0))) + 1
+	local ClanLevelCosts = t.ClanLevelCosts
+
+	if ClanLevelCosts[v3] then
+		return ClanLevelCosts[v3]
+	end
+
+	return math.min(10000 + (v3 - 50) * 250, 15000)
+end
+function t.GetClanMaxMembers(p1) --[[ GetClanMaxMembers | Line: 13468 | Upvalues: t (copy) ]]
+	local v4, v5 = math.max(0, (math.floor(tonumber(p1) or 0))), 10
+
+	for i, v in ipairs(t.ClanMemberCaps) do
+		if not (v.level <= v4) then
+			break
+		end
+
+		v5 = v.cap
+	end
+
+	return v5
+end
+function t.GetClanStarRarity(p1) --[[ GetClanStarRarity | Line: 13495 | Upvalues: t (copy) ]]
+	local v1 = tonumber(p1) or 0
+	local v2 = nil
+
+	for i, v in ipairs(t.ClanStarThresholds) do
+		if not (v.minCPS <= v1) then
+			break
+		end
+
+		v2 = v.rarity
+	end
+
+	return v2
+end
+function t.GetClanGradientName(p1) --[[ GetClanGradientName | Line: 13522 | Upvalues: t (copy) ]]
+	local v1 = tonumber(p1)
+
+	if not v1 or v1 <= 0 then
+		return "None"
+	end
+
+	local v2 = v1
+
+	for i, v in ipairs(t.ClanGradientBuckets) do
+		if v2 <= v.maxRank then
+			return v.name
+		end
+	end
+
+	return "None"
+end
+t.MapCharacterSpawn = {
+	DefaultLifetimeSeconds = 60,
+	MaxLifetimeSeconds = 3600,
+	MaxAlive = 50,
+	PromptDistance = 14,
+	PromptHoldSeconds = 0.4
+}
+function t.GetRebirthSkipProductId(p1) --[[ GetRebirthSkipProductId | Line: 13752 | Upvalues: t (copy) ]]
+	local v3 = math.max(0, (math.floor(tonumber(p1) or 0)))
+	local REBIRTH_SKIP_TIERS = (t.DevProducts or {}).REBIRTH_SKIP_TIERS
+
+	if type(REBIRTH_SKIP_TIERS) == "table" then
+		local v5 = v3
+
+		for i, v in ipairs(REBIRTH_SKIP_TIERS) do
+			if type(v) == "table" and (tonumber(v.From) or 0) <= v5 then
+				local v6 = tonumber(v.Id) or 0
+
+				if v6 > 0 then
+					return v6
+				end
+			end
+		end
+	end
+
+	return tonumber((t.DevProducts or {}).REBIRTH_SKIP) or 3543635803
+end
+function t.IsRebirthSkipProductId(p1) --[[ IsRebirthSkipProductId | Line: 13785 | Upvalues: t (copy) ]]
+	local v1 = tonumber(p1) or 0
+
+	if v1 <= 0 then
+		return false
+	end
+
+	local REBIRTH_SKIP_TIERS = (t.DevProducts or {}).REBIRTH_SKIP_TIERS
+
+	if type(REBIRTH_SKIP_TIERS) == "table" then
+		for i, v in ipairs(REBIRTH_SKIP_TIERS) do
+			if type(v) == "table" and (tonumber(v.Id) or 0) == v1 then
+				return true
+			end
+		end
+	end
+
+	return v1 == (tonumber((t.DevProducts or {}).REBIRTH_SKIP) or 3543635803)
+end
+function t.GetCharacterCustomEvent(p1) --[[ GetCharacterCustomEvent | Line: 13842 | Upvalues: t (copy) ]]
+	local v1
+
+	if type(p1) == "table" then
+		v1 = p1
+	else
+		local v2 = tostring(p1 or "")
+
+		if v2 == "" then
+			return nil
+		end
+
+		v1 = (t.Characters or {})[v2]
+
+		if type(v1) ~= "table" then
+			local v4 = v2:lower()
+			local v5 = pairs
+
+			for v7, v8 in v5(t.Characters or {}) do
+				if type(v8) == "table" and tostring(v7):lower() == v4 then
+					v1 = v8
+
+					break
+				end
+			end
+		end
+
+		if type(v1) ~= "table" then
+			return nil
+		end
+	end
+
+	local CustomEvent = v1.CustomEvent
+
+	if type(CustomEvent) ~= "string" or CustomEvent == "" then
+		return nil
+	end
+
+	local v11 = ((t.TypeEvents or {}).Events or {})[CustomEvent]
+
+	if type(v11) == "table" and v11.Enabled ~= false then
+		return CustomEvent, tonumber(v1.CustomEventDuration) or 300
+	end
+
+	warn("[Constants] CustomEvent \'" .. CustomEvent .. "\' is not a known enabled type event -- ignoring")
+
+	return nil
+end
+function t.IsCharacterRandomlyObtainable(p1) --[[ IsCharacterRandomlyObtainable | Line: 13896 ]]
+	if type(p1) ~= "table" then
+		return false
+	end
+
+	return if p1.SecretCharacter == true then false else p1.Exclusive ~= true
+end
+t.Crates = {
+	Timing = {
+		MaxOnScreen = 5,
+		FadeSeconds = 0.35,
+		BackgroundTransparency = 0.5,
+		PopInSeconds = 0.45,
+		PopInGap = 0.25,
+		SpinSeconds = 9,
+		SpinStagger = 0.6,
+		FinishDelay = 1,
+		ViewSeconds = 2.5,
+		ExitSeconds = 0.5,
+		PurchaseOpenDelay = 1.5
+	},
+	Reel = {
+		Items = 72,
+		WinnerIndex = 62,
+		CellHeightScale = 0.86,
+		CellGapScale = 0.22,
+		CellBottomPadScale = 0.02,
+		LineMargin = 0.2,
+		RigsPerFrame = 2,
+		LandingRigsPerFrame = 3,
+		AnimateRigsMaxCrates = 1,
+		SpinEasingStyle = "Quart",
+		TeaseChance = 0.15,
+		TeaseCandidates = 2,
+		TeaseLandMargin = 0.1,
+		TickMinInterval = 0.04,
+		TickPitchMin = 0.95,
+		TickPitchMax = 1.05
+	},
+	CaseItems = {
+		TradeRebirthRequirement = 20,
+		BatchSize = 5,
+		ShowOpenAll = false,
+		LegacyKeys = {
+			EpicLuckyBox = "EpicCase",
+			LegendaryLuckyBox = "LegendaryCase",
+			MythicalLuckyBox = "MythicalCase",
+			CosmicLuckyBox = "CosmicCase",
+			SecretLuckyBox = "SecretCase",
+			AscendedLuckyBox = "AscendedCase",
+			AscendedLuckyBoxII = "AncientCase",
+			EpicBox = "EpicCase",
+			LegendaryBox = "LegendaryCase",
+			MythicalBox = "MythicalCase",
+			CosmicBox = "CosmicCase",
+			SecretBox = "SecretCase",
+			AscendedBox = "AscendedCase",
+			AncientBox = "AncientCase",
+			TestBox = "Test"
+		},
+		ClaimNotifyColor = { 255, 45, 170 }
+	},
+	Crates = {
+		Test = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Test Box",
+			Rarity = "Epic",
+			Rewards = {
+				{
+					Kind = "cash",
+					Amount = 1000,
+					Chance = 15,
+					Template = "Cash",
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "gems",
+					Amount = 1000,
+					Chance = 15,
+					Template = "Gems",
+					Rarity = "Epic"
+				},
+				{
+					Kind = "food",
+					Amount = 1000,
+					Chance = 15,
+					Template = "Food",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Legendary",
+					Chance = 15
+				},
+				{
+					Kind = "rod",
+					Rod = "Ice Rod",
+					Chance = 10,
+					Image = "rbxassetid://8196118875"
+				},
+				{
+					Kind = "coil",
+					Coil = "Speed Coil",
+					Chance = 10
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Chance = 10,
+					Amount = 1,
+					Rarity = "Mythical"
+				},
+				{
+					Kind = "character",
+					Character = "Chiya",
+					Chance = 5
+				},
+				{
+					Kind = "base",
+					Skin = "Yin Yang",
+					Chance = 5,
+					Rarity = "Exclusive",
+					Image = "rbxassetid://102149189884304"
+				}
+			}
+		},
+		EpicCase = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Epic Box",
+			Rarity = "Epic",
+			Rewards = {
+				{
+					Kind = "cash",
+					Amount = 1000,
+					Chance = 30,
+					Template = "Cash",
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "gems",
+					Amount = 50,
+					Chance = 20,
+					Template = "Gems",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "food",
+					Amount = 2000,
+					Chance = 20,
+					Template = "Food",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Rare",
+					Chance = 15
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Epic",
+					Chance = 10
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Legendary",
+					Chance = 5
+				}
+			}
+		},
+		LegendaryCase = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Legendary Box",
+			Rarity = "Legendary",
+			Rewards = {
+				{
+					Kind = "cash",
+					Amount = 500000,
+					Chance = 30,
+					Template = "Cash",
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "gems",
+					Amount = 100,
+					Chance = 15,
+					Template = "Gems",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "food",
+					Amount = 20000,
+					Chance = 20,
+					Template = "Food",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Legendary",
+					Chance = 15
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Mythical",
+					Chance = 10
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Cosmic",
+					Chance = 5
+				},
+				{
+					Kind = "potion",
+					Potion = "cash_2x",
+					Chance = 5,
+					Amount = 1,
+					Rarity = "Common"
+				}
+			}
+		},
+		MythicalCase = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Mythical Box",
+			Rarity = "Mythical",
+			Rewards = {
+				{
+					Kind = "cash",
+					Amount = 10000000,
+					Chance = 25,
+					Template = "Cash",
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "gems",
+					Amount = 250,
+					Chance = 19,
+					Template = "Gems",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "food",
+					Amount = 50000,
+					Chance = 20,
+					Template = "Food",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Legendary",
+					Chance = 15
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Mythical",
+					Chance = 10
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Cosmic",
+					Chance = 5
+				},
+				{
+					Kind = "potion",
+					Potion = "EXE",
+					Chance = 1,
+					Amount = 1,
+					Rarity = "Mythical"
+				},
+				{
+					Kind = "potion",
+					Potion = "cash_2x",
+					Chance = 5,
+					Amount = 1,
+					Rarity = "Common"
+				}
+			}
+		},
+		CosmicCase = {
+			TradeRebirthRequirement = 20,
+			DisplayName = "Cosmic Box",
+			Rarity = "Cosmic",
+			Rewards = {
+				{
+					Kind = "cash",
+					Amount = 100000000,
+					Chance = 25,
+					Template = "Cash",
+					Rarity = "Uncommon"
+				},
+				{
+					Kind = "gems",
+					Amount = 500,
+					Chance = 15,
+					Template = "Gems",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "food",
+					Amount = 100000,
+					Chance = 20,
+					Template = "Food",
+					Rarity = "Rare"
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Mythical",
+					Chance = 10
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Cosmic",
+					Chance = 10
+				},
+				{
+					Kind = "randomCharacter",
+					Rarity = "Secret",
+					Chance = 5
+				},
+				{
